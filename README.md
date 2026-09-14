@@ -1,0 +1,2 @@
+# global-ithakya
+globales versions 
