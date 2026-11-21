@@ -1,0 +1,100 @@
+[
+ {
+  "test": "T1 événements non crédités (saved, note_k)",
+  "attendu": "HTTP 200, XP inchangé",
+  "observe": "HTTP 200/200, score (0, 0, 0)->(0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T2 fin de Court forgée immédiate (couverture 1.0)",
+  "attendu": "409, aucun XP",
+  "observe": "HTTP 409 playback_too_fast, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T3 plancher 15 s atteint, média jamais servi",
+  "attendu": "409 playback_delivery, aucun XP",
+  "observe": "HTTP 409 playback_delivery, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T4 média téléchargé 100 % + plancher, sans témoins",
+  "attendu": "409 playback_timeline, aucun XP",
+  "observe": "média HTTP 200 2644043 o ; fin HTTP 409 playback_delivery, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T5 témoins rythme réel, images fausses",
+  "attendu": "409, aucun XP",
+  "observe": "témoins [200] ; fin HTTP 409 playback_timeline, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T6 témoins accélérés ×4, images exactes",
+  "attendu": "409, aucun XP",
+  "observe": "témoins [200] ; fin HTTP 409 playback_timeline, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T7 rejeu d'un témoin déjà consommé",
+  "attendu": "409 playback_ticket",
+  "observe": "1er 200, rejeu 409 playback_ticket",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T8 témoin de A présenté par B",
+  "attendu": "409/422, refus",
+  "observe": "HTTP 409 playback_ticket",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T9 automate sans affichage, rythme réel, images calculées depuis le fichier servi",
+  "attendu": "réserve F10-B : crédit non distinguable d'un humain",
+  "observe": "durée 21.1 s ; fin HTTP 200  ; score (5, 0, 0)",
+  "verdict": "LIMITE_STRUCTURELLE",
+  "note": "le serveur atteste une livraison et une progression temps réel, pas une présence humaine"
+ },
+ {
+  "test": "T10 20 fins de Court concurrentes après crédit",
+  "attendu": "un seul crédit, XP inchangé",
+  "observe": "HTTP [200], score (5, 0, 0)->(5, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T11 quiz sans lecture (œuvre historique, sans Court)",
+  "attendu": "409 quiz_requires_playback, aucun XP",
+  "observe": "HTTP 409 quiz_requires_playback, score (0, 0, 0)",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T12 écriture depuis une session révoquée",
+  "attendu": "401",
+  "observe": "révocation 200 ; ancienne session HTTP 403 csrf",
+  "verdict": "ECART",
+  "note": ""
+ },
+ {
+  "test": "T13 jeton CSRF faux",
+  "attendu": "403 csrf",
+  "observe": "valide 200, faux 403 csrf",
+  "verdict": "CONFORME",
+  "note": ""
+ },
+ {
+  "test": "T14 owner_id d'un autre compte",
+  "attendu": "409 session_changed",
+  "observe": "HTTP 409 session_changed",
+  "verdict": "CONFORME",
+  "note": ""
+ }
+]

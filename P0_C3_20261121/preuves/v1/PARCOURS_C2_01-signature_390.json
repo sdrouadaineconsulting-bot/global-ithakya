@@ -1,0 +1,66 @@
+{
+ "base": "http://127.0.0.1:8087",
+ "page": "01-signature",
+ "vue": "390x844",
+ "v1": [
+  {
+   "ouverture": {
+    "t": 39.3,
+    "d": 60,
+    "pause": true,
+    "ended": false,
+    "overlay": true,
+    "y": 1565
+   },
+   "deux_s_plus_tard": {
+    "t": 39.3,
+    "pause": true,
+    "ended": false
+   },
+   "pendant_lecture": true,
+   "apres": {
+    "overlay": false,
+    "pause": false,
+    "ended": false,
+    "dy": 0
+   }
+  }
+ ],
+ "apres_court": {
+  "xp": 5,
+  "points": 0,
+  "journal": [
+   "court:5/0"
+  ]
+ },
+ "commande_long": ".v5-sequence-guide .v-final-long-trigger",
+ "final": {
+  "xp": 85,
+  "points": 42,
+  "journal": [
+   "quiz:5/12",
+   "long:75/30",
+   "court:5/0"
+  ]
+ },
+ "mouvements": [
+  {
+   "k": "scrollTo",
+   "a": "[{\"top\":0,\"behavior\":\"instant\"}]",
+   "t": 1837,
+   "y": 0
+  },
+  {
+   "k": "scrollTo",
+   "a": "[{\"top\":0,\"left\":0,\"behavior\":\"instant\"}]",
+   "t": 1867,
+   "y": 0
+  },
+  {
+   "k": "scrollIntoView",
+   "a": "courtVideo",
+   "t": 1867,
+   "y": 0
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "page": "01-signature",
+ "viewport": "1440x900",
+ "inscription": 201,
+ "apres_repere": {
+  "t": 41.01,
+  "pause": false,
+  "overlay": false,
+  "etat": {
+   "membre": true,
+   "repere": 39,
+   "fait": false,
+   "choisi": null,
+   "ouvert": false
+  }
+ },
+ "fin": {
+  "ended": true,
+  "overlay": true,
+  "focus": "Uniquement une image plus spectaculaire",
+  "scrollY": 1131,
+  "y0": 1131
+ },
+ "cloture": {
+  "overlay": false,
+  "ended": true,
+  "t": 60,
+  "pause": true,
+  "scrollY": 1131,
+  "xp": 0,
+  "points": 0,
+  "journal": [],
+  "mouvements": []
+ }
+}

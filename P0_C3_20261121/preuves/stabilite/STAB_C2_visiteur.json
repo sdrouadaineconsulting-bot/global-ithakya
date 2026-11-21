@@ -1,0 +1,6746 @@
+[
+ {
+  "vue": "390x844",
+  "page": "404.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 82,
+   "y1": 82,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 82,
+   "apres": 82,
+   "mv": []
+  },
+  "retour": {
+   "avant": 82,
+   "apres": 82,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/404.html",
+   "/404.html",
+   "/cest-quoi.html",
+   "/404.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "cest-quoi.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1178,
+   "y1": 1178,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1178,
+   "apres": 1178,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1178,
+   "apres": 0,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "about:blank"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "communaute.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/communaute.html",
+   "/communaute.html",
+   "/cest-quoi.html",
+   "/communaute.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 733,
+   "y1": 733,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 733,
+   "apres": 733,
+   "mv": []
+  },
+  "retour": {
+   "avant": 733,
+   "apres": 733,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs.html",
+   "/createurs.html",
+   "/cest-quoi.html",
+   "/createurs.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/alex.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 860,
+   "y1": 860,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 860,
+   "apres": 860,
+   "mv": []
+  },
+  "retour": {
+   "avant": 860,
+   "apres": 860,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/alex.html",
+   "/createurs/alex.html",
+   "/cest-quoi.html",
+   "/createurs/alex.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/camille.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 806,
+   "y1": 806,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 806,
+   "apres": 806,
+   "mv": []
+  },
+  "retour": {
+   "avant": 806,
+   "apres": 806,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/camille.html",
+   "/createurs/camille.html",
+   "/cest-quoi.html",
+   "/createurs/camille.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/lea.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 806,
+   "y1": 806,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 806,
+   "apres": 806,
+   "mv": []
+  },
+  "retour": {
+   "avant": 806,
+   "apres": 806,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/lea.html",
+   "/createurs/lea.html",
+   "/cest-quoi.html",
+   "/createurs/lea.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/maya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 781,
+   "y1": 781,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 781,
+   "apres": 781,
+   "mv": []
+  },
+  "retour": {
+   "avant": 781,
+   "apres": 781,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/maya.html",
+   "/createurs/maya.html",
+   "/cest-quoi.html",
+   "/createurs/maya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/nora.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 770,
+   "y1": 770,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 770,
+   "apres": 770,
+   "mv": []
+  },
+  "retour": {
+   "avant": 770,
+   "apres": 770,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/nora.html",
+   "/createurs/nora.html",
+   "/cest-quoi.html",
+   "/createurs/nora.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "createurs/thomas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 806,
+   "y1": 806,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 806,
+   "apres": 806,
+   "mv": []
+  },
+  "retour": {
+   "avant": 806,
+   "apres": 806,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/thomas.html",
+   "/createurs/thomas.html",
+   "/cest-quoi.html",
+   "/createurs/thomas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "decouvrir.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/cest-quoi.html",
+   "/decouvrir.html",
+   "/decouvrir.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "demos/01-signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    91
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/cest-quoi.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "demos/02-pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    25
+   ],
+   "hauteurs": [
+    91
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/cest-quoi.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "demos/03-progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    91
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/cest-quoi.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "demos/05-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    91
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/cest-quoi.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "exploration/atlas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 24,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 19,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/atlas.html",
+   "/exploration/atlas.html",
+   "/cest-quoi.html",
+   "/exploration/atlas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "exploration/missions.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 53,
+     "y": 2,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 55,
+     "y": 1182,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 96,
+     "y": 1174,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 39,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 57,
+     "y": 1200,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 96,
+     "y": 1174,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/missions.html",
+   "/exploration/missions.html",
+   "/cest-quoi.html",
+   "/exploration/missions.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "exploration/traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 26,
+     "y": 1177,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/exploration/traversee.html",
+   "/exploration/traversee.html",
+   "/cest-quoi.html",
+   "/exploration/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "index.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/index.html",
+   "/index.html",
+   "/cest-quoi.html",
+   "/index.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "lounge.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/lounge.html",
+   "/lounge.html",
+   "/cest-quoi.html",
+   "/lounge.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "mentions-legales.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/mentions-legales.html",
+   "/mentions-legales.html",
+   "/cest-quoi.html",
+   "/mentions-legales.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "mon-ithakya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 42,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 32,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/mon-ithakya.html",
+   "/mon-ithakya.html",
+   "/cest-quoi.html",
+   "/mon-ithakya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "oeuvres/pop.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/pop.html",
+   "/oeuvres/pop.html",
+   "/cest-quoi.html",
+   "/oeuvres/pop.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "oeuvres/progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/progression.html",
+   "/oeuvres/progression.html",
+   "/cest-quoi.html",
+   "/oeuvres/progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "oeuvres/signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/signature.html",
+   "/oeuvres/signature.html",
+   "/cest-quoi.html",
+   "/oeuvres/signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "oeuvres/soleil.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/soleil.html",
+   "/oeuvres/soleil.html",
+   "/cest-quoi.html",
+   "/oeuvres/soleil.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "programmation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    70
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 20,
+   "y1": 20,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 20,
+   "apres": 20,
+   "mv": []
+  },
+  "retour": {
+   "avant": 20,
+   "apres": 20,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programmation.html",
+   "/programmation.html",
+   "/cest-quoi.html",
+   "/programmation.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "programme-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programme-soleil-xl.html",
+   "/programme-soleil-xl.html",
+   "/cest-quoi.html",
+   "/programme-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "programme.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programme.html",
+   "/programme.html",
+   "/cest-quoi.html",
+   "/programme.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "recherche.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 541,
+   "y1": 541,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 541,
+   "apres": 541,
+   "mv": []
+  },
+  "retour": {
+   "avant": 541,
+   "apres": 541,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/recherche.html",
+   "/recherche.html",
+   "/cest-quoi.html",
+   "/recherche.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "territoires/culture-creation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/culture-creation.html",
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "territoires/pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/pop-culture.html",
+   "/territoires/pop-culture.html",
+   "/cest-quoi.html",
+   "/territoires/pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "territoires/sciences-tech.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sciences-tech.html",
+   "/territoires/sciences-tech.html",
+   "/cest-quoi.html",
+   "/territoires/sciences-tech.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "territoires/societe-impact.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/societe-impact.html",
+   "/territoires/societe-impact.html",
+   "/cest-quoi.html",
+   "/territoires/societe-impact.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "territoires/sport-aventure.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sport-aventure.html",
+   "/territoires/sport-aventure.html",
+   "/cest-quoi.html",
+   "/territoires/sport-aventure.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/traversee.html",
+   "/traversee.html",
+   "/cest-quoi.html",
+   "/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "390x844",
+  "page": "univers.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "404.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 82,
+   "y1": 82,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 82,
+   "apres": 82,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 26,
+     "y": 0,
+     "a": "[{\"top\":82,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 27,
+     "y": 85,
+     "a": "[{\"top\":82,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 82,
+   "apres": 82,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/404.html",
+   "/404.html",
+   "/cest-quoi.html",
+   "/404.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "cest-quoi.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 332,
+   "y1": 332,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 332,
+   "apres": 332,
+   "mv": []
+  },
+  "retour": {
+   "avant": 332,
+   "apres": 0,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "about:blank"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "communaute.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 50,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 32,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/communaute.html",
+   "/communaute.html",
+   "/cest-quoi.html",
+   "/communaute.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 436,
+   "y1": 436,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 436,
+   "apres": 436,
+   "mv": []
+  },
+  "retour": {
+   "avant": 436,
+   "apres": 436,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs.html",
+   "/createurs.html",
+   "/cest-quoi.html",
+   "/createurs.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/alex.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 176,
+   "y1": 176,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 176,
+   "apres": 176,
+   "mv": []
+  },
+  "retour": {
+   "avant": 176,
+   "apres": 176,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/alex.html",
+   "/createurs/alex.html",
+   "/cest-quoi.html",
+   "/createurs/alex.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/camille.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 176,
+   "y1": 176,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 176,
+   "apres": 176,
+   "mv": []
+  },
+  "retour": {
+   "avant": 176,
+   "apres": 176,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/camille.html",
+   "/createurs/camille.html",
+   "/cest-quoi.html",
+   "/createurs/camille.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/lea.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 176,
+   "y1": 176,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 176,
+   "apres": 176,
+   "mv": []
+  },
+  "retour": {
+   "avant": 176,
+   "apres": 176,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/lea.html",
+   "/createurs/lea.html",
+   "/cest-quoi.html",
+   "/createurs/lea.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/maya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 151,
+   "y1": 151,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 151,
+   "apres": 151,
+   "mv": []
+  },
+  "retour": {
+   "avant": 151,
+   "apres": 151,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/maya.html",
+   "/createurs/maya.html",
+   "/cest-quoi.html",
+   "/createurs/maya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/nora.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 176,
+   "y1": 176,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 176,
+   "apres": 176,
+   "mv": []
+  },
+  "retour": {
+   "avant": 176,
+   "apres": 176,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/nora.html",
+   "/createurs/nora.html",
+   "/cest-quoi.html",
+   "/createurs/nora.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "createurs/thomas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 176,
+   "y1": 176,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 176,
+   "apres": 176,
+   "mv": []
+  },
+  "retour": {
+   "avant": 176,
+   "apres": 176,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/thomas.html",
+   "/createurs/thomas.html",
+   "/cest-quoi.html",
+   "/createurs/thomas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "decouvrir.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/cest-quoi.html",
+   "/decouvrir.html",
+   "/decouvrir.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "demos/01-signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/cest-quoi.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "demos/02-pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    25
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/cest-quoi.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "demos/03-progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/cest-quoi.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "demos/05-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/cest-quoi.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "exploration/atlas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 32,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 19,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/atlas.html",
+   "/exploration/atlas.html",
+   "/cest-quoi.html",
+   "/exploration/atlas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "exploration/missions.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 56,
+     "y": 2,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 64,
+     "y": 1182,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 87,
+     "y": 1174,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 23,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 41,
+     "y": 1200,
+     "a": "[{\"top\":1174,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 61,
+     "y": 1174,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/missions.html",
+   "/exploration/missions.html",
+   "/cest-quoi.html",
+   "/exploration/missions.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "exploration/traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/exploration/traversee.html",
+   "/exploration/traversee.html",
+   "/cest-quoi.html",
+   "/exploration/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "index.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/index.html",
+   "/index.html",
+   "/cest-quoi.html",
+   "/index.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "lounge.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/lounge.html",
+   "/lounge.html",
+   "/cest-quoi.html",
+   "/lounge.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "mentions-legales.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/mentions-legales.html",
+   "/mentions-legales.html",
+   "/cest-quoi.html",
+   "/mentions-legales.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "mon-ithakya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 87,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 30,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/mon-ithakya.html",
+   "/mon-ithakya.html",
+   "/cest-quoi.html",
+   "/mon-ithakya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "oeuvres/pop.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/pop.html",
+   "/oeuvres/pop.html",
+   "/cest-quoi.html",
+   "/oeuvres/pop.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "oeuvres/progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/progression.html",
+   "/oeuvres/progression.html",
+   "/cest-quoi.html",
+   "/oeuvres/progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "oeuvres/signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/signature.html",
+   "/oeuvres/signature.html",
+   "/cest-quoi.html",
+   "/oeuvres/signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "oeuvres/soleil.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/soleil.html",
+   "/oeuvres/soleil.html",
+   "/cest-quoi.html",
+   "/oeuvres/soleil.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "programmation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    76
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 55,
+   "y1": 55,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 55,
+   "apres": 55,
+   "mv": []
+  },
+  "retour": {
+   "avant": 55,
+   "apres": 55,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programmation.html",
+   "/programmation.html",
+   "/cest-quoi.html",
+   "/programmation.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "programme-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programme-soleil-xl.html",
+   "/programme-soleil-xl.html",
+   "/cest-quoi.html",
+   "/programme-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "programme.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programme.html",
+   "/programme.html",
+   "/cest-quoi.html",
+   "/programme.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "recherche.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 102,
+   "y1": 102,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 102,
+   "apres": 102,
+   "mv": []
+  },
+  "retour": {
+   "avant": 102,
+   "apres": 102,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/recherche.html",
+   "/recherche.html",
+   "/cest-quoi.html",
+   "/recherche.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "territoires/culture-creation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/culture-creation.html",
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "territoires/pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/pop-culture.html",
+   "/territoires/pop-culture.html",
+   "/cest-quoi.html",
+   "/territoires/pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "territoires/sciences-tech.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sciences-tech.html",
+   "/territoires/sciences-tech.html",
+   "/cest-quoi.html",
+   "/territoires/sciences-tech.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "territoires/societe-impact.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/societe-impact.html",
+   "/territoires/societe-impact.html",
+   "/cest-quoi.html",
+   "/territoires/societe-impact.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "territoires/sport-aventure.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sport-aventure.html",
+   "/territoires/sport-aventure.html",
+   "/cest-quoi.html",
+   "/territoires/sport-aventure.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/traversee.html",
+   "/traversee.html",
+   "/cest-quoi.html",
+   "/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "768x1024",
+  "page": "univers.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "404.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 0,
+   "y1": 0,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 0,
+   "apres": 0,
+   "mv": []
+  },
+  "retour": {
+   "avant": 0,
+   "apres": 0,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/404.html",
+   "/404.html",
+   "/cest-quoi.html",
+   "/404.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "cest-quoi.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 240,
+   "y1": 240,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 240,
+   "apres": 240,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 21,
+     "y": 0,
+     "a": "[{\"top\":240,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 240,
+   "apres": 0,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "about:blank"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "communaute.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/communaute.html",
+   "/communaute.html",
+   "/cest-quoi.html",
+   "/communaute.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 793,
+   "y1": 793,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 793,
+   "apres": 793,
+   "mv": []
+  },
+  "retour": {
+   "avant": 793,
+   "apres": 793,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs.html",
+   "/createurs.html",
+   "/cest-quoi.html",
+   "/createurs.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/alex.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 338,
+   "y1": 338,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 338,
+   "apres": 338,
+   "mv": []
+  },
+  "retour": {
+   "avant": 338,
+   "apres": 338,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/alex.html",
+   "/createurs/alex.html",
+   "/cest-quoi.html",
+   "/createurs/alex.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/camille.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 338,
+   "y1": 338,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 338,
+   "apres": 338,
+   "mv": []
+  },
+  "retour": {
+   "avant": 338,
+   "apres": 338,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/camille.html",
+   "/createurs/camille.html",
+   "/cest-quoi.html",
+   "/createurs/camille.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/lea.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 338,
+   "y1": 338,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 338,
+   "apres": 338,
+   "mv": []
+  },
+  "retour": {
+   "avant": 338,
+   "apres": 338,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/lea.html",
+   "/createurs/lea.html",
+   "/cest-quoi.html",
+   "/createurs/lea.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/maya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 313,
+   "y1": 313,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 313,
+   "apres": 313,
+   "mv": []
+  },
+  "retour": {
+   "avant": 313,
+   "apres": 313,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/maya.html",
+   "/createurs/maya.html",
+   "/cest-quoi.html",
+   "/createurs/maya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/nora.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 338,
+   "y1": 338,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 338,
+   "apres": 338,
+   "mv": []
+  },
+  "retour": {
+   "avant": 338,
+   "apres": 338,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/nora.html",
+   "/createurs/nora.html",
+   "/cest-quoi.html",
+   "/createurs/nora.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "createurs/thomas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 338,
+   "y1": 338,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 338,
+   "apres": 338,
+   "mv": []
+  },
+  "retour": {
+   "avant": 338,
+   "apres": 338,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/thomas.html",
+   "/createurs/thomas.html",
+   "/cest-quoi.html",
+   "/createurs/thomas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "decouvrir.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/cest-quoi.html",
+   "/decouvrir.html",
+   "/decouvrir.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "demos/01-signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/cest-quoi.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "demos/02-pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    25
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/cest-quoi.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "demos/03-progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/cest-quoi.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "demos/05-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/cest-quoi.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "exploration/atlas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1202,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 25,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1202,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 23,
+     "y": 0,
+     "a": "[{\"top\":1202,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/atlas.html",
+   "/exploration/atlas.html",
+   "/cest-quoi.html",
+   "/exploration/atlas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "exploration/missions.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1199,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 49,
+     "y": 1146,
+     "a": "[{\"top\":1199,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/missions.html",
+   "/exploration/missions.html",
+   "/cest-quoi.html",
+   "/exploration/missions.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "exploration/traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/exploration/traversee.html",
+   "/exploration/traversee.html",
+   "/cest-quoi.html",
+   "/exploration/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "index.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/index.html",
+   "/index.html",
+   "/cest-quoi.html",
+   "/index.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "lounge.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/lounge.html",
+   "/lounge.html",
+   "/cest-quoi.html",
+   "/lounge.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "mentions-legales.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/mentions-legales.html",
+   "/mentions-legales.html",
+   "/cest-quoi.html",
+   "/mentions-legales.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "mon-ithakya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0.0006,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 43,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 31,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/mon-ithakya.html",
+   "/mon-ithakya.html",
+   "/cest-quoi.html",
+   "/mon-ithakya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "oeuvres/pop.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 33,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 21,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/oeuvres/pop.html",
+   "/oeuvres/pop.html",
+   "/cest-quoi.html",
+   "/oeuvres/pop.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "oeuvres/progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/progression.html",
+   "/oeuvres/progression.html",
+   "/cest-quoi.html",
+   "/oeuvres/progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "oeuvres/signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 88,
+     "y": 2,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 96,
+     "y": 1208,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 48,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/oeuvres/signature.html",
+   "/oeuvres/signature.html",
+   "/cest-quoi.html",
+   "/oeuvres/signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "oeuvres/soleil.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 40,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 21,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/oeuvres/soleil.html",
+   "/oeuvres/soleil.html",
+   "/cest-quoi.html",
+   "/oeuvres/soleil.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "programmation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    75
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 345,
+   "y1": 345,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 345,
+   "apres": 345,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 16,
+     "y": 0,
+     "a": "[{\"top\":345,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 345,
+   "apres": 345,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 12,
+     "y": 0,
+     "a": "[{\"top\":345,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/programmation.html",
+   "/programmation.html",
+   "/cest-quoi.html",
+   "/programmation.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "programme-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    82
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1202,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 61,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1202,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 25,
+     "y": 0,
+     "a": "[{\"top\":1202,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/programme-soleil-xl.html",
+   "/programme-soleil-xl.html",
+   "/cest-quoi.html",
+   "/programme-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "programme.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    82
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 31,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 20,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/programme.html",
+   "/programme.html",
+   "/cest-quoi.html",
+   "/programme.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "recherche.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 284,
+   "y1": 284,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 284,
+   "apres": 284,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 41,
+     "y": 0,
+     "a": "[{\"top\":284,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 53,
+     "y": 287,
+     "a": "[{\"top\":284,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 284,
+   "apres": 284,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 31,
+     "y": 0,
+     "a": "[{\"top\":284,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/recherche.html",
+   "/recherche.html",
+   "/cest-quoi.html",
+   "/recherche.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "territoires/culture-creation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/culture-creation.html",
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "territoires/pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/pop-culture.html",
+   "/territoires/pop-culture.html",
+   "/cest-quoi.html",
+   "/territoires/pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "territoires/sciences-tech.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sciences-tech.html",
+   "/territoires/sciences-tech.html",
+   "/cest-quoi.html",
+   "/territoires/sciences-tech.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "territoires/societe-impact.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/societe-impact.html",
+   "/territoires/societe-impact.html",
+   "/cest-quoi.html",
+   "/territoires/societe-impact.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "territoires/sport-aventure.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sport-aventure.html",
+   "/territoires/sport-aventure.html",
+   "/cest-quoi.html",
+   "/territoires/sport-aventure.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/traversee.html",
+   "/traversee.html",
+   "/cest-quoi.html",
+   "/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "1440x900",
+  "page": "univers.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "404.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 127,
+   "y1": 127,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 127,
+   "apres": 127,
+   "mv": []
+  },
+  "retour": {
+   "avant": 127,
+   "apres": 127,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/404.html",
+   "/404.html",
+   "/cest-quoi.html",
+   "/404.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "cest-quoi.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 958,
+   "y1": 958,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 958,
+   "apres": 958,
+   "mv": []
+  },
+  "retour": {
+   "avant": 958,
+   "apres": 0,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "/cest-quoi.html",
+   "about:blank"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "communaute.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/communaute.html",
+   "/communaute.html",
+   "/cest-quoi.html",
+   "/communaute.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1134,
+   "y1": 1134,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1134,
+   "apres": 1134,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1134,
+   "apres": 1134,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs.html",
+   "/createurs.html",
+   "/cest-quoi.html",
+   "/createurs.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/alex.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 844,
+   "y1": 844,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 844,
+   "apres": 844,
+   "mv": []
+  },
+  "retour": {
+   "avant": 844,
+   "apres": 844,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/alex.html",
+   "/createurs/alex.html",
+   "/cest-quoi.html",
+   "/createurs/alex.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/camille.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 844,
+   "y1": 844,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 844,
+   "apres": 844,
+   "mv": []
+  },
+  "retour": {
+   "avant": 844,
+   "apres": 844,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/camille.html",
+   "/createurs/camille.html",
+   "/cest-quoi.html",
+   "/createurs/camille.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/lea.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 844,
+   "y1": 844,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 844,
+   "apres": 844,
+   "mv": []
+  },
+  "retour": {
+   "avant": 844,
+   "apres": 844,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/lea.html",
+   "/createurs/lea.html",
+   "/cest-quoi.html",
+   "/createurs/lea.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/maya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 819,
+   "y1": 819,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 819,
+   "apres": 819,
+   "mv": []
+  },
+  "retour": {
+   "avant": 819,
+   "apres": 819,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/maya.html",
+   "/createurs/maya.html",
+   "/cest-quoi.html",
+   "/createurs/maya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/nora.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 844,
+   "y1": 844,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 844,
+   "apres": 844,
+   "mv": []
+  },
+  "retour": {
+   "avant": 844,
+   "apres": 844,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/nora.html",
+   "/createurs/nora.html",
+   "/cest-quoi.html",
+   "/createurs/nora.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "createurs/thomas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 844,
+   "y1": 844,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 844,
+   "apres": 844,
+   "mv": []
+  },
+  "retour": {
+   "avant": 844,
+   "apres": 844,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/createurs/thomas.html",
+   "/createurs/thomas.html",
+   "/cest-quoi.html",
+   "/createurs/thomas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "decouvrir.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/decouvrir.html",
+   "/cest-quoi.html",
+   "/decouvrir.html",
+   "/decouvrir.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "demos/01-signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html",
+   "/cest-quoi.html",
+   "/demos/01-signature.html",
+   "/demos/01-signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "demos/02-pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    25
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html",
+   "/cest-quoi.html",
+   "/demos/02-pop-culture.html",
+   "/demos/02-pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "demos/03-progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html",
+   "/cest-quoi.html",
+   "/demos/03-progression.html",
+   "/demos/03-progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "demos/05-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    24
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html",
+   "/cest-quoi.html",
+   "/demos/05-soleil-xl.html",
+   "/demos/05-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "exploration/atlas.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1235,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 31,
+     "y": 0,
+     "a": "[{\"top\":1165,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 45,
+     "y": 1165,
+     "a": "[{\"top\":1235,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1270,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 25,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 67,
+     "y": 1200,
+     "a": "[{\"top\":1270,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/atlas.html",
+   "/exploration/atlas.html",
+   "/cest-quoi.html",
+   "/exploration/atlas.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "exploration/missions.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1207,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 42,
+     "y": 0,
+     "a": "[{\"top\":1181,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 70,
+     "y": 1183,
+     "a": "[{\"top\":1207,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1214,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 26,
+     "y": 0,
+     "a": "[{\"top\":1207,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 52,
+     "y": 1207,
+     "a": "[{\"top\":1188,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    },
+    {
+     "k": "window.scrollTo",
+     "t": 82,
+     "y": 1188,
+     "a": "[{\"top\":1214,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/exploration/missions.html",
+   "/exploration/missions.html",
+   "/cest-quoi.html",
+   "/exploration/missions.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "exploration/traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/exploration/traversee.html",
+   "/exploration/traversee.html",
+   "/cest-quoi.html",
+   "/exploration/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "index.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/index.html",
+   "/index.html",
+   "/cest-quoi.html",
+   "/index.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "lounge.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/lounge.html",
+   "/lounge.html",
+   "/cest-quoi.html",
+   "/lounge.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "mentions-legales.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/mentions-legales.html",
+   "/mentions-legales.html",
+   "/cest-quoi.html",
+   "/mentions-legales.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "mon-ithakya.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 81,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 28,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/mon-ithakya.html",
+   "/mon-ithakya.html",
+   "/cest-quoi.html",
+   "/mon-ithakya.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "oeuvres/pop.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/pop.html",
+   "/oeuvres/pop.html",
+   "/cest-quoi.html",
+   "/oeuvres/pop.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "oeuvres/progression.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/progression.html",
+   "/oeuvres/progression.html",
+   "/cest-quoi.html",
+   "/oeuvres/progression.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "oeuvres/signature.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/signature.html",
+   "/oeuvres/signature.html",
+   "/cest-quoi.html",
+   "/oeuvres/signature.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "oeuvres/soleil.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/oeuvres/soleil.html",
+   "/oeuvres/soleil.html",
+   "/cest-quoi.html",
+   "/oeuvres/soleil.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "programmation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    76
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 745,
+   "y1": 745,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 745,
+   "apres": 745,
+   "mv": []
+  },
+  "retour": {
+   "avant": 745,
+   "apres": 744,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programmation.html",
+   "/programmation.html",
+   "/cest-quoi.html",
+   "/programmation.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "programme-soleil-xl.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/programme-soleil-xl.html",
+   "/programme-soleil-xl.html",
+   "/cest-quoi.html",
+   "/programme-soleil-xl.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "programme.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1202,
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 25,
+     "y": 0,
+     "a": "[{\"top\":1200,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1202,
+   "type": "back_forward",
+   "mv": [
+    {
+     "k": "window.scrollTo",
+     "t": 47,
+     "y": 0,
+     "a": "[{\"top\":1202,\"left\":0,\"behavior\":\"instant\"}]",
+     "s": "at window.<computed> (<anonymous>:5:108) < at position (/assets/js/ithakya-position-l19.js?sha=ae795691b4f3:132:72)"
+    }
+   ]
+  },
+  "navigations": [
+   "/programme.html",
+   "/programme.html",
+   "/cest-quoi.html",
+   "/programme.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "recherche.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 756,
+   "y1": 756,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 756,
+   "apres": 756,
+   "mv": []
+  },
+  "retour": {
+   "avant": 756,
+   "apres": 756,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/recherche.html",
+   "/recherche.html",
+   "/cest-quoi.html",
+   "/recherche.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "territoires/culture-creation.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/culture-creation.html",
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "territoires/pop-culture.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/pop-culture.html",
+   "/territoires/pop-culture.html",
+   "/cest-quoi.html",
+   "/territoires/pop-culture.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "territoires/sciences-tech.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sciences-tech.html",
+   "/territoires/sciences-tech.html",
+   "/cest-quoi.html",
+   "/territoires/sciences-tech.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "territoires/societe-impact.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/societe-impact.html",
+   "/territoires/societe-impact.html",
+   "/cest-quoi.html",
+   "/territoires/societe-impact.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "territoires/sport-aventure.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/territoires/sport-aventure.html",
+   "/territoires/sport-aventure.html",
+   "/cest-quoi.html",
+   "/territoires/sport-aventure.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "traversee.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/traversee.html",
+   "/traversee.html",
+   "/cest-quoi.html",
+   "/traversee.html"
+  ],
+  "erreurs": []
+ },
+ {
+  "vue": "844x390-paysage",
+  "page": "univers.html",
+  "profil": "visiteur",
+  "entete": {
+   "positions": [
+    0
+   ],
+   "hauteurs": [
+    65
+   ]
+  },
+  "chargement": {
+   "cls": 0,
+   "mouvements": [],
+   "scrollY": 0
+  },
+  "debordementX": 0,
+  "immobilite": {
+   "y0": 1200,
+   "y1": 1200,
+   "mv": []
+  },
+  "rechargement": {
+   "avant": 1200,
+   "apres": 1200,
+   "mv": []
+  },
+  "retour": {
+   "avant": 1200,
+   "apres": 1200,
+   "type": "back_forward",
+   "mv": []
+  },
+  "navigations": [
+   "/univers.html",
+   "/univers.html",
+   "/cest-quoi.html",
+   "/univers.html"
+  ],
+  "erreurs": []
+ }
+]

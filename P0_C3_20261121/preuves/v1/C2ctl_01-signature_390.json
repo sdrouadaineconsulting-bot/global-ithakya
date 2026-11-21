@@ -1,0 +1,35 @@
+{
+ "page": "01-signature",
+ "viewport": "390x844",
+ "inscription": 201,
+ "apres_repere": {
+  "t": 0,
+  "pause": false,
+  "overlay": false,
+  "etat": {
+   "membre": true,
+   "repere": 39,
+   "fait": true,
+   "choisi": 0,
+   "ouvert": false
+  }
+ },
+ "fin": {
+  "ended": true,
+  "overlay": false,
+  "focus": "Aller au contenuVotre parcoursEnsuite : CourtScien",
+  "scrollY": 1541,
+  "y0": 1541
+ },
+ "cloture": {
+  "overlay": false,
+  "ended": true,
+  "t": 60,
+  "pause": true,
+  "scrollY": 1541,
+  "xp": 0,
+  "points": 0,
+  "journal": [],
+  "mouvements": []
+ }
+}

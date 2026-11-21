@@ -1,0 +1,39 @@
+{
+ "page": "01-signature",
+ "viewport": "390x844",
+ "inscription": 201,
+ "apres_repere": {
+  "t": 41.01,
+  "pause": false,
+  "overlay": false,
+  "etat": {
+   "membre": true,
+   "repere": 39,
+   "fait": false,
+   "choisi": null,
+   "ouvert": false
+  }
+ },
+ "fin": {
+  "ended": true,
+  "overlay": true,
+  "focus": "Uniquement une image plus spectaculaire",
+  "scrollY": 1541,
+  "y0": 1541
+ },
+ "apres_reponse": {
+  "texte": "Réponse notée. Elle sera enregistrée à la fin du Long.",
+  "boutons": 0
+ },
+ "cloture": {
+  "overlay": false,
+  "ended": true,
+  "t": 60,
+  "pause": true,
+  "scrollY": 1541,
+  "xp": 0,
+  "points": 0,
+  "journal": [],
+  "mouvements": []
+ }
+}

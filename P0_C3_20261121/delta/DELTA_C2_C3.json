@@ -1,0 +1,219 @@
+{
+ "reference": "ITHAKYA_W360_CANDIDATE_C2_CONSOLIDEE_20261121.zip",
+ "reference_sha256": "279660f06bff9deb09b64b99d3d89d51d909ed310dba7c72ac0545585b9a9411",
+ "candidate": "ITHAKYA_W360_CANDIDATE_C3_20261121.zip",
+ "ajoutes": [],
+ "retires": [],
+ "fichiers": [
+  {
+   "fichier": "site/404.html",
+   "avant": "f29332260ad26b681de3d6ff697f77d3bafcc1ea7c0e6c41926f887b4cd290f7",
+   "apres": "243a9a9ea763c8ef673c3824929fd3e097ec428330264dfc76fb6a8d5e37b559"
+  },
+  {
+   "fichier": "site/assets/ithakya-v1-interaction.js",
+   "avant": "1ab058b6c87d7196fc457877684ef241d3465e68658cc42ddedb72177b97c555",
+   "apres": "11d37b1d0f86c72fc9eea2805a5c45095b811208c23224e61b3c0d120b3524fa"
+  },
+  {
+   "fichier": "site/assets/js/ithakya-v9962-carnet.js",
+   "avant": "36ed816f45b67b2c91c252f8be4ce00524dcab66881320e835d13fcc74d2128a",
+   "apres": "8c26a217d367c21e8f6e19dc55365f48ecb9a0c26b915dd277be0d9c2de80759"
+  },
+  {
+   "fichier": "site/cest-quoi.html",
+   "avant": "236104a169a46560f1662a8d5d9891431e3dde249f9e4dc89de3f7e126c0adec",
+   "apres": "1d35c9c022534eaed4941c959284c370bcea323f045b184f9a2ed412595a4102"
+  },
+  {
+   "fichier": "site/communaute.html",
+   "avant": "e5ab0eaa0a9d2b1657e375c3095823a617f8bd7a52babb3def68b1ecb1ca3fee",
+   "apres": "3141ff1755a303396d334a79545b4f8e706482899d9b7dfc78ccbf2fd601bdc9"
+  },
+  {
+   "fichier": "site/createurs/alex.html",
+   "avant": "1f8026e274a083c3e1773b6b9f53ed9fbb7a4426f8f19afc119eca6e33f0fe10",
+   "apres": "ac803763f2d066f89829516506bcc63c7a5f39cb5e60323e16d4433a38d919f6"
+  },
+  {
+   "fichier": "site/createurs/camille.html",
+   "avant": "181fbe221e00ac2a77951f8742dce6d3f6602d60fb31116e6774988550c1dd02",
+   "apres": "6665c7ae778a4f4f3112e017093f90139e84c1fb9ebf3fda096fa548a015c17a"
+  },
+  {
+   "fichier": "site/createurs/lea.html",
+   "avant": "0b6706fd5ec72cd282a1b188be25e94d97a0c224f7f431a0fa6c727397bf2fdb",
+   "apres": "29e51026afd94a884e0f6de3d1f7003d1c23ca132e57cf7c2b72cfffd24223be"
+  },
+  {
+   "fichier": "site/createurs/maya.html",
+   "avant": "f7b99169b71a318c6206a752bd5e398af2c94c8d8143f2871c285a886193ac0e",
+   "apres": "16086a5d4489aa7740c5adc7a50393de7c6c45c201178ace4625b449ae169376"
+  },
+  {
+   "fichier": "site/createurs/nora.html",
+   "avant": "a05fd79453bbbbc6b033127fb5e016554cfd15e493bd3ef9ac435ab3c7c13c5c",
+   "apres": "67ccb7c92d15e6a854cc4095385e7020ef35f24c0e42716db3cc919bf07076bb"
+  },
+  {
+   "fichier": "site/createurs/thomas.html",
+   "avant": "eb6d2c76acfd15a490daa8c54d7c00d7363735dd9245caa8b79cc770b348c76e",
+   "apres": "9bb1d5c8f47df527d05f0571629bd5a9a1b9845dbc8696575dbc9b38e60ec2f7"
+  },
+  {
+   "fichier": "site/createurs.html",
+   "avant": "69df73eda6643abe8ce3bbcc809fa485bdc90f932c5ee6785eaf050bbc808c53",
+   "apres": "0f708dab22e5fef05f2182a2c420f3b9999cc77e2e7eac5dc3cd04f117a4a120"
+  },
+  {
+   "fichier": "site/decouvrir.html",
+   "avant": "ffd12faac72e9e0deb2a86001bb3c8a24a7940733a4cee0334b6b06f23dfe7f6",
+   "apres": "ff501abde83393d08e25ddf5493c5f823e9f7018c44e1e9e58a96ef4628acc6f"
+  },
+  {
+   "fichier": "site/demos/01-signature.html",
+   "avant": "b9f7ef0b5b395ebd9d77607ee0e638ae523ed6665ba773d206707bf182f5fab9",
+   "apres": "209a4e2622c55e23cd56478acd85592964effbe734e3f104437d892122b79b71"
+  },
+  {
+   "fichier": "site/demos/02-pop-culture.html",
+   "avant": "296d77115a7f137d76a7b95c2e4daea053676d9f5ad6430a2bf1649a2bb63c91",
+   "apres": "aa16ccdb56498d6950017e0cb5ab60a79cc81da7cf86cdbdb63725adb04decb5"
+  },
+  {
+   "fichier": "site/demos/03-progression.html",
+   "avant": "165b36565d7b7ceca261a6177b1610bdb1937ce2178ff611038dad10f1997814",
+   "apres": "62b8d4a7573aa6254c6d7a79a96ed1eca3c670f60f0f18682f2e25f0524756cb"
+  },
+  {
+   "fichier": "site/demos/05-soleil-xl.html",
+   "avant": "862511e34e550117492dca8e849fd654edc67aa24a1d43570437c8405cb59312",
+   "apres": "c36c30ea7e5e092051b61143eb6ac8c18e6e87b7a5d9ed1ef45cc6907a5fc526"
+  },
+  {
+   "fichier": "site/exploration/atlas.html",
+   "avant": "5d7eac4cc7fef1fc6c3bd7811c76ca808ea6e508d1fc67e94048e3359a7881e6",
+   "apres": "49d4c910dc9dea4fbae77df35b68f234cc6d0aeb43d387c93a5052ce833a9425"
+  },
+  {
+   "fichier": "site/exploration/missions.html",
+   "avant": "c139e07e296381b92035c38471cb103298c6c432e524e6939a2481b14c7767ff",
+   "apres": "b4eac0583288135bfa24b79933a62127b30b81b3d24fa12e33ca56b13bbbb622"
+  },
+  {
+   "fichier": "site/exploration/traversee.html",
+   "avant": "140685de2838d204e2ad9963a14fdb31de53c0693aadc066aa30d8868ead35c5",
+   "apres": "ba7f587571f63fbc1ce45d399e5ab7b66ba891b297707cb3c28ad824b28ee687"
+  },
+  {
+   "fichier": "site/index.html",
+   "avant": "9f968561632b57f4a3bf72ec1880fcc4bebbb8f7f56c7a9b41ca60c722da94d4",
+   "apres": "342f01914bb272dee3ee2ea15d559cfb66759648a4fb3b85c2b00dbbe19b72eb"
+  },
+  {
+   "fichier": "site/lounge.html",
+   "avant": "c505d855e6372c296da2452d8eb669ec48e44aab6f16d2bdacf26dd1710a606d",
+   "apres": "97fbdd515296ee8fad4e4c403f54eb9fb951401c728bbd1154fc9db50d4020dd"
+  },
+  {
+   "fichier": "site/mentions-legales.html",
+   "avant": "78539a308aaa1d28cc58be2d15e4fa8f288c6a472130e871a1bfc0fadb956116",
+   "apres": "e069cc5973bf36043d35c285d73a6af0cf75b711de2713ea9cdb8bf201403f74"
+  },
+  {
+   "fichier": "site/mon-ithakya.html",
+   "avant": "d8b722c8fba839747786ec2058e214b5dc36daa427a3a47f1791b59e17793597",
+   "apres": "d373ef40f5dd12ee0abed0977bee8e4d3029d9ebd9070eb1cea98e8f679a76fa"
+  },
+  {
+   "fichier": "site/oeuvres/pop.html",
+   "avant": "c92dbf554d570020d8b4e0c6856918bc18dc5809c4bf10717ffc11d76641b6e6",
+   "apres": "93346a0fbe9eb7e465c85cc0f74c3b85eaab8fa5274cd7e7ed3a069f530b6942"
+  },
+  {
+   "fichier": "site/oeuvres/progression.html",
+   "avant": "285f2516f30dcda6f3d84bbbc429eec154e710e4786dfe61442e3a4e487695c8",
+   "apres": "85dc932cfbbd4d066d8733a3f7b4a53f581180f86b6e3580b8dbea310174ac87"
+  },
+  {
+   "fichier": "site/oeuvres/signature.html",
+   "avant": "a56d20c8155117cc376b94fe092545755bbb8456d002444b9cb0f175e15cf7db",
+   "apres": "13de6897307be9b8cccd2fed83e157a6196fe6d0edffce764146e3aebc76f790"
+  },
+  {
+   "fichier": "site/oeuvres/soleil.html",
+   "avant": "0215ff822e9c8c846cea34727142f382d0e02b0d9c1f1c63c286f58b0a5bff9d",
+   "apres": "472714ddf664ff0505e3a3433414dc071a88ea55e194dbe0171402559ebf20e1"
+  },
+  {
+   "fichier": "site/programmation.html",
+   "avant": "f15a08d20de9d8691bed76a742a830ef25fe95ff251834e976997dfd91ea6249",
+   "apres": "1881176f41d8ec94912da55d601c57cd2362a7a1fff26bc025ec10ea61e2a047"
+  },
+  {
+   "fichier": "site/programme-soleil-xl.html",
+   "avant": "514d0e5af99750164660b21b1403a3b5fa32fda880478baea0cf4ad2054c05fc",
+   "apres": "9d27d7307592c2d540b995af788e033df8c3c5cd1a25459743bbe5e9ec31f37c"
+  },
+  {
+   "fichier": "site/programme.html",
+   "avant": "1912e40557c77351d4c1dc67de18477db924d526b1655d80c802162b0609966f",
+   "apres": "bb21285ecef6d09a648f99b318d98eee1e4dbbc19b22d412dd4756e19bbcd358"
+  },
+  {
+   "fichier": "site/recherche.html",
+   "avant": "f109d4e0258be410c4bc6a93a6380d818a2acb6c87dc3df373472fde039d315d",
+   "apres": "e871fca4e7357ef178668182d6e06a1e34844a5bb2a18b5009664126d978d009"
+  },
+  {
+   "fichier": "site/territoires/culture-creation.html",
+   "avant": "b1aafdb9386c85b07275b8b051fda53901f2003b5794d8046fe891743e8fd023",
+   "apres": "9731e336e61054bd4a0bc6baa88c136678723b044c7433b58924d494117f1696"
+  },
+  {
+   "fichier": "site/territoires/pop-culture.html",
+   "avant": "205fea1b46d883dc72f3eac8034cd4231634e68815053caf2959f09012a47c1f",
+   "apres": "d2e0b2313a69712c3072459ef9a431c02b38f715f058b95d9a348cadf2dac10b"
+  },
+  {
+   "fichier": "site/territoires/sciences-tech.html",
+   "avant": "52b4c458480f83edec687e602e1ad0f690fccfca60c22ba742b766ca7bfc99e8",
+   "apres": "6f292d74f14c4a5ec99dbff67b136de11e9ff9127a212ae07cbd6b84d89a9261"
+  },
+  {
+   "fichier": "site/territoires/societe-impact.html",
+   "avant": "2fdbb4046e7f2689a73d62a33720c988d77be6a7a4e476a03b48be4035cc2c3a",
+   "apres": "0e8c34ab2de637a1525942d4eebf5ae4692611bce0bef6d5c456fe6b50f6a739"
+  },
+  {
+   "fichier": "site/territoires/sport-aventure.html",
+   "avant": "6fb451264ab28682b757e8c5a4a167cc67ef83e653bc9ac5d80645d94180c77f",
+   "apres": "4bfc1d31190d6e0c3225a673bdfc6cc3bd29ed88716e994ea0a93a4f51c0091e"
+  },
+  {
+   "fichier": "site/traversee.html",
+   "avant": "e11b14502ec724a1423b61153e47ac6b66ca49766cd37ae2ec774a120ce15f6b",
+   "apres": "135b314f2134c835bbfa91355a2bb301e047e6397c875f979faab669ff4f48de"
+  },
+  {
+   "fichier": "site/univers.html",
+   "avant": "e6e15e8365715a9dd73d65fa21503bdcf55435993fc0a1fdb177b5bf802956b8",
+   "apres": "adfa30512bf63214eb25ff5cc3974ef5682d392e3670fd5706eec907859c0998"
+  },
+  {
+   "fichier": "source/assets_statiques/ithakya-v1-interaction.js",
+   "avant": "1ab058b6c87d7196fc457877684ef241d3465e68658cc42ddedb72177b97c555",
+   "apres": "11d37b1d0f86c72fc9eea2805a5c45095b811208c23224e61b3c0d120b3524fa"
+  },
+  {
+   "fichier": "source/assets_statiques/js/ithakya-v9962-carnet.js",
+   "avant": "36ed816f45b67b2c91c252f8be4ce00524dcab66881320e835d13fcc74d2128a",
+   "apres": "8c26a217d367c21e8f6e19dc55365f48ecb9a0c26b915dd277be0d9c2de80759"
+  },
+  {
+   "fichier": "source/outils/generer.py",
+   "avant": "933ab408680fe8da052ea8a49c8dcc14cb11c5d9433bdcf6404b70adc39f8560",
+   "apres": "b22fb31422c239d9e627177f6b898964edb29892f3f20e25a48458de72e17ab0"
+  }
+ ]
+}

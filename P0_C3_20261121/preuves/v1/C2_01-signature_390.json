@@ -1,0 +1,51 @@
+{
+ "page": "01-signature",
+ "viewport": "390x844",
+ "inscription": 201,
+ "v1_etat_initial": {
+  "membre": true,
+  "repere": 39,
+  "fait": false,
+  "choisi": null,
+  "ouvert": false
+ },
+ "long": {
+  "duree": 60,
+  "src": "/media/ITHAKYA_SIGNATURE_LONG_PREMIUM_20261014_1080P_CANDIDAT.mp4?sha=53da1c30cfd8",
+  "visible": true
+ },
+ "t_depart": 2.332302,
+ "au_repere": {
+  "t": 39.18,
+  "pause": true,
+  "overlay": true,
+  "couverture_video": 1,
+  "fond": "rgba(6, 14, 22, 0.82)",
+  "focus": "Uniquement une image plus spectaculaire",
+  "etat": {
+   "membre": true,
+   "repere": 39,
+   "fait": true,
+   "choisi": null,
+   "ouvert": true
+  },
+  "scrollY": 1541
+ },
+ "trois_s_plus_tard": {
+  "t": 39.18,
+  "pause": true,
+  "overlay": true
+ },
+ "apres_reporter": {
+  "t": 40.36,
+  "pause": false,
+  "overlay": false
+ },
+ "fin_du_long": {
+  "ended": true,
+  "quizPanel_visible": false,
+  "quizPanel_hidden_attr": true,
+  "quiz_texte": "Que révèle surtout un changement d’échelle ?",
+  "overlay": false
+ }
+}
