@@ -1,0 +1,5 @@
+const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:844,height:390}});
+await p.goto('http://127.0.0.1:8092/exploration/missions.html',{waitUntil:'load'});await p.waitForTimeout(1500);
+const r=await p.evaluate(()=>{const sh=[...document.styleSheets].find(s=>s.href&&s.href.includes('lot-7eb5c3815fcc'));const crit=[...document.querySelectorAll('style[data-w360="critique"]')].map(s=>s.textContent).join('\n');
+const els=[...document.querySelectorAll('.pil-etapes, .pil-etapes *')];const out=[];const walk=(rules,mq)=>{for(const ru of rules){if(ru.cssRules&&ru.media){if(matchMedia(ru.media.mediaText).matches)walk(ru.cssRules,ru.media.mediaText)}else if(ru.selectorText){let m=false;try{m=els.some(e=>e.matches(ru.selectorText))}catch(e){}if(m)out.push({mq,sel:ru.selectorText.slice(0,120),css:ru.style.cssText.slice(0,160),dans_critique:crit.includes(ru.selectorText.split(',')[0].trim())})}}};walk(sh.cssRules,'');return out});
+for(const x of r)console.log(JSON.stringify(x));await b.close()})();

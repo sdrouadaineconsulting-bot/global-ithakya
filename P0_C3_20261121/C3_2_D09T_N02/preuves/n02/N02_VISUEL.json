@@ -1,0 +1,104 @@
+[
+ {
+  "page": "exploration/atlas.html",
+  "avant": {
+   "y": 1200,
+   "repere": "Territoire ouvert. Aucune exploration personnelle ",
+   "repere_top": 96,
+   "hauteur_doc": 3467
+  },
+  "apres_rechargement": {
+   "y": 1235,
+   "repere": "Découvrir Société & Impact Missions de Société & I",
+   "repere_top": 157,
+   "hauteur_doc": 3467
+  },
+  "images_rechargement": [
+   [
+    12,
+    1165
+   ],
+   [
+    68,
+    1235
+   ]
+  ],
+  "apres_retour": {
+   "y": 1270,
+   "repere": "Découvrir Société & Impact Missions de Société & I",
+   "repere_top": 122,
+   "hauteur_doc": 3467
+  },
+  "images_retour": [
+   [
+    25,
+    1200
+   ],
+   [
+    53,
+    1270
+   ]
+  ]
+ },
+ {
+  "page": "exploration/missions.html",
+  "avant": {
+   "y": 1200,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 162,
+   "hauteur_doc": 4016
+  },
+  "apres_rechargement": {
+   "y": 1207,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 155,
+   "hauteur_doc": 4016
+  },
+  "images_rechargement": [
+   [
+    22,
+    0
+   ],
+   [
+    29,
+    1200
+   ],
+   [
+    98,
+    1181
+   ],
+   [
+    152,
+    1191
+   ],
+   [
+    162,
+    1207
+   ]
+  ],
+  "apres_retour": {
+   "y": 1214,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 148,
+   "hauteur_doc": 4016
+  },
+  "images_retour": [
+   [
+    22,
+    1207
+   ],
+   [
+    62,
+    1188
+   ],
+   [
+    80,
+    1198
+   ],
+   [
+    95,
+    1214
+   ]
+  ]
+ }
+]

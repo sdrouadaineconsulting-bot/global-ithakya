@@ -1,0 +1,65 @@
+{
+ "pages": 6,
+ "texte_identique": 6,
+ "identique_hors_sha": 4,
+ "ecarts_hors_sha": [
+  "site/exploration/missions.html",
+  "source/w360_tete_validee/exploration/missions.html"
+ ],
+ "sha_faux": [
+  [
+   "site/demos/01-signature.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/01-signature.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/02-pop-culture.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/02-pop-culture.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/03-progression.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/03-progression.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/05-soleil-xl.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/05-soleil-xl.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/exploration/missions.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/exploration/missions.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ]
+ ],
+ "sha_ok": 270,
+ "medias_ou_donnees_modifies": [
+  "site/assets/data/recherche-pages.json"
+ ]
+}

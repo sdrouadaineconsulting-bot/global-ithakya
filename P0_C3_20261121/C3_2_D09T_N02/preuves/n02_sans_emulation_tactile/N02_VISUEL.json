@@ -1,0 +1,100 @@
+[
+ {
+  "page": "exploration/atlas.html",
+  "avant": {
+   "y": 1200,
+   "repere": "Découvrir Société & Impact Missions de Société & I",
+   "repere_top": 122,
+   "hauteur_doc": 3384
+  },
+  "apres_rechargement": {
+   "y": 1200,
+   "repere": "Découvrir Société & Impact Missions de Société & I",
+   "repere_top": 122,
+   "hauteur_doc": 3384
+  },
+  "images_rechargement": [
+   [
+    9,
+    0
+   ],
+   [
+    23,
+    1200
+   ]
+  ],
+  "apres_retour": {
+   "y": 1200,
+   "repere": "Découvrir Société & Impact Missions de Société & I",
+   "repere_top": 122,
+   "hauteur_doc": 3384
+  },
+  "images_retour": [
+   [
+    22,
+    1200
+   ]
+  ]
+ },
+ {
+  "page": "exploration/missions.html",
+  "avant": {
+   "y": 1200,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 155,
+   "hauteur_doc": 3990
+  },
+  "apres_rechargement": {
+   "y": 1200,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 155,
+   "hauteur_doc": 3990
+  },
+  "images_rechargement": [
+   [
+    16,
+    0
+   ],
+   [
+    22,
+    1200
+   ],
+   [
+    76,
+    1174
+   ],
+   [
+    121,
+    1184
+   ],
+   [
+    138,
+    1200
+   ]
+  ],
+  "apres_retour": {
+   "y": 1200,
+   "repere": "Sport & Aventure · « L’élan »",
+   "repere_top": 155,
+   "hauteur_doc": 3990
+  },
+  "images_retour": [
+   [
+    19,
+    1200
+   ],
+   [
+    50,
+    1174
+   ],
+   [
+    66,
+    1184
+   ],
+   [
+    83,
+    1200
+   ]
+  ]
+ }
+]

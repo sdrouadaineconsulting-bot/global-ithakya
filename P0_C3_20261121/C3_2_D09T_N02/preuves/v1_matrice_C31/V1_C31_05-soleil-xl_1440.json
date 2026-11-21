@@ -1,0 +1,66 @@
+{
+ "base": "http://127.0.0.1:8092",
+ "page": "05-soleil-xl",
+ "vue": "1440x900",
+ "v1": [
+  {
+   "ouverture": {
+    "t": 60,
+    "d": 60,
+    "pause": true,
+    "ended": true,
+    "overlay": true,
+    "y": 1168
+   },
+   "deux_s_plus_tard": {
+    "t": 60,
+    "pause": true,
+    "ended": true
+   },
+   "pendant_lecture": false,
+   "apres": {
+    "overlay": false,
+    "pause": true,
+    "ended": true,
+    "dy": 0
+   }
+  }
+ ],
+ "apres_court": {
+  "xp": 5,
+  "points": 0,
+  "journal": [
+   "court:5/0"
+  ]
+ },
+ "commande_long": ".v5-sequence-guide .v-final-long-trigger",
+ "final": {
+  "xp": 85,
+  "points": 42,
+  "journal": [
+   "quiz:5/12",
+   "long:75/30",
+   "court:5/0"
+  ]
+ },
+ "mouvements": [
+  {
+   "k": "scrollTo",
+   "a": "[{\"top\":0,\"behavior\":\"instant\"}]",
+   "t": 1925,
+   "y": 0
+  },
+  {
+   "k": "scrollTo",
+   "a": "[{\"top\":0,\"left\":0,\"behavior\":\"instant\"}]",
+   "t": 1958,
+   "y": 0
+  },
+  {
+   "k": "scrollIntoView",
+   "a": "courtVideo",
+   "t": 1958,
+   "y": 0
+  }
+ ]
+}
