@@ -40,12 +40,18 @@ const INIT = () => {
         r.entete = { positions: [...new Set(hs.map(x => x[0]))], hauteurs: [...new Set(hs.map(x => x[1]))] };
         r.chargement = await p.evaluate(() => ({ cls: +window.__cls.toFixed(4), mouvements: window.__mv.slice(0, 12), scrollY: Math.round(scrollY) }));
         r.debordementX = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth);
-        // Menu : ouverture puis fermeture (Échap), position de page et en-tête avant/après
-        const menu = await p.$('nav button[aria-expanded], .ithc-header button[aria-expanded]');
-        if (menu && await menu.isVisible()) {
-          const avant = await p.evaluate(() => { window.__mv = []; const e = document.querySelector('header.ithc-header,header'); return { y: Math.round(scrollY), h: e ? Math.round(e.getBoundingClientRect().height) : null }; });
-          await menu.click(); await p.waitForTimeout(400); await p.keyboard.press('Escape'); await p.waitForTimeout(400);
-          r.menu = { avant, apres: await p.evaluate(() => { const e = document.querySelector('header.ithc-header,header'); return { y: Math.round(scrollY), h: e ? Math.round(e.getBoundingClientRect().height) : null, mv: window.__mv.filter(x => x.k !== 'focus').slice(0, 6) }; }) };
+        // Menu réel : <details><summary> de l'en-tête (Découvrir, Participer) — ouverture puis fermeture par un second clic
+        const sums = await p.$$('header details > summary');
+        r.menu = [];
+        for (const sm of sums) {
+          if (!(await sm.isVisible())) continue;
+          const avant = await p.evaluate(() => { window.__mv = []; const e = document.querySelector('header.ithc-header,header'); const x = e.getBoundingClientRect(); return { y: Math.round(scrollY), top: Math.round(x.top), h: Math.round(x.height) }; });
+          await sm.click(); await p.waitForTimeout(350);
+          const ouvert = await sm.evaluate(e => ({ open: e.parentElement.open, liens_visibles: [...e.parentElement.querySelectorAll('a')].filter(a => a.offsetParent).length, y: Math.round(scrollY) }));
+          await sm.click(); await p.waitForTimeout(350);
+          const apres = await p.evaluate(() => { const e = document.querySelector('header.ithc-header,header'); const x = e.getBoundingClientRect(); return { y: Math.round(scrollY), top: Math.round(x.top), h: Math.round(x.height), mv: window.__mv.filter(m => m.k !== 'focus').slice(0, 6) }; });
+          const ferme = await sm.evaluate(e => e.parentElement.open);
+          r.menu.push({ libelle: (await sm.textContent()).trim().slice(0, 20), avant, ouvert, apres, ferme_apres_second_clic: !ferme });
         }
         // Défilement volontaire puis immobilité 1,5 s : aucun mouvement non sollicité attendu
         const H = await p.evaluate(() => document.documentElement.scrollHeight);
