@@ -31,7 +31,7 @@ Aucune homologation de production n'est déclarée.
 | Candidate | `ITHAKYA_W360_CANDIDATE_C3_2_20261121.zip` — 4 118 fichiers |
 | SHA-256 | **`56a153cd2c758d2dcdca7d5021d30a6160002b90c8e7d99d287c8e3b1bef1607`** |
 | Volumes | `../C3_2_D09T_N02/archive/ITHAKYA_W360_C3_2_20261121.part00` à `.part02` (33 486 927 / 33 486 926 / 33 486 926 octets) |
-| Branche | `claude/new-session-q55sxl` ; étiquette Git `ithakya-c3.2-gel-20261121` (voir le message de commit) |
+| Branche | `claude/new-session-q55sxl`. **Commit de gel : `aaf7df798025cbebebc77ae50a5a4269da5a54a1`**. L'étiquette annotée `ithakya-c3.2-gel-20261121` existe localement sur ce commit, mais l'environnement a **refusé son envoi** au dépôt distant (seule la branche de travail est autorisée). À créer depuis votre poste : `git tag -a ithakya-c3.2-gel-20261121 aaf7df7 && git push origin ithakya-c3.2-gel-20261121` |
 | Base | C3 (`c573b5e8…39d3`), issue de C2 (`279660f0…9411`) |
 | Exclus | Le correctif F10B-1 n'est **pas** intégré (section 9) |
 
