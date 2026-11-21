@@ -1,0 +1,1 @@
+/tmp/claude-0/m11810/mariadb/bin/mariadbd  Ver 11.8.10-MariaDB for linux-systemd on x86_64 (MariaDB Server)

@@ -1,0 +1,14 @@
+[CONFORME] T1 événements non crédités (saved, note_k) | attendu: HTTP 200, XP inchangé | observé: HTTP 200/200, score (0, 0, 0)->(0, 0, 0) 
+[CONFORME] T2 fin de Court forgée immédiate (couverture 1.0) | attendu: 409, aucun XP | observé: HTTP 409 playback_too_fast, score (0, 0, 0) 
+[CONFORME] T3 plancher 15 s atteint, média jamais servi | attendu: 409 playback_delivery, aucun XP | observé: HTTP 409 playback_delivery, score (0, 0, 0) 
+[CONFORME] T4 média téléchargé 100 % + plancher, sans témoins | attendu: 409 playback_timeline, aucun XP | observé: média HTTP 200 2644043 o ; fin HTTP 409 playback_delivery, score (0, 0, 0) 
+[CONFORME] T5 témoins rythme réel, images fausses | attendu: 409, aucun XP | observé: témoins [200] ; fin HTTP 409 playback_timeline, score (0, 0, 0) 
+[CONFORME] T6 témoins accélérés ×4, images exactes | attendu: 409, aucun XP | observé: témoins [200] ; fin HTTP 409 playback_timeline, score (0, 0, 0) 
+[CONFORME] T7 rejeu d'un témoin déjà consommé | attendu: 409 playback_ticket | observé: 1er 200, rejeu 409 playback_ticket 
+[CONFORME] T8 témoin de A présenté par B | attendu: 409/422, refus | observé: HTTP 409 playback_ticket 
+[LIMITE_STRUCTURELLE] T9 automate sans affichage, rythme réel, images calculées depuis le fichier servi | attendu: réserve F10-B : crédit non distinguable d'un humain | observé: durée 21.2 s ; fin HTTP 200  ; score (5, 0, 0) | le serveur atteste une livraison et une progression temps réel, pas une présence humaine
+[CONFORME] T10 20 fins de Court concurrentes après crédit | attendu: un seul crédit, XP inchangé | observé: HTTP [200], score (5, 0, 0)->(5, 0, 0) 
+[CONFORME] T11 quiz sans lecture (œuvre historique, sans Court) | attendu: 409 quiz_requires_playback, aucun XP | observé: HTTP 409 quiz_requires_playback, score (0, 0, 0) 
+[ECART] T12 écriture depuis une session révoquée | attendu: 401 | observé: révocation 200 ; ancienne session HTTP 403 csrf 
+[CONFORME] T13 jeton CSRF faux | attendu: 403 csrf | observé: valide 200, faux 403 csrf 
+[CONFORME] T14 owner_id d'un autre compte | attendu: 409 session_changed | observé: HTTP 409 session_changed 

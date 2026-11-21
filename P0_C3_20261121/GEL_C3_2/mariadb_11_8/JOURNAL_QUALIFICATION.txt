@@ -1,0 +1,20 @@
+[08:29:14] MariaDB 11.8.10-MariaDB prêt (bases ithakya_q118, ithakya_q118_migr)
+API session 200
+[08:29:33] fin de préparation
+[08:39:42] S1 antifraude F10-B T1–T14
+[CONFORME] T1 [CONFORME] T2 [CONFORME] T3 [CONFORME] T4 [CONFORME] T5 [CONFORME] T6 [CONFORME] T7 [CONFORME] T8 [LIMITE_STRUCTURELLE] T9 [CONFORME] T10 [CONFORME] T11 [ECART] T12 [CONFORME] T13 [CONFORME] T14 
+[08:40:58] S2 session révoquée (T12b)
+[08:40:59] S3 concurrence 10 comptes + rafale 30
+{"comptes": 10, "lecture_s": 21.4, "fins_simultanees_http": [200, 200, 200, 200, 200, 200, 200, 200, 200, 200], "scores": [[5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0]], "rafale_30_meme_compte_http": [200], "score_apres_rafale
+[08:41:21] S4 deadlocks / attentes de verrou
+deadlock_detectes=0 erreurs_php=0
+[08:41:21] S5 parcours légitime complet par l'interface
+final {'xp': 85, 'points': 42, 'journal': ['quiz:5/12', 'long:75/30', 'court:5/0']} V1 [(60, False)]
+[08:43:02] S6 arrêt brutal (kill -9) et redémarrage
+[08:43:06] données identiques après arrêt brutal (18 16	12 31 )
+2026-11-21  8:43:04 0 [Note] Starting table crash recovery...
+API après redémarrage 200
+[08:43:06] S7 migrations documentées, rejeu, retours (base ithakya_q118_migr)
+[08:43:06] S8 contraintes et index
+[08:43:06] S9 collation des tables
+[08:43:06] fin des scénarios

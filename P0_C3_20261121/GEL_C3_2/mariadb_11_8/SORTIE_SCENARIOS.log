@@ -1,0 +1,76 @@
+[08:39:42] S1 antifraude F10-B T1–T14
+[CONFORME] T1 [CONFORME] T2 [CONFORME] T3 [CONFORME] T4 [CONFORME] T5 [CONFORME] T6 [CONFORME] T7 [CONFORME] T8 [LIMITE_STRUCTURELLE] T9 [CONFORME] T10 [CONFORME] T11 [ECART] T12 [CONFORME] T13 [CONFORME] T14 
+[08:40:58] S2 session révoquée (T12b)
+login 2e appareil 200 score avant (0, 0, 0)
+révocation par 1er appareil 200
+2e appareil GET session: 200 user= None
+2e appareil écriture avec CSRF rafraîchi: 401 login_required
+1er appareil (révocateur) écriture: 200 None
+[08:40:59] S3 concurrence 10 comptes + rafale 30
+{"comptes": 10, "lecture_s": 21.4, "fins_simultanees_http": [200, 200, 200, 200, 200, 200, 200, 200, 200, 200], "scores": [[5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0], [5, 0]], "rafale_30_meme_compte_http": [200], "score_apres_rafale
+[08:41:21] S4 deadlocks / attentes de verrou
+deadlock_detectes=0 erreurs_php=0
+[08:41:21] S5 parcours légitime complet par l'interface
+final {'xp': 85, 'points': 42, 'journal': ['quiz:5/12', 'long:75/30', 'court:5/0']} V1 [(60, False)]
+[08:43:02] S6 arrêt brutal (kill -9) et redémarrage
+[08:43:06] données identiques après arrêt brutal (18 16	12 31 )
+2026-11-21  8:43:04 0 [Note] Starting table crash recovery...
+Table	Op	Msg_type	Msg_text
+ithakya_q118.itp_users	check	status	OK
+ithakya_q118.itp_work_progress	check	status	OK
+ithakya_q118.itp_states	check	status	OK
+ithakya_q118.itp_meta	check	status	OK
+ithakya_q118.itp_entries	check	status	OK
+API après redémarrage 200
+[08:43:06] S7 migrations documentées, rejeu, retours (base ithakya_q118_migr)
+base v6 : 13 tables
+migration_programmation_p2_mysql.sql rc=0 tables=18 pilote_installe
+0
+migration_avatars_m09_mysql.sql rc=0 tables=22 pilote_installe
+0
+seed_avatars_m09_mysql.sql rc=0 tables=22 migration_avatars
+0
+migration_reactions_p4_t8_mysql.sql rc=0 tables=23 
+migration_economie_v036_mysql.sql rc=0 tables=29 
+migration_liste_attente_pilote_mysql.sql rc=0 tables=30 
+migration_attenzia_instantanes_v1_mysql.sql rc=0 tables=32 
+--- rejeu
+migration_programmation_p2_mysql.sql rc=0 pilote_installe
+0
+migration_reactions_p4_t8_mysql.sql rc=0 
+migration_economie_v036_mysql.sql rc=0 
+migration_liste_attente_pilote_mysql.sql rc=0 
+--- retours
+retour_attenzia_instantanes_v1_mysql.sql rc=0 tables=30 
+retour_reactions_p4_t8_mysql.sql rc=0 tables=29 
+retour_avatars_m09_mysql.sql rc=0 tables=25 
+InnoDB	25
+[08:43:06] S8 contraintes et index
+table_name	index_name	non_unique	cols
+itp_entries	itp_entries_context	1	context_id,parent_id,created_at
+itp_entries	itp_entries_work	1	work_id,parent_id,created_at
+itp_entries	parent_id	1	parent_id
+itp_entries	PRIMARY	0	id
+itp_entries	user_id	0	user_id,request_key
+itp_progress2	PRIMARY	0	user_id,context_id
+itp_states	PRIMARY	0	user_id,state_key
+itp_users	login	0	login
+itp_users	PRIMARY	0	id
+itp_work_progress	PRIMARY	0	user_id,work_id
+[08:43:06] S9 collation des tables
+table_name	table_collation
+itp_entries	utf8mb4_bin
+itp_invites	utf8mb4_bin
+itp_limits	utf8mb4_bin
+itp_meta	utf8mb4_bin
+itp_progress	utf8mb4_bin
+itp_progress2	utf8mb4_bin
+itp_reads	utf8mb4_bin
+itp_recovery	utf8mb4_bin
+itp_reports	utf8mb4_bin
+itp_states	utf8mb4_bin
+itp_thread_reads	utf8mb4_bin
+itp_users	utf8mb4_bin
+itp_work_progress	utf8mb4_bin
+[08:43:06] fin des scénarios
+rc=0

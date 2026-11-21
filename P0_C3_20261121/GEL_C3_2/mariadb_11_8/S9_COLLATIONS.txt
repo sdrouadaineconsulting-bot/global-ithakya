@@ -1,0 +1,14 @@
+table_name	table_collation
+itp_entries	utf8mb4_bin
+itp_invites	utf8mb4_bin
+itp_limits	utf8mb4_bin
+itp_meta	utf8mb4_bin
+itp_progress	utf8mb4_bin
+itp_progress2	utf8mb4_bin
+itp_reads	utf8mb4_bin
+itp_recovery	utf8mb4_bin
+itp_reports	utf8mb4_bin
+itp_states	utf8mb4_bin
+itp_thread_reads	utf8mb4_bin
+itp_users	utf8mb4_bin
+itp_work_progress	utf8mb4_bin

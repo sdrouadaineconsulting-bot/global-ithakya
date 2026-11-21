@@ -1,0 +1,184 @@
+{
+ "comparees": 148,
+ "identiques": 132,
+ "differentes": [
+  {
+   "capture": "1440x900__oeuvres_pop.html.png",
+   "pixels": 128430,
+   "part_pct": 9.9097,
+   "zone": [
+    119,
+    296,
+    1321,
+    900
+   ]
+  },
+  {
+   "capture": "1440x900__oeuvres_progression.html.png",
+   "pixels": 175779,
+   "part_pct": 13.5632,
+   "zone": [
+    119,
+    262,
+    1321,
+    900
+   ]
+  },
+  {
+   "capture": "1440x900__oeuvres_signature.html.png",
+   "pixels": 128081,
+   "part_pct": 9.8828,
+   "zone": [
+    119,
+    296,
+    1321,
+    900
+   ]
+  },
+  {
+   "capture": "1440x900__oeuvres_soleil.html.png",
+   "pixels": 144287,
+   "part_pct": 11.1333,
+   "zone": [
+    119,
+    296,
+    1321,
+    900
+   ]
+  },
+  {
+   "capture": "390x844__oeuvres_pop.html.png",
+   "pixels": 8218,
+   "part_pct": 2.4967,
+   "zone": [
+    15,
+    587,
+    375,
+    844
+   ]
+  },
+  {
+   "capture": "390x844__oeuvres_progression.html.png",
+   "pixels": 10495,
+   "part_pct": 3.1884,
+   "zone": [
+    15,
+    560,
+    375,
+    844
+   ]
+  },
+  {
+   "capture": "390x844__oeuvres_signature.html.png",
+   "pixels": 8290,
+   "part_pct": 2.5185,
+   "zone": [
+    15,
+    611,
+    375,
+    844
+   ]
+  },
+  {
+   "capture": "390x844__oeuvres_soleil.html.png",
+   "pixels": 10750,
+   "part_pct": 3.2659,
+   "zone": [
+    15,
+    587,
+    375,
+    844
+   ]
+  },
+  {
+   "capture": "768x1024__oeuvres_pop.html.png",
+   "pixels": 71933,
+   "part_pct": 9.1468,
+   "zone": [
+    24,
+    367,
+    744,
+    1024
+   ]
+  },
+  {
+   "capture": "768x1024__oeuvres_progression.html.png",
+   "pixels": 77326,
+   "part_pct": 9.8325,
+   "zone": [
+    24,
+    340,
+    744,
+    1020
+   ]
+  },
+  {
+   "capture": "768x1024__oeuvres_signature.html.png",
+   "pixels": 65855,
+   "part_pct": 8.3739,
+   "zone": [
+    24,
+    353,
+    744,
+    1024
+   ]
+  },
+  {
+   "capture": "768x1024__oeuvres_soleil.html.png",
+   "pixels": 68839,
+   "part_pct": 8.7533,
+   "zone": [
+    24,
+    353,
+    744,
+    1024
+   ]
+  },
+  {
+   "capture": "844x390-paysage__oeuvres_pop.html.png",
+   "pixels": 8374,
+   "part_pct": 2.5441,
+   "zone": [
+    389,
+    275,
+    789,
+    390
+   ]
+  },
+  {
+   "capture": "844x390-paysage__oeuvres_progression.html.png",
+   "pixels": 14961,
+   "part_pct": 4.5452,
+   "zone": [
+    390,
+    248,
+    788,
+    390
+   ]
+  },
+  {
+   "capture": "844x390-paysage__oeuvres_signature.html.png",
+   "pixels": 10004,
+   "part_pct": 3.0393,
+   "zone": [
+    389,
+    275,
+    789,
+    390
+   ]
+  },
+  {
+   "capture": "844x390-paysage__oeuvres_soleil.html.png",
+   "pixels": 9328,
+   "part_pct": 2.8339,
+   "zone": [
+    389,
+    275,
+    789,
+    390
+   ]
+  }
+ ],
+ "manquantes_C2": [],
+ "manquantes_C3": []
+}

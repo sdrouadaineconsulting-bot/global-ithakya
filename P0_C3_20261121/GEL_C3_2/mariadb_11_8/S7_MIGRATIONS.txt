@@ -1,0 +1,22 @@
+base v6 : 13 tables
+migration_programmation_p2_mysql.sql rc=0 tables=18 pilote_installe
+0
+migration_avatars_m09_mysql.sql rc=0 tables=22 pilote_installe
+0
+seed_avatars_m09_mysql.sql rc=0 tables=22 migration_avatars
+0
+migration_reactions_p4_t8_mysql.sql rc=0 tables=23 
+migration_economie_v036_mysql.sql rc=0 tables=29 
+migration_liste_attente_pilote_mysql.sql rc=0 tables=30 
+migration_attenzia_instantanes_v1_mysql.sql rc=0 tables=32 
+--- rejeu
+migration_programmation_p2_mysql.sql rc=0 pilote_installe
+0
+migration_reactions_p4_t8_mysql.sql rc=0 
+migration_economie_v036_mysql.sql rc=0 
+migration_liste_attente_pilote_mysql.sql rc=0 
+--- retours
+retour_attenzia_instantanes_v1_mysql.sql rc=0 tables=30 
+retour_reactions_p4_t8_mysql.sql rc=0 tables=29 
+retour_avatars_m09_mysql.sql rc=0 tables=25 
+InnoDB	25

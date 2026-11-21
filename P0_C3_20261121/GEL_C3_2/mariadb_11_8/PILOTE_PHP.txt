@@ -1,0 +1,1 @@
+PHP 8.3.6 pdo_mysql=oui client=mysqlnd 8.3.6 serveur=11.8.10-MariaDB

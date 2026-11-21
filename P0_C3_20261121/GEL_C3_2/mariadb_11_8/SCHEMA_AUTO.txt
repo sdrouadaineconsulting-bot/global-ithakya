@@ -1,0 +1,5 @@
+tables_	innodb
+13	13
+name	value
+bootstrap_v1	installed
+schema_version	6

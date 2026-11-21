@@ -1,0 +1,207 @@
+{
+ "fichiers_A": 4118,
+ "fichiers_B": 4118,
+ "ajoutes": [],
+ "retires": [],
+ "medias_total": 875,
+ "medias_identiques": 875,
+ "medias_modifies": [],
+ "html_modifies": [
+  {
+   "fichier": "site/404.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/cest-quoi.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/communaute.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/alex.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/camille.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/lea.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/maya.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/nora.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/createurs/thomas.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/decouvrir.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/demos/01-signature.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/demos/02-pop-culture.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/demos/03-progression.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/demos/05-soleil-xl.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/exploration/atlas.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/exploration/missions.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/exploration/traversee.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/index.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/lounge.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/mentions-legales.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/mon-ithakya.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/oeuvres/pop.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/oeuvres/progression.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/oeuvres/signature.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/oeuvres/soleil.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/programmation.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/programme-soleil-xl.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/programme.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/recherche.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/territoires/culture-creation.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/territoires/pop-culture.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/territoires/sciences-tech.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/territoires/societe-impact.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/territoires/sport-aventure.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/traversee.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "site/univers.html",
+   "texte_visible_identique": true
+  },
+  {
+   "fichier": "source/w360_tete_validee/exploration/missions.html",
+   "texte_visible_identique": true
+  }
+ ],
+ "js_modifies": [
+  {
+   "fichier": "site/assets/ithakya-v1-interaction.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  },
+  {
+   "fichier": "site/assets/js/ithakya-v9962-carnet.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  },
+  {
+   "fichier": "site/assets/js/ithakya-w360-media-availability.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  },
+  {
+   "fichier": "source/assets_statiques/ithakya-v1-interaction.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  },
+  {
+   "fichier": "source/assets_statiques/js/ithakya-v9962-carnet.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  },
+  {
+   "fichier": "source/w360_tete_validee/assets/js/ithakya-w360-media-availability.js",
+   "chaines_retirees": [],
+   "chaines_ajoutees": []
+  }
+ ],
+ "json_modifies": [
+  {
+   "fichier": "site/assets/data/recherche-pages.json",
+   "identique_hors_empreintes": true,
+   "cles_techniques_ignorees": [
+    "source_sha256"
+   ]
+  }
+ ],
+ "autres_modifies": [
+  "source/outils/generer.py"
+ ]
+}

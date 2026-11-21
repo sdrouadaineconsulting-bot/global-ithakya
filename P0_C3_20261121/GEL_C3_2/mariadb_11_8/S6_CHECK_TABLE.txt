@@ -1,0 +1,6 @@
+Table	Op	Msg_type	Msg_text
+ithakya_q118.itp_users	check	status	OK
+ithakya_q118.itp_work_progress	check	status	OK
+ithakya_q118.itp_states	check	status	OK
+ithakya_q118.itp_meta	check	status	OK
+ithakya_q118.itp_entries	check	status	OK
