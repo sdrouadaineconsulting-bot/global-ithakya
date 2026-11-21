@@ -1,0 +1,50 @@
+{
+ "pages": 4,
+ "texte_identique": 4,
+ "identique_hors_sha": 4,
+ "ecarts_hors_sha": [],
+ "sha_faux": [
+  [
+   "site/demos/01-signature.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/01-signature.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/02-pop-culture.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/02-pop-culture.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/03-progression.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/03-progression.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/05-soleil-xl.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ],
+  [
+   "site/demos/05-soleil-xl.html",
+   "../assets/css/ithakya-composition-360.css",
+   "2d154a27d837"
+  ]
+ ],
+ "sha_ok": 248,
+ "medias_ou_donnees_modifies": []
+}

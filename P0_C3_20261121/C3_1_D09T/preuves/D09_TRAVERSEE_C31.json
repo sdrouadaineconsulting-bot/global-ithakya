@@ -1,0 +1,90 @@
+[
+ {
+  "profil": "visiteur",
+  "mode": "standard",
+  "chargement": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court_section_visee": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  }
+ },
+ {
+  "profil": "visiteur",
+  "mode": "?traversee=regards",
+  "chargement": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court_section_visee": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  }
+ },
+ {
+  "profil": "membre",
+  "mode": "standard",
+  "chargement": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court_section_visee": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  }
+ },
+ {
+  "profil": "membre",
+  "mode": "?traversee=regards",
+  "chargement": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  },
+  "fin_court_section_visee": {
+   "texte": "— explorateurs ont déjà approfondi ce parcours",
+   "hidden": true,
+   "affiche": false,
+   "dans_ecran": false
+  }
+ }
+]

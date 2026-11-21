@@ -1,0 +1,39 @@
+{
+ "reference": "ITHAKYA_W360_CANDIDATE_C3_20261121.zip",
+ "reference_sha256": "c573b5e86b9f44fb0064de902d5c18777bbcef4323786477bcd5401496f139d3",
+ "variante": "C3.1 = C3 + D-09-T",
+ "ajoutes": [],
+ "retires": [],
+ "fichiers": [
+  {
+   "fichier": "site/assets/js/ithakya-w360-media-availability.js",
+   "avant": "c0c727fad8839a754fac7e054c50b25f85736aa0a1cc9442754e72fc29590d58",
+   "apres": "a46f9b25286413f3291c75260328d4bb3e03bb0413b2e26966245039a4933d73"
+  },
+  {
+   "fichier": "site/demos/01-signature.html",
+   "avant": "209a4e2622c55e23cd56478acd85592964effbe734e3f104437d892122b79b71",
+   "apres": "d1d100c030a5ce0949e5d5a2e65e8d66faff1c77495f6223454593d4dfe21a3f"
+  },
+  {
+   "fichier": "site/demos/02-pop-culture.html",
+   "avant": "aa16ccdb56498d6950017e0cb5ab60a79cc81da7cf86cdbdb63725adb04decb5",
+   "apres": "80b91cdcd804f67d572ecf4d5ff09b00fecb39c4be1f0137a34f979a48d39e29"
+  },
+  {
+   "fichier": "site/demos/03-progression.html",
+   "avant": "62b8d4a7573aa6254c6d7a79a96ed1eca3c670f60f0f18682f2e25f0524756cb",
+   "apres": "ce662c7e368b2f01b9eb60acfee6583d03ad6e465d938485e8b91e56613e5dfc"
+  },
+  {
+   "fichier": "site/demos/05-soleil-xl.html",
+   "avant": "c36c30ea7e5e092051b61143eb6ac8c18e6e87b7a5d9ed1ef45cc6907a5fc526",
+   "apres": "09d90b11092d0dae9b5cea2d02022a09db99b23da0d44a2b0ffd99f081482d11"
+  },
+  {
+   "fichier": "source/w360_tete_validee/assets/js/ithakya-w360-media-availability.js",
+   "avant": "c0c727fad8839a754fac7e054c50b25f85736aa0a1cc9442754e72fc29590d58",
+   "apres": "a46f9b25286413f3291c75260328d4bb3e03bb0413b2e26966245039a4933d73"
+  }
+ ]
+}
