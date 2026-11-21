@@ -1,0 +1,518 @@
+[
+ {
+  "page": "01-signature",
+  "vue": "mobile-390",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 20.4,
+   "apres": 0.61
+  },
+  "finCourt": {
+   "vh": 844,
+   "declencheurProche": {
+    "top": 290,
+    "bottom": 334,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1320,
+    "bottom": 1371,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 331,
+   "bottom": 533,
+   "vh": 844,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.73
+  },
+  "erreurs": []
+ },
+ {
+  "page": "01-signature",
+  "vue": "tablette-768",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.32,
+   "cible": 20.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 1024,
+   "declencheurProche": {
+    "top": 287,
+    "bottom": 331,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1358,
+    "bottom": 1410,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 315,
+   "bottom": 730,
+   "vh": 1024,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.7
+  },
+  "erreurs": []
+ },
+ {
+  "page": "01-signature",
+  "vue": "ordinateur-1440",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 20.4,
+   "apres": 0.62
+  },
+  "finCourt": {
+   "vh": 900,
+   "declencheurProche": {
+    "top": 191,
+    "bottom": 235,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": false,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 710,
+    "bottom": 761,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": "#openLong",
+  "apresClic": {
+   "top": 77,
+   "bottom": 536,
+   "vh": 900,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.72
+  },
+  "erreurs": []
+ },
+ {
+  "page": "03-progression",
+  "vue": "mobile-390",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 20.4,
+   "apres": 0.62
+  },
+  "finCourt": {
+   "vh": 844,
+   "declencheurProche": {
+    "top": 290,
+    "bottom": 334,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1292,
+    "bottom": 1343,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 331,
+   "bottom": 533,
+   "vh": 844,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.72
+  },
+  "erreurs": []
+ },
+ {
+  "page": "03-progression",
+  "vue": "tablette-768",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 20.4,
+   "apres": 0.61
+  },
+  "finCourt": {
+   "vh": 1024,
+   "declencheurProche": {
+    "top": 286,
+    "bottom": 330,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1358,
+    "bottom": 1409,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 314,
+   "bottom": 729,
+   "vh": 1024,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.74
+  },
+  "erreurs": []
+ },
+ {
+  "page": "03-progression",
+  "vue": "ordinateur-1440",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.32,
+   "cible": 20.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 900,
+   "declencheurProche": {
+    "top": 191,
+    "bottom": 235,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": false,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 684,
+    "bottom": 735,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": "#openLong",
+  "apresClic": {
+   "top": 77,
+   "bottom": 536,
+   "vh": 900,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.73
+  },
+  "erreurs": []
+ },
+ {
+  "page": "05-soleil-xl",
+  "vue": "mobile-390",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 18 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 17.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 844,
+   "declencheurProche": {
+    "top": 289,
+    "bottom": 333,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1451,
+    "bottom": 1503,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 331,
+   "bottom": 533,
+   "vh": 844,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.7
+  },
+  "erreurs": []
+ },
+ {
+  "page": "05-soleil-xl",
+  "vue": "tablette-768",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 18 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 17.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 1024,
+   "declencheurProche": {
+    "top": 286,
+    "bottom": 330,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1483,
+    "bottom": 1534,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 314,
+   "bottom": 729,
+   "vh": 1024,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.76
+  },
+  "erreurs": []
+ },
+ {
+  "page": "05-soleil-xl",
+  "vue": "ordinateur-1440",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 18 s",
+  "seekTente": {
+   "avant": 0.32,
+   "cible": 17.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 900,
+   "declencheurProche": {
+    "top": 191,
+    "bottom": 235,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": false,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 720,
+    "bottom": 771,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— explorateurs ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": "#openLong",
+  "apresClic": {
+   "top": 77,
+   "bottom": 536,
+   "vh": 900,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.73
+  },
+  "erreurs": []
+ },
+ {
+  "page": "02-pop-culture",
+  "vue": "mobile-390",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.3,
+   "cible": 20.4,
+   "apres": 0.56
+  },
+  "finCourt": {
+   "vh": 844,
+   "declencheurProche": {
+    "top": 301,
+    "bottom": 345,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1393,
+    "bottom": 1445,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— personnes ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 349,
+   "bottom": 551,
+   "vh": 844,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.75
+  },
+  "erreurs": []
+ },
+ {
+  "page": "02-pop-culture",
+  "vue": "tablette-768",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.31,
+   "cible": 20.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 1024,
+   "declencheurProche": {
+    "top": 298,
+    "bottom": 342,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": true,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 1410,
+    "bottom": 1462,
+    "visibleEcran": false,
+    "entier": false
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— personnes ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": ".v5-sequence-guide .v-final-long-trigger",
+  "apresClic": {
+   "top": 327,
+   "bottom": 742,
+   "vh": 1024,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.68
+  },
+  "erreurs": []
+ },
+ {
+  "page": "02-pop-culture",
+  "vue": "ordinateur-1440",
+  "mediaCourt": "present",
+  "libelleCourt": "Lancer le Court · 21 s",
+  "seekTente": {
+   "avant": 0.32,
+   "cible": 20.4,
+   "apres": 0.6
+  },
+  "finCourt": {
+   "vh": 900,
+   "declencheurProche": {
+    "top": 213,
+    "bottom": 257,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "declencheurTexte": "LONG · 60 s",
+   "declencheurPromu": false,
+   "declencheurEpingle": false,
+   "openLong": {
+    "top": 780,
+    "bottom": 831,
+    "visibleEcran": true,
+    "entier": true
+   },
+   "openLongTexte": "Aller plus loin · 60 s",
+   "compteurVisible": false,
+   "compteurTexte": "— personnes ont déjà approfondi ce parcours"
+  },
+  "commandeUtilisee": "#openLong",
+  "apresClic": {
+   "top": 77,
+   "bottom": 536,
+   "vh": 900,
+   "hautVisible": true,
+   "auMoinsMoitieVisible": true,
+   "enLecture": true,
+   "temps": 1.7
+  },
+  "erreurs": []
+ }
+]
