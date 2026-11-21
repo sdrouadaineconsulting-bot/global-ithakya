@@ -1,0 +1,65 @@
+{
+ "lecture_1": {
+  "http": 200,
+  "statut": "confirmed",
+  "erreur": null
+ },
+ "score_1": [
+  5,
+  0,
+  0
+ ],
+ "lecture_2": {
+  "http": 200,
+  "statut": "pending",
+  "erreur": null
+ },
+ "score_2": [
+  5,
+  0,
+  5
+ ],
+ "admin": {
+  "http": 201,
+  "role": null
+ },
+ "revues_visibles": [
+  [
+   "ith-progression-elan",
+   "court_finished",
+   "pending",
+   [
+    "credit_rate"
+   ]
+  ],
+  [
+   "ith-signature-lien",
+   "court_finished",
+   "confirmed",
+   []
+  ]
+ ],
+ "confirmation_admin": {
+  "http": 200,
+  "erreur": null
+ },
+ "score_apres_confirmation": [
+  10,
+  0,
+  0
+ ],
+ "annulation_admin": {
+  "http": 200,
+  "erreur": null
+ },
+ "score_apres_annulation": [
+  5,
+  0,
+  0
+ ],
+ "membre_non_admin_revues": {
+  "http": 403,
+  "erreur": "admin_required"
+ },
+ "verdict": "CONFORME"
+}

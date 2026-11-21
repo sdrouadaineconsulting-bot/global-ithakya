@@ -1,0 +1,29 @@
+{
+ "reference": "ITHAKYA_W360_CANDIDATE_C3_20261121.zip",
+ "reference_sha256": "c573b5e86b9f44fb0064de902d5c18777bbcef4323786477bcd5401496f139d3",
+ "variante": "C3 + F10B-1 (plafond de débit des crédits de lecture)",
+ "ajoutes": [],
+ "retires": [],
+ "fichiers": [
+  {
+   "fichier": "site/api/ithakya-credit-review.php",
+   "avant": "894db411b66328d3a7f0c5f065c0a8dad74d81559ce8aca8287ece9a93ce26a5",
+   "apres": "efa1d634d045b58b91311fb0d9fbf775941dd98119477ee6a972809a0bb791d4"
+  },
+  {
+   "fichier": "site/api/ithakya-pilote.php",
+   "avant": "77e5770fdaeefc4ac717dfd862016e79e2d737feac2b1b8761c930c23cd572e3",
+   "apres": "02086feff0c0f810a4ba939e7bd8285396ef37206b26661125de27d800893afd"
+  },
+  {
+   "fichier": "source/serveur/ithakya-credit-review.php",
+   "avant": "894db411b66328d3a7f0c5f065c0a8dad74d81559ce8aca8287ece9a93ce26a5",
+   "apres": "efa1d634d045b58b91311fb0d9fbf775941dd98119477ee6a972809a0bb791d4"
+  },
+  {
+   "fichier": "source/serveur/ithakya-pilote.php",
+   "avant": "77e5770fdaeefc4ac717dfd862016e79e2d737feac2b1b8761c930c23cd572e3",
+   "apres": "02086feff0c0f810a4ba939e7bd8285396ef37206b26661125de27d800893afd"
+  }
+ ]
+}

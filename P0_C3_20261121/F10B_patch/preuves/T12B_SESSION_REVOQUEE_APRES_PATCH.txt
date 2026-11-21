@@ -1,0 +1,5 @@
+login 2e appareil 200 score avant (0, 0, 0)
+révocation par 1er appareil 200
+2e appareil GET session: 200 user= None
+2e appareil écriture avec CSRF rafraîchi: 401 login_required
+1er appareil (révocateur) écriture: 200 None
