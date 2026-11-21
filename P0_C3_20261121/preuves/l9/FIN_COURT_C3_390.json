@@ -1,0 +1,31 @@
+{
+ "html_ordre": [
+  {
+   "t": "Aller plus loin · 60 s",
+   "cls": "cta",
+   "top": 1292
+  },
+  {
+   "t": "Explorer une autre œuvre",
+   "cls": "cta secondary ux79-other",
+   "top": 1513
+  },
+  {
+   "t": "Garder cette découverte",
+   "cls": "ith62-keep-button",
+   "top": 1587
+  },
+  {
+   "t": "Vérifier ce que je retiens · 20 s",
+   "cls": "ux79-link",
+   "top": 1705
+  },
+  {
+   "t": "Ça me suffit",
+   "cls": "ux79-link",
+   "top": 1742
+  }
+ ],
+ "vh": 844,
+ "scrollY": 1565
+}
