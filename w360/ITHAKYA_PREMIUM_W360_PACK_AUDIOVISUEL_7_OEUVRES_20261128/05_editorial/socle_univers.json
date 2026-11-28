@@ -1,0 +1,289 @@
+{
+  "_doc": "Champs alignés sur les objets d'univers et ITHAKYA_MEDIA_LIBRARY de la démo 07 (V4.9). 'media' reste null tant que le MP4 de repli n'est pas produit. Les clés 'icon', 'accent' et 'bg' du socle ne sont pas fournies (choix de design).",
+  "univers": {
+    "Sciences & Tech": {
+      "court": "One Revolution per Minute",
+      "long": "D’étranges signaux radios en provenance de l’espace",
+      "items": [
+        [
+          "One Revolution per Minute",
+          "Court",
+          "6 min",
+          "EW",
+          "Erik Wernquist",
+          "Sciences & Tech",
+          "Programmation W360"
+        ],
+        [
+          "D’étranges signaux radios en provenance de l’espace",
+          "Long",
+          "22 min",
+          "BM",
+          "Balade Mentale",
+          "Sciences & Tech",
+          "Programmation W360"
+        ]
+      ],
+      "lead": {
+        "initials": "EW",
+        "name": "Erik Wernquist",
+        "role": "Écrit, produit et réalisé par Erik Wernquist",
+        "summary": "Le Court installe un humain seul face à l'immensité du Système solaire. Le Long pose la question suivante : y a-t-il quelqu'un d'autre à l'écoute ?"
+      },
+      "quiz": {
+        "quick": {
+          "question": "Comment l'Esperanta produit-il sa gravité artificielle ?",
+          "options": [
+            [
+              "rotation",
+              "Par sa rotation sur lui-même, une révolution par minute"
+            ],
+            [
+              "engine",
+              "Par la poussée continue de ses moteurs"
+            ],
+            [
+              "magnet",
+              "Par des aimants placés sous le pont"
+            ]
+          ],
+          "correct": "rotation",
+          "explanation": "La rotation crée une force centrifuge : sur un rayon de 450 m, une révolution par minute donne environ 0,5 g le long du pont principal."
+        },
+        "community": {
+          "question": "D'où venaient les signaux mystérieux captés à Parkes dans les années 2010 ?",
+          "options": [
+            [
+              "microwave",
+              "D'un four à micro-ondes du personnel"
+            ],
+            [
+              "galaxy",
+              "D'une galaxie lointaine"
+            ],
+            [
+              "sun",
+              "D'une éruption solaire"
+            ]
+          ],
+          "correct": "microwave",
+          "explanation": "Ils apparaissaient en semaine aux heures de bureau : ouvrir le four avant la fin de la minuterie laissait s'échapper des micro-ondes."
+        }
+      },
+      "media": {
+        "court": null,
+        "long": null
+      }
+    },
+    "Sport & Aventure": {
+      "court": "Why I Fly",
+      "long": "Weightless",
+      "items": [
+        [
+          "Why I Fly",
+          "Court",
+          "3 min",
+          "JB",
+          "Jean-Baptiste Chandelier",
+          "Sport & Aventure",
+          "Programmation W360"
+        ],
+        [
+          "Weightless",
+          "Long",
+          "6 min",
+          "JB",
+          "Jean-Baptiste Chandelier",
+          "Sport & Aventure",
+          "Programmation W360"
+        ]
+      ],
+      "lead": {
+        "initials": "JB",
+        "name": "Jean-Baptiste Chandelier",
+        "role": "Jean-Baptiste Chandelier : réalisation, pilotage, montage, effets visuels, voix off française",
+        "summary": "Le Court dit pourquoi il vole. Le Long montre comment : six minutes de vols acrobatiques sur quatre continents."
+      },
+      "quiz": {
+        "quick": {
+          "question": "Quel événement de son enfance le réalisateur relie-t-il à son besoin de voler ?",
+          "options": [
+            [
+              "father",
+              "La perte de son père dans un accident d'hélicoptère"
+            ],
+            [
+              "race",
+              "Une victoire en compétition"
+            ],
+            [
+              "move",
+              "Un déménagement à la montagne"
+            ]
+          ],
+          "correct": "father",
+          "explanation": "À dix ans, il a perdu son père ; il dit avoir aujourd'hui vécu plus longtemps que lui, et cette voix l'a poussé à voler."
+        },
+        "community": {
+          "question": "Que signifie un vol « synchro » en parapente ?",
+          "options": [
+            [
+              "sync",
+              "Plusieurs pilotes réalisent les mêmes figures ensemble"
+            ],
+            [
+              "solo",
+              "Un pilote vole seul sans instruments"
+            ],
+            [
+              "tow",
+              "Le parapente est tracté par un bateau"
+            ]
+          ],
+          "correct": "sync",
+          "explanation": "Le crédit « Synchro pilot » de Guillaume Galvani désigne un vol coordonné à deux voiles."
+        }
+      },
+      "media": {
+        "court": null,
+        "long": null
+      }
+    },
+    "Pop Culture & Divertissement": {
+      "court": "PROZACZOPIXAN",
+      "long": "Intro Pandemonium Paris La Défense Arena : Hollywood en sueur !",
+      "items": [
+        [
+          "PROZACZOPIXAN",
+          "Court",
+          "4 min",
+          "V",
+          "Vald",
+          "Pop Culture & Divertissement",
+          "Programmation W360"
+        ],
+        [
+          "Intro Pandemonium Paris La Défense Arena : Hollywood en sueur !",
+          "Long",
+          "9 min",
+          "V",
+          "Vald",
+          "Pop Culture & Divertissement",
+          "Programmation W360"
+        ]
+      ],
+      "lead": {
+        "initials": "V",
+        "name": "Vald",
+        "role": "Artiste : Vald",
+        "summary": "Du clip à la scène : la même équipe de réalisation met en images l'entrée de Vald à Paris La Défense Arena."
+      },
+      "quiz": {
+        "quick": {
+          "question": "De quel album PROZACZOPIXAN est-il extrait ?",
+          "options": [
+            [
+              "pandemonium",
+              "PANDEMONIUM"
+            ],
+            [
+              "vlad",
+              "V"
+            ],
+            [
+              "ago",
+              "Agartha"
+            ]
+          ],
+          "correct": "pandemonium",
+          "explanation": "La description officielle présente le clip comme extrait du nouvel album PANDEMONIUM."
+        },
+        "community": {
+          "question": "Quel label produit cette introduction de concert ?",
+          "options": [
+            [
+              "echelon",
+              "Echelon Records"
+            ],
+            [
+              "bienvu",
+              "BienVu productions"
+            ],
+            [
+              "virtual",
+              "Virtual House Production"
+            ]
+          ],
+          "correct": "echelon",
+          "explanation": "La description la présente comme « une superproduction Echelon Records mise en image par BienVu productions »."
+        }
+      },
+      "media": {
+        "court": null,
+        "long": null
+      }
+    }
+  },
+  "grande_traversee": {
+    "id": "W360-GT-FILM",
+    "univers_socle": "La Grande Traversée (hors ITHAKYA_MEDIA_LIBRARY du socle)",
+    "format": "Film intégral",
+    "titre_exact": "Priorities",
+    "titre_programme": "Priorities",
+    "createur": "Gints Zilbalodis",
+    "credits": [
+      "Écrit et réalisé par Gints Zilbalodis",
+      "Musique : Bertrams Pauls Purvišķis",
+      "Outils : Maya, After Effects, Logic Pro X",
+      "Prix cités par l'auteur : Ottawa International Animation Festival 2014 (Best High School Animation), Rojal Film Festival 2014 (prix du public), Japan Wildlife Film Festival (meilleure animation)"
+    ],
+    "url_source": "https://vimeo.com/93124212",
+    "plateforme": "Vimeo",
+    "date_publication": "2014-04-28",
+    "langue_originale": "non déterminée (aucune langue déclarée, aucune piste de texte)",
+    "mecanisme_telechargement": "Téléchargement désactivé par le propriétaire (privacy.download = false)",
+    "statut_master": "manquant",
+    "master": null,
+    "declinaisons": {
+      "mp4_repli": null,
+      "hls_master": null,
+      "webvtt": [],
+      "affiche": null,
+      "affiche_dynamique": null,
+      "miniatures": [],
+      "socle_fichier": null
+    },
+    "source_declare": {
+      "duree_s": 565,
+      "resolution": "2048x856",
+      "note": null,
+      "sous_titres": []
+    },
+    "attenzia": {
+      "editorialDurationSec": 565,
+      "communityThresholdSec": 282.5,
+      "origine_duree": "déclarée par la source"
+    },
+    "note_k": {
+      "collecte": "non collectée sur ce format dans le flux du socle",
+      "statut": "signal éditorial uniquement, découplé de l’XP, des Points et des récompenses (RM-03 / SOC-02)"
+    },
+    "passerelle": {
+      "texte": "Film intégral autonome : pas de couple Court → Long."
+    },
+    "mots_cles": [
+      "animation",
+      "Lettonie",
+      "île déserte",
+      "survie",
+      "chien",
+      "Gints Zilbalodis",
+      "Flow"
+    ],
+    "grande_traversee": {
+      "fonctionnement": "transversal et autonome, à conserver",
+      "cinq_personnages": "NON FOURNIS : ni la commande ni le socle (index.html et les 9 démos) ne définissent les cinq personnages de La Grande Traversée. Champs laissés vides, aucune invention.",
+      "personnages": []
+    }
+  }
+}

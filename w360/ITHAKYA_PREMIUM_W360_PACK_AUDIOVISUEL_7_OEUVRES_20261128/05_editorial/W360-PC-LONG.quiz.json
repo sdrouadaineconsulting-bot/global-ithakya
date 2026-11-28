@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Quel lieu Vald et SuikonBlaz AD cherchent-ils à rejoindre ?",
+    "options": [
+      [
+        "ladefense",
+        "Paris La Défense Arena"
+      ],
+      [
+        "olympia",
+        "L'Olympia"
+      ],
+      [
+        "bercy",
+        "L'Accor Arena"
+      ]
+    ],
+    "correct": "ladefense",
+    "explanation": "La description présente l'intro comme leur trajet pour rejoindre le stade de Paris La Défense Arena."
+  },
+  "community": {
+    "question": "Quel label produit cette introduction de concert ?",
+    "options": [
+      [
+        "echelon",
+        "Echelon Records"
+      ],
+      [
+        "bienvu",
+        "BienVu productions"
+      ],
+      [
+        "virtual",
+        "Virtual House Production"
+      ]
+    ],
+    "correct": "echelon",
+    "explanation": "La description la présente comme « une superproduction Echelon Records mise en image par BienVu productions »."
+  }
+}

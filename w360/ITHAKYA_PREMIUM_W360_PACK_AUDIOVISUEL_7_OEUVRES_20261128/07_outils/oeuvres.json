@@ -1,0 +1,300 @@
+{
+  "_doc": "Source unique du paquet. Valeurs 'source' = déclarées par la plateforme d'origine (API Vimeo v3.4 publique, InnerTube YouTube, pages publiques), relevées le 2026-11-28. Aucune valeur 'mesure' tant que les masters ne sont pas qualifiés par ffprobe (07_outils/preparer.sh).",
+  "oeuvres": [
+    {
+      "id": "W360-ST-COURT",
+      "univers_socle": "Sciences & Tech",
+      "format": "Court",
+      "titre_exact": "ONE REVOLUTION PER MINUTE - a short film by Erik Wernquist",
+      "titre_programme": "One Revolution per Minute",
+      "createur": "Erik Wernquist",
+      "credits": [
+        "Écrit, produit et réalisé par Erik Wernquist",
+        "Musique : Cristian Sandquist",
+        "Prises de vues réelles : Christine Leuhusen",
+        "Le Passager : Lars Knubb",
+        "Voix du système P.A. : Hanna Mellin",
+        "Images : Erik Wernquist (Maxon Cinema 4D, Otoy Octane Render, Adobe After Effects)"
+      ],
+      "url_source": "https://vimeo.com/869858712",
+      "plateforme": "Vimeo",
+      "date_publication": "2023-09-30",
+      "duree_source_s": 381,
+      "resolution_source": "3840x1620",
+      "langue_originale": "en",
+      "dialogue": "Annonces P.A. en anglais (20 répliques) ; pas de dialogue entre personnages",
+      "sous_titres_source": [{"langue": "en", "type": "auto-généré par Vimeo (ai_generated)", "repris": "04_sous_titres/W360-ST-COURT.en.auto.vtt"}],
+      "mecanisme_telechargement": "Téléchargement activé par le propriétaire (privacy.download = true)",
+      "statut_master": "manquant",
+      "cause_manquant": "Hôtes vimeo.com et player.vimeo.com refusés par la politique réseau de l'environnement d'exécution (HTTP 403 au proxy) ; le téléchargement officiel Vimeo peut en outre exiger une session connectée (non vérifié).",
+      "synopsis": "À bord de l'orbiteur planétaire SSPO Esperanta, qui tourne sur lui-même à une révolution par minute, un passager solitaire parcourt le pont principal. La rotation, sur un rayon de 450 m, y crée une gravité artificielle d'environ 0,5 g. Toutes les lumières artificielles sont éteintes : seule la lumière du Soleil balaie les intérieurs au rythme de la rotation, pendant que l'orbiteur visite des mondes du Système solaire.",
+      "reperes": [
+        "1 RPM : une révolution par minute suffit, sur un rayon de 450 m, à produire environ 0,5 g sur le pont principal (données de l'auteur).",
+        "Le film n'utilise que la lumière naturelle du Soleil : les ombres tournent avec la station.",
+        "Les annonces de bord évoquent les effets de Coriolis, plus forts aux niveaux supérieurs du pont.",
+        "Les images de synthèse sont réalisées avec Cinema 4D et Octane Render, combinées à des prises de vues réelles."
+      ],
+      "quiz": {
+        "quick": {"question": "Comment l'Esperanta produit-il sa gravité artificielle ?", "options": [["rotation", "Par sa rotation sur lui-même, une révolution par minute"], ["engine", "Par la poussée continue de ses moteurs"], ["magnet", "Par des aimants placés sous le pont"]], "correct": "rotation", "explanation": "La rotation crée une force centrifuge : sur un rayon de 450 m, une révolution par minute donne environ 0,5 g le long du pont principal."},
+        "community": {"question": "Pourquoi les annonces conseillent-elles d'éviter de courir ou de sauter sur le pont ?", "options": [["coriolis", "À cause des effets de Coriolis liés à la rotation"], ["noise", "Pour limiter le bruit à bord"], ["fragile", "Parce que le sol est fragile"]], "correct": "coriolis", "explanation": "Dans un habitat en rotation, tout mouvement rapide subit les effets de Coriolis, plus marqués aux niveaux supérieurs du pont."}
+      },
+      "passerelle": {"vers": "W360-ST-LONG", "texte": "Le Court installe un humain seul face à l'immensité du Système solaire. Le Long pose la question suivante : y a-t-il quelqu'un d'autre à l'écoute ?"},
+      "mots_cles": ["gravité artificielle", "station spatiale", "1 RPM", "Coriolis", "Système solaire", "animation 3D", "science-fiction"]
+    },
+    {
+      "id": "W360-ST-LONG",
+      "univers_socle": "Sciences & Tech",
+      "format": "Long",
+      "titre_exact": "D’étranges signaux radios en provenance de l’espace",
+      "titre_programme": "D’étranges signaux radios en provenance de l’espace",
+      "createur": "Balade Mentale",
+      "credits": ["Chaîne Balade Mentale (aucun crédit nominatif dans la description)", "Partenaire de la vidéo : Saily (séquence sponsorisée 01:47–03:10)"],
+      "url_source": "https://www.youtube.com/watch?v=rznAp00VGSg",
+      "plateforme": "YouTube",
+      "date_publication": "2025-06-22",
+      "duree_source_s": 1310,
+      "duree_source_note": "InnerTube : 1310 s ; métadonnées de page : PT21M51S (1311 s). Écart d'une seconde à lever par ffprobe.",
+      "resolution_source": "non communiquée par la source",
+      "langue_originale": "fr",
+      "dialogue": "Narration continue en français",
+      "sous_titres_source": [{"langue": "fr", "type": "auto-généré par YouTube (asr)", "repris": "non repris : transcription automatique non relue (ex. « CTI » pour SETI, « Brex Wolison » pour Breakthrough Listen)"}],
+      "chapitres_source": [["00:00", "En quête d’extraterrestre"], ["01:47", "Merci Saily"], ["03:10", "La découverte des pulsars"], ["05:13", "De mystérieux phénomènes inexpliqués"], ["07:00", "Les sursauts radios rapides"], ["07:50", "La résolution de l’énigme"], ["09:15", "Le signal WOW"], ["11:41", "Les mathématiques comme langage commun ?"], ["12:10", "Et si on écoutait à côté ?"], ["13:35", "Le projet Breakthrough Listen, de nouvelles oreilles"], ["15:56", "Les découvertes"], ["16:31", "Comment expliquer le Grand Silence ?"], ["18:32", "Interpréter une hypothétique réception"], ["19:58", "Le choix du silence"]],
+      "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
+      "statut_master": "manquant",
+      "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit.",
+      "synopsis": "Depuis près de soixante ans, les radiotélescopes écoutent le ciel à la recherche d'un signal d'intelligence extraterrestre, sans succès. La vidéo passe en revue les signaux les plus étranges captés : les pulsars découverts en 1967, les sursauts radio rapides, l'énigme du radiotélescope de Parkes, le signal « Wow! » de 1977. Elle présente ensuite le projet Breakthrough Listen et les hypothèses qui expliquent ce « grand silence ».",
+      "reperes": [
+        "1967 : un signal régulier toutes les 1,337 s, d'abord baptisé LGM-1 (« Little Green Men »), révèle en fait les pulsars, des étoiles à neutrons en rotation rapide.",
+        "Les sursauts radio rapides observés au radiotélescope de Parkes (Australie) pendant les années 2010 provenaient d'un four à micro-ondes ouvert avant la fin de sa minuterie.",
+        "15 août 1977 : le signal « Wow! », capté pendant 72 secondes en direction du Sagittaire, ne s'est jamais reproduit.",
+        "Breakthrough Listen (2015) écoute aussi des fréquences jugées sans intérêt et rend ses données publiques.",
+        "Le 01:47–03:10 est une séquence sponsorisée (Saily), à signaler ou à chapitrer dans le lecteur."
+      ],
+      "quiz": {
+        "quick": {"question": "Qu'était réellement le signal régulier baptisé LGM-1 en 1967 ?", "options": [["pulsar", "Un pulsar, une étoile à neutrons en rotation rapide"], ["alien", "Un message extraterrestre confirmé"], ["satellite", "Un satellite militaire"]], "correct": "pulsar", "explanation": "Des signaux similaires ont été détectés ailleurs dans le ciel : il s'agissait d'un phénomène naturel, les pulsars."},
+        "community": {"question": "D'où venaient les signaux mystérieux captés à Parkes dans les années 2010 ?", "options": [["microwave", "D'un four à micro-ondes du personnel"], ["galaxy", "D'une galaxie lointaine"], ["sun", "D'une éruption solaire"]], "correct": "microwave", "explanation": "Ils apparaissaient en semaine aux heures de bureau : ouvrir le four avant la fin de la minuterie laissait s'échapper des micro-ondes."}
+      },
+      "passerelle": {"depuis": "W360-ST-COURT", "texte": "Après le voyage solitaire de l'Esperanta, le Long tend l'oreille vers le cosmos : soixante ans d'écoute, des fausses pistes, et un silence qui interroge."},
+      "mots_cles": ["SETI", "radioastronomie", "pulsars", "signal Wow", "sursauts radio rapides", "Breakthrough Listen", "paradoxe de Fermi", "vulgarisation"]
+    },
+    {
+      "id": "W360-SA-COURT",
+      "univers_socle": "Sport & Aventure",
+      "format": "Court",
+      "titre_exact": "WHY I FLY",
+      "titre_programme": "Why I Fly",
+      "createur": "Jean-Baptiste Chandelier",
+      "credits": [
+        "Jean-Baptiste Chandelier : réalisation, pilotage, montage, effets visuels, voix off française",
+        "Thomas Pierre-Bes : caméra, drone, montage, effets visuels",
+        "Guillaume Galvani : caméra, montage",
+        "Yann Freund : drone, caméra, accessoires",
+        "Antoine Dischly : caméra et assistanat",
+        "Thibaut Marot : drone",
+        "Marine Pascal : production",
+        "Dav Sound / Florent Denizot : design sonore, enregistrement, mixage",
+        "Sarah Soilihi : étalonnage",
+        "Yann Bean : voix off anglaise et allemande ; Léo Bean : voix off italienne et espagnole",
+        "Pilotes avion : Bertrand Veauleger, Hugue Baschet ; pilote hélicoptère : Eric Nicolas ; pêcheur : Mathieu Boé",
+        "Lieux de tournage : Briançon Serre Chevalier, lac de Serre-Ponçon",
+        "Dédicace : à la mémoire de Claude Lamielle"
+      ],
+      "url_source": "https://www.youtube.com/watch?v=O7ss--t2hgI",
+      "plateforme": "YouTube",
+      "date_publication": "2025-11-17",
+      "duree_source_s": 208,
+      "resolution_source": "non communiquée par la source",
+      "langue_originale": "fr",
+      "dialogue": "Voix off française courte (11 répliques), voix intérieure",
+      "sous_titres_source": [
+        {"langue": "fr", "type": "manuel (auteur)", "repris": "04_sous_titres/W360-SA-COURT.fr.vtt"},
+        {"langue": "en-US", "type": "manuel (auteur)", "repris": "04_sous_titres/W360-SA-COURT.en-US.vtt"},
+        {"langue": "en", "type": "auto-généré (asr)", "repris": "non repris : doublon de la piste manuelle en-US"}
+      ],
+      "versions_linguistiques_signalees": "Les crédits mentionnent des voix off anglaise, allemande, italienne et espagnole ; seule la version en ligne à l'URL source est identifiée. Les autres versions sont à demander à l'auteur.",
+      "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
+      "statut_master": "manquant",
+      "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit.",
+      "synopsis": "Une voix intérieure pousse à y aller, maintenant. Jean-Baptiste Chandelier raconte pourquoi il vole : à dix ans, il a perdu son père dans un accident d'hélicoptère ; aujourd'hui, il a vécu plus longtemps que lui. Entre Briançon et le lac de Serre-Ponçon, le parapente devient la réponse à une question : que dirait ta voix intérieure si ta vie devait s'arrêter demain ?",
+      "reperes": [
+        "Le film est dédié à la mémoire de Claude Lamielle.",
+        "Tournage à Briançon Serre Chevalier et sur le lac de Serre-Ponçon, avec avion, hélicoptère, drone et bateau.",
+        "La voix off est celle du réalisateur en français ; des voix off en quatre autres langues sont créditées."
+      ],
+      "quiz": {
+        "quick": {"question": "Quel événement de son enfance le réalisateur relie-t-il à son besoin de voler ?", "options": [["father", "La perte de son père dans un accident d'hélicoptère"], ["race", "Une victoire en compétition"], ["move", "Un déménagement à la montagne"]], "correct": "father", "explanation": "À dix ans, il a perdu son père ; il dit avoir aujourd'hui vécu plus longtemps que lui, et cette voix l'a poussé à voler."},
+        "community": {"question": "Que demande la voix intérieure au spectateur ?", "options": [["tomorrow", "Ce qu'elle lui dirait si sa vie s'arrêtait demain"], ["speed", "À quelle vitesse il peut voler"], ["gear", "Quel équipement choisir"]], "correct": "tomorrow", "explanation": "Le film retourne la question au spectateur : « Et si ta vie devait s'arrêter demain ? »"}
+      },
+      "passerelle": {"vers": "W360-SA-LONG", "texte": "Le Court dit pourquoi il vole. Le Long montre comment : six minutes de vols acrobatiques sur quatre continents."},
+      "mots_cles": ["parapente", "vol libre", "Briançon", "Serre-Ponçon", "récit personnel", "voix intérieure"]
+    },
+    {
+      "id": "W360-SA-LONG",
+      "univers_socle": "Sport & Aventure",
+      "format": "Long",
+      "titre_exact": "Weightless - Jean-Baptiste Chandelier",
+      "titre_programme": "Weightless",
+      "createur": "Jean-Baptiste Chandelier",
+      "credits": [
+        "Jean-Baptiste Chandelier : pilote, montage, image",
+        "Jean-Baptiste Merendet (Jibehem) : image et caméra",
+        "Guillaume Galvani : pilote synchro, image, caméra",
+        "Tristan Shu : image et caméra",
+        "Modèle : Luana Saunier",
+        "Production : Katie Moore et Jean-Baptiste Chandelier",
+        "Design sonore : Zikali",
+        "Musique : My Silver Lining, First Aid Kit",
+        "Lieux : São Miguel et Corvo (Açores, Portugal), Briançon et Serre Chevalier (France), Canoa Quebrada (Brésil), Clifton (Afrique du Sud)"
+      ],
+      "url_source": "https://www.youtube.com/watch?v=Oos4ojutOMM",
+      "plateforme": "YouTube",
+      "date_publication": "2017-10-17",
+      "duree_source_s": 349,
+      "duree_source_note": "InnerTube : 349 s ; métadonnées de page : PT5M50S (350 s).",
+      "resolution_source": "non communiquée par la source",
+      "langue_originale": "sans dialogue (musique)",
+      "dialogue": "Aucun dialogue identifié ; œuvre musicale : aucune piste de doublage à produire",
+      "sous_titres_source": [],
+      "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
+      "statut_master": "manquant",
+      "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit.",
+      "synopsis": "Jean-Baptiste Chandelier et ses partenaires de vol enchaînent les figures en parapente au-dessus des Açores, des Alpes de Briançon, des dunes de Canoa Quebrada au Brésil et des plages de Clifton en Afrique du Sud. Sur « My Silver Lining » de First Aid Kit, le film cherche la légèreté : décoller, frôler, se poser là où on ne l'attend pas.",
+      "reperes": [
+        "Quatre pays de tournage : Portugal (Açores), France, Brésil, Afrique du Sud.",
+        "Guillaume Galvani vole en synchro avec Jean-Baptiste Chandelier.",
+        "Musique sous licence à vérifier pour toute diffusion : « My Silver Lining » (First Aid Kit)."
+      ],
+      "quiz": {
+        "quick": {"question": "Dans quel archipel une partie de Weightless a-t-elle été tournée ?", "options": [["azores", "Les Açores"], ["canary", "Les Canaries"], ["hawaii", "Hawaï"]], "correct": "azores", "explanation": "Les crédits citent São Miguel et Corvo, aux Açores (Portugal)."},
+        "community": {"question": "Que signifie un vol « synchro » en parapente ?", "options": [["sync", "Plusieurs pilotes réalisent les mêmes figures ensemble"], ["solo", "Un pilote vole seul sans instruments"], ["tow", "Le parapente est tracté par un bateau"]], "correct": "sync", "explanation": "Le crédit « Synchro pilot » de Guillaume Galvani désigne un vol coordonné à deux voiles."}
+      },
+      "passerelle": {"depuis": "W360-SA-COURT", "texte": "Après la confession de Why I Fly, Weightless laisse parler le vol seul, sans un mot."},
+      "mots_cles": ["parapente acrobatique", "vol synchro", "Açores", "Briançon", "Brésil", "Afrique du Sud", "First Aid Kit"]
+    },
+    {
+      "id": "W360-PC-COURT",
+      "univers_socle": "Pop Culture & Divertissement",
+      "format": "Court",
+      "titre_exact": "VALD - PROZACZOPIXAN (Clip officiel)",
+      "titre_programme": "PROZACZOPIXAN",
+      "createur": "Vald",
+      "credits": [
+        "Artiste : Vald",
+        "Production musicale : Benjay, Tomy, Frog, Seezy, Manu Manu",
+        "Production « Reloaded » : Vladimir Cauchemar, Todiefor",
+        "Réalisation : Bien Vu Production",
+        "Studio : Virtual House Production",
+        "Album : PANDEMONIUM"
+      ],
+      "url_source": "https://www.youtube.com/watch?v=qjzD3LkrDSQ",
+      "plateforme": "YouTube",
+      "date_publication": "2025-07-23",
+      "duree_source_s": 243,
+      "resolution_source": "non communiquée par la source",
+      "langue_originale": "fr",
+      "dialogue": "Morceau rappé en français ; œuvre musicale : aucune piste de doublage à produire",
+      "sous_titres_source": [],
+      "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
+      "statut_master": "manquant",
+      "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit (label).",
+      "synopsis": "Clip officiel de PROZACZOPIXAN, extrait de l'album PANDEMONIUM de Vald, réalisé par Bien Vu Production. Le titre réunit deux équipes de production, dont la version « Reloaded » de Vladimir Cauchemar et Todiefor.",
+      "reperes": [
+        "Extrait de l'album PANDEMONIUM.",
+        "Réalisation : Bien Vu Production, également crédité sur l'intro du concert Pandemonium (le Long).",
+        "Le contenu et les paroles du clip n'ont pas été analysés : la fiche s'en tient aux crédits publiés."
+      ],
+      "quiz": {
+        "quick": {"question": "De quel album PROZACZOPIXAN est-il extrait ?", "options": [["pandemonium", "PANDEMONIUM"], ["vlad", "V"], ["ago", "Agartha"]], "correct": "pandemonium", "explanation": "La description officielle présente le clip comme extrait du nouvel album PANDEMONIUM."},
+        "community": {"question": "Qui a réalisé le clip ?", "options": [["bienvu", "Bien Vu Production"], ["echelon", "Echelon Records"], ["virtual", "Virtual House Production"]], "correct": "bienvu", "explanation": "Bien Vu Production signe la réalisation ; Virtual House Production est le studio ; Echelon Records produit l'intro du concert."}
+      },
+      "passerelle": {"vers": "W360-PC-LONG", "texte": "Du clip à la scène : la même équipe de réalisation met en images l'entrée de Vald à Paris La Défense Arena."},
+      "mots_cles": ["Vald", "rap français", "PANDEMONIUM", "clip", "Bien Vu Production", "Vladimir Cauchemar"]
+    },
+    {
+      "id": "W360-PC-LONG",
+      "univers_socle": "Pop Culture & Divertissement",
+      "format": "Long",
+      "titre_exact": "Intro Pandemonium Paris la Defense Arena : Hollywood en sueur !",
+      "titre_programme": "Intro Pandemonium Paris La Défense Arena : Hollywood en sueur !",
+      "createur": "Vald",
+      "credits": [
+        "Avec Vald et SuikonBlaz AD",
+        "Production : Echelon Records",
+        "Mise en images : BienVu productions"
+      ],
+      "url_source": "https://www.youtube.com/watch?v=am3TxSNeVYI",
+      "identification": "Lien individuel identifié par recherche web puis confirmé sur la page de la vidéo (chaîne VALD, durée 08:49 conforme à la durée annoncée).",
+      "plateforme": "YouTube",
+      "date_publication": "2025-12-06",
+      "duree_source_s": 529,
+      "resolution_source": "non communiquée par la source",
+      "langue_originale": "fr",
+      "dialogue": "Dialogues et narration en français, musique",
+      "sous_titres_source": [{"langue": "fr", "type": "auto-généré par YouTube (asr)", "repris": "non repris : transcription automatique non relue"}],
+      "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
+      "statut_master": "manquant",
+      "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit (label).",
+      "synopsis": "Au cœur du « Pandémonium », Vald et SuikonBlaz AD tentent de se frayer un chemin pour rejoindre la scène de Paris La Défense Arena. Une introduction de concert en forme de court-métrage, produite par Echelon Records et mise en images par BienVu productions.",
+      "reperes": [
+        "Introduction projetée pour le concert Pandemonium à Paris La Défense Arena.",
+        "Même équipe de réalisation que le clip PROZACZOPIXAN (Bien Vu / BienVu productions).",
+        "Durée : 8 min 49 s selon la source, conforme à l'annonce de la commande."
+      ],
+      "quiz": {
+        "quick": {"question": "Quel lieu Vald et SuikonBlaz AD cherchent-ils à rejoindre ?", "options": [["ladefense", "Paris La Défense Arena"], ["olympia", "L'Olympia"], ["bercy", "L'Accor Arena"]], "correct": "ladefense", "explanation": "La description présente l'intro comme leur trajet pour rejoindre le stade de Paris La Défense Arena."},
+        "community": {"question": "Quel label produit cette introduction de concert ?", "options": [["echelon", "Echelon Records"], ["bienvu", "BienVu productions"], ["virtual", "Virtual House Production"]], "correct": "echelon", "explanation": "La description la présente comme « une superproduction Echelon Records mise en image par BienVu productions »."}
+      },
+      "passerelle": {"depuis": "W360-PC-COURT", "texte": "Après le clip, l'univers PANDEMONIUM passe à l'échelle d'une arène : neuf minutes de fiction avant le concert."},
+      "mots_cles": ["Vald", "SuikonBlaz AD", "Pandemonium", "Paris La Défense Arena", "concert", "Echelon Records", "BienVu productions"]
+    },
+    {
+      "id": "W360-GT-FILM",
+      "univers_socle": "La Grande Traversée (hors ITHAKYA_MEDIA_LIBRARY du socle)",
+      "format": "Film intégral",
+      "titre_exact": "Priorities",
+      "titre_programme": "Priorities",
+      "createur": "Gints Zilbalodis",
+      "credits": [
+        "Écrit et réalisé par Gints Zilbalodis",
+        "Musique : Bertrams Pauls Purvišķis",
+        "Outils : Maya, After Effects, Logic Pro X",
+        "Prix cités par l'auteur : Ottawa International Animation Festival 2014 (Best High School Animation), Rojal Film Festival 2014 (prix du public), Japan Wildlife Film Festival (meilleure animation)"
+      ],
+      "url_source": "https://vimeo.com/93124212",
+      "plateforme": "Vimeo",
+      "date_publication": "2014-04-28",
+      "duree_source_s": 565,
+      "resolution_source": "2048x856",
+      "langue_originale": "non déterminée (aucune langue déclarée, aucune piste de texte)",
+      "dialogue": "Non vérifié ; aucune piste de sous-titres publiée",
+      "sous_titres_source": [],
+      "mecanisme_telechargement": "Téléchargement désactivé par le propriétaire (privacy.download = false)",
+      "statut_master": "manquant",
+      "cause_manquant": "Téléchargement non proposé par le propriétaire ; vimeo.com refusé par la politique réseau. Fichier à fournir par l'ayant droit.",
+      "synopsis": "Après le crash de son hydravion sur une petite île inhabitée, un jeune homme et son chien doivent trouver un moyen de rentrer. Court-métrage d'animation de Gints Zilbalodis, réalisé en 2014, avant son long-métrage Flow, Oscar 2025 du meilleur film d'animation.",
+      "reperes": [
+        "Gints Zilbalodis a réalisé Priorities en 2014 ; le prix d'Ottawa obtenu cette année-là récompense une animation de lycéen (Best High School Animation).",
+        "Son long-métrage Flow (2024) a reçu l'Oscar du meilleur film d'animation, une première pour la Lettonie.",
+        "Tags de l'auteur : île, radeau, phare, grotte, brouillard, labrador, hydravion, plans-séquences caméra à l'épaule."
+      ],
+      "quiz": {
+        "quick": {"question": "Qui accompagne le jeune homme sur l'île ?", "options": [["dog", "Son chien"], ["pilot", "Un autre pilote"], ["nobody", "Personne"]], "correct": "dog", "explanation": "Le synopsis de l'auteur : « un jeune homme et son chien doivent trouver un moyen de rentrer »."},
+        "community": {"question": "Quel long-métrage Gints Zilbalodis a-t-il réalisé ensuite, récompensé par l'Oscar 2025 ?", "options": [["flow", "Flow"], ["coco", "Coco"], ["soul", "Soul"]], "correct": "flow", "explanation": "Flow a remporté l'Oscar du meilleur film d'animation en 2025."}
+      },
+      "grande_traversee": {
+        "fonctionnement": "transversal et autonome, à conserver",
+        "cinq_personnages": "NON FOURNIS : ni la commande ni le socle (index.html et les 9 démos) ne définissent les cinq personnages de La Grande Traversée. Champs laissés vides, aucune invention.",
+        "personnages": []
+      },
+      "passerelle": {"texte": "Film intégral autonome : pas de couple Court → Long."},
+      "mots_cles": ["animation", "Lettonie", "île déserte", "survie", "chien", "Gints Zilbalodis", "Flow"]
+    }
+  ],
+  "createurs": {
+    "Erik Wernquist": {"profil": "Artiste numérique et animateur suédois. Il a réalisé Wanderers (2014), court-métrage de science-fiction narré par Carl Sagan à partir de Pale Blue Dot. One Revolution per Minute (2023) poursuit son travail sur l'exploration spatiale.", "sources": ["https://en.wikipedia.org/wiki/Wanderers_(2014_film)", "https://vimeo.com/869858712"]},
+    "Balade Mentale": {"profil": "Chaîne YouTube française de vulgarisation scientifique. Son auteur, Théo Drieu, a signé avec le dessinateur Hoobooh la bande dessinée « Le grand silence – Mais où sont les extraterrestres ? » (Robert Laffont, mars 2025), sur le sujet du Long.", "sources": ["https://www.babelio.com/auteur/-Balade-Mentale/773462", "https://www.lelitteraire.com/balade-mentale-hoobooh-le-grand-silence-mais-ou-sont-les-extraterrestres/"], "incertitude": "Identité de l'auteur de la chaîne établie par les notices de librairie, non par la chaîne elle-même."},
+    "Jean-Baptiste Chandelier": {"profil": "Pilote de parapente acrobatique et vidéaste originaire de Briançon, également concepteur de parapentes (marque Plume citée dans la description de Weightless).", "sources": ["https://provence-alpes-cotedazur.com/alpes/que-faire/activites-sportives/interview-parapente-jean-baptiste-chandelier/", "https://www.jeanbaptistechandelier.com/about-me/"]},
+    "Vald": {"profil": "Rappeur français. Les deux œuvres retenues appartiennent à l'ère PANDEMONIUM (album et concert à Paris La Défense Arena), produites avec Echelon Records et mises en images par Bien Vu Production.", "sources": ["https://www.youtube.com/watch?v=qjzD3LkrDSQ", "https://www.youtube.com/watch?v=am3TxSNeVYI"]},
+    "Gints Zilbalodis": {"profil": "Réalisateur letton d'animation. Après plusieurs courts-métrages (Aqua, Priorities, Followers, Inaudible), il réalise Flow, Oscar 2025 du meilleur film d'animation, une première pour la Lettonie.", "sources": ["https://vimeo.com/93124212", "https://www.wcnc.com/article/entertainment/events/oscars/flow-wins-oscar-for-animated-feature/507-2ccf0ceb-5c9a-4d4f-9a92-2e8f7ac420bf"]}
+  }
+}

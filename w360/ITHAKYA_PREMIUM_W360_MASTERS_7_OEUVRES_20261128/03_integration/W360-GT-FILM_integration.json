@@ -1,0 +1,24 @@
+{
+  "id": "W360-GT-FILM",
+  "titre": "Priorities",
+  "createur": "Gints Zilbalodis",
+  "mode_diffusion": "intégration Vimeo (code fourni par l'auteur)",
+  "decision": "Validé par l'utilisateur le 2026-11-28",
+  "source": "https://vimeo.com/93124212",
+  "lecteur": "https://player.vimeo.com/video/93124212",
+  "api_lecteur": "https://player.vimeo.com/api/player.js",
+  "integration_autorisee": "embed: public (API Vimeo publique, relevé 2026-11-28)",
+  "duree_source_s": 565,
+  "format_lecteur": "padding-top 41,8 % (≈ 2,39:1), cohérent avec la résolution déposée 2048x856",
+  "evenements_emis": {
+    "ithakya:embed-ready": "lecteur prêt ; durationSec",
+    "ithakya:embed-play": "début ou reprise de lecture",
+    "ithakya:embed-pause": "pause",
+    "ithakya:embed-progress": "playheadTimeSec, completionRatio (0-1), visibleTimeSec cumulé",
+    "ithakya:embed-ended": "fin de lecture"
+  },
+  "attenzia": {"editorialDurationSec": 565, "communityThresholdSec": 282.5, "origine_duree": "déclarée par la source"},
+  "hors_perimetre_en_integration": ["HLS ITHAKYA", "MP4 de repli", "empreinte SHA-256 du média", "affiches et miniatures dérivées du fichier", "fonctionnement hors ligne"],
+  "statut_master": "manquant (non requis pour la diffusion par intégration)",
+  "teste": "Non testé en navigateur dans cet environnement : le lecteur charge des ressources depuis des domaines Vimeo non autorisés ici (non vérifié lesquels)."
+}

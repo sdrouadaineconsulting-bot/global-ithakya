@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Quel événement de son enfance le réalisateur relie-t-il à son besoin de voler ?",
+    "options": [
+      [
+        "father",
+        "La perte de son père dans un accident d'hélicoptère"
+      ],
+      [
+        "race",
+        "Une victoire en compétition"
+      ],
+      [
+        "move",
+        "Un déménagement à la montagne"
+      ]
+    ],
+    "correct": "father",
+    "explanation": "À dix ans, il a perdu son père ; il dit avoir aujourd'hui vécu plus longtemps que lui, et cette voix l'a poussé à voler."
+  },
+  "community": {
+    "question": "Que demande la voix intérieure au spectateur ?",
+    "options": [
+      [
+        "tomorrow",
+        "Ce qu'elle lui dirait si sa vie s'arrêtait demain"
+      ],
+      [
+        "speed",
+        "À quelle vitesse il peut voler"
+      ],
+      [
+        "gear",
+        "Quel équipement choisir"
+      ]
+    ],
+    "correct": "tomorrow",
+    "explanation": "Le film retourne la question au spectateur : « Et si ta vie devait s'arrêter demain ? »"
+  }
+}

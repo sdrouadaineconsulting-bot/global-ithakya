@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Comment l'Esperanta produit-il sa gravité artificielle ?",
+    "options": [
+      [
+        "rotation",
+        "Par sa rotation sur lui-même, une révolution par minute"
+      ],
+      [
+        "engine",
+        "Par la poussée continue de ses moteurs"
+      ],
+      [
+        "magnet",
+        "Par des aimants placés sous le pont"
+      ]
+    ],
+    "correct": "rotation",
+    "explanation": "La rotation crée une force centrifuge : sur un rayon de 450 m, une révolution par minute donne environ 0,5 g le long du pont principal."
+  },
+  "community": {
+    "question": "Pourquoi les annonces conseillent-elles d'éviter de courir ou de sauter sur le pont ?",
+    "options": [
+      [
+        "coriolis",
+        "À cause des effets de Coriolis liés à la rotation"
+      ],
+      [
+        "noise",
+        "Pour limiter le bruit à bord"
+      ],
+      [
+        "fragile",
+        "Parce que le sol est fragile"
+      ]
+    ],
+    "correct": "coriolis",
+    "explanation": "Dans un habitat en rotation, tout mouvement rapide subit les effets de Coriolis, plus marqués aux niveaux supérieurs du pont."
+  }
+}

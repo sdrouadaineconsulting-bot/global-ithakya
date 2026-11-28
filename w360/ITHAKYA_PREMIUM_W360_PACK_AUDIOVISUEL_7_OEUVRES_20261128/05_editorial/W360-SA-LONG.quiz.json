@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Dans quel archipel une partie de Weightless a-t-elle été tournée ?",
+    "options": [
+      [
+        "azores",
+        "Les Açores"
+      ],
+      [
+        "canary",
+        "Les Canaries"
+      ],
+      [
+        "hawaii",
+        "Hawaï"
+      ]
+    ],
+    "correct": "azores",
+    "explanation": "Les crédits citent São Miguel et Corvo, aux Açores (Portugal)."
+  },
+  "community": {
+    "question": "Que signifie un vol « synchro » en parapente ?",
+    "options": [
+      [
+        "sync",
+        "Plusieurs pilotes réalisent les mêmes figures ensemble"
+      ],
+      [
+        "solo",
+        "Un pilote vole seul sans instruments"
+      ],
+      [
+        "tow",
+        "Le parapente est tracté par un bateau"
+      ]
+    ],
+    "correct": "sync",
+    "explanation": "Le crédit « Synchro pilot » de Guillaume Galvani désigne un vol coordonné à deux voiles."
+  }
+}

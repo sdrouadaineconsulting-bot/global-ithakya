@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-28",
+  "regle": "Aucun master déclaré récupéré sans présence effective du fichier. Aucune restriction d'accès contournée.",
+  "acces_testes_depuis_l_environnement": {
+    "vimeo.com": "refusé par la politique réseau (proxy : CONNECT 403)",
+    "player.vimeo.com": "refusé (CONNECT 403)",
+    "api.vimeo.com": "refusé (CONNECT 403)",
+    "www.youtube.com": "refusé (CONNECT 403)",
+    "www.erikwernquist.com": "refusé (CONNECT 403)",
+    "www.jeanbaptistechandelier.com": "refusé (CONNECT 403)",
+    "controle pypi.org": "200 (le proxy fonctionne pour les hôtes autorisés)",
+    "vimeo.com (après ajout)": "200 ; aucun lien de téléchargement fourni sans compte connecté",
+    "drive.usercontent.google.com (après ajout)": "200"
+  },
+  "espaces_connectes": {
+    "Google Drive": "Recherche par titres des 7 œuvres et par type MIME video/* : 6 vidéos présentes, toutes antérieures et sans rapport (AV05_PC6_COURT_PILOTE_V1_FR_71S.mp4, ALT-022_COURT_VISIONNAGE_720P_20261024.mp4, ANACARDE_V2_9a39c2d215_URGENCE_p001.bin, AV05-POP-02_COURT_V2_45S_PROMESSE_PRESERVEE_TRAVAIL.mp4, ALT-022_LONG_INTEGRAL_TRAVAIL.mp4, ALT-022_COURT_60S_TRAVAIL.mp4). Aucun fichier des 7 œuvres."
+  },
+  "sources_examinees": [
+    {
+      "id": "W360-ST-COURT",
+      "source": "https://vimeo.com/869858712",
+      "constat": "API Vimeo publique : privacy.download = true (téléchargement activé par le propriétaire) ; fichier déposé en 3840x1620 ; 381 s.",
+      "site_createur": "https://erikwernquist.com : aucun lien de téléchargement, dossier de presse ni contact affiché sur la page d'accueil."
+    },
+    {
+      "id": "W360-GT-FILM",
+      "source": "https://vimeo.com/93124212",
+      "constat": "privacy.download = false (téléchargement désactivé) ; fichier déposé en 2048x856 ; 565 s. Profil Vimeo de l'auteur : https://vimeo.com/gints. Copie tierce repérée sur YouTube (zzaf7Xbyl5k), non retenue : copie de diffusion d'origine non vérifiée."
+    },
+    {
+      "id": "W360-ST-LONG",
+      "source": "https://www.youtube.com/watch?v=rznAp00VGSg",
+      "constat": "YouTube ne propose aucun téléchargement de fichier au public."
+    },
+    {
+      "id": "W360-SA-COURT",
+      "source": "https://www.youtube.com/watch?v=O7ss--t2hgI",
+      "constat": "Idem. Voix off EN/DE/IT/ES créditées : versions non localisées en ligne.",
+      "site_createur": "https://www.jeanbaptistechandelier.com : aucun lien de téléchargement ni contact relevé sur la page d'accueil."
+    },
+    {
+      "id": "W360-SA-LONG",
+      "source": "https://www.youtube.com/watch?v=Oos4ojutOMM",
+      "constat": "Idem."
+    },
+    {
+      "id": "W360-PC-COURT",
+      "source": "https://www.youtube.com/watch?v=qjzD3LkrDSQ",
+      "constat": "Idem. Société de réalisation : Bien Vu (Instagram @bienvuprods) ; aucun espace professionnel public identifié."
+    },
+    {
+      "id": "W360-PC-LONG",
+      "source": "https://www.youtube.com/watch?v=am3TxSNeVYI",
+      "constat": "Idem. Production Echelon Records ; aucun espace professionnel public identifié."
+    }
+  ],
+  "resultat": "1 fichier récupéré sur 7 (W360-ST-COURT, copie de diffusion Vimeo 2160p) ; 6 manquants"
+}

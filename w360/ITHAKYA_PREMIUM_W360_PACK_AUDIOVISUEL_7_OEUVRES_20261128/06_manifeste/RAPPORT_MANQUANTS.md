@@ -1,0 +1,15 @@
+# Rapport des fichiers manquants
+
+7 master(s) manquant(s) sur 7.
+
+| ID | Œuvre | Mécanisme proposé par la source | Cause | Action |
+|---|---|---|---|---|
+| W360-ST-COURT | One Revolution per Minute | Téléchargement activé par le propriétaire (privacy.download = true) | Hôtes vimeo.com et player.vimeo.com refusés par la politique réseau de l'environnement d'exécution (HTTP 403 au proxy) ; le téléchargement officiel Vimeo peut en outre exiger une session connectée (non vérifié). | Déposer le fichier dans `01_masters/W360-ST-COURT.<ext>` puis lancer `sh 07_outils/preparer.sh W360-ST-COURT` |
+| W360-ST-LONG | D’étranges signaux radios en provenance de l’espace | Aucun mécanisme public de téléchargement de fichier proposé par YouTube | Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit. | Déposer le fichier dans `01_masters/W360-ST-LONG.<ext>` puis lancer `sh 07_outils/preparer.sh W360-ST-LONG` |
+| W360-SA-COURT | Why I Fly | Aucun mécanisme public de téléchargement de fichier proposé par YouTube | Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit. | Déposer le fichier dans `01_masters/W360-SA-COURT.<ext>` puis lancer `sh 07_outils/preparer.sh W360-SA-COURT` |
+| W360-SA-LONG | Weightless | Aucun mécanisme public de téléchargement de fichier proposé par YouTube | Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit. | Déposer le fichier dans `01_masters/W360-SA-LONG.<ext>` puis lancer `sh 07_outils/preparer.sh W360-SA-LONG` |
+| W360-PC-COURT | PROZACZOPIXAN | Aucun mécanisme public de téléchargement de fichier proposé par YouTube | Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit (label). | Déposer le fichier dans `01_masters/W360-PC-COURT.<ext>` puis lancer `sh 07_outils/preparer.sh W360-PC-COURT` |
+| W360-PC-LONG | Intro Pandemonium Paris La Défense Arena : Hollywood en sueur ! | Aucun mécanisme public de téléchargement de fichier proposé par YouTube | Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit (label). | Déposer le fichier dans `01_masters/W360-PC-LONG.<ext>` puis lancer `sh 07_outils/preparer.sh W360-PC-LONG` |
+| W360-GT-FILM | Priorities | Téléchargement désactivé par le propriétaire (privacy.download = false) | Téléchargement non proposé par le propriétaire ; vimeo.com refusé par la politique réseau. Fichier à fournir par l'ayant droit. | Déposer le fichier dans `01_masters/W360-GT-FILM.<ext>` puis lancer `sh 07_outils/preparer.sh W360-GT-FILM` |
+
+Aucune œuvre substituée. Aucun remontage. Les déclinaisons, affiches, miniatures, empreintes SHA-256 et mesures ffprobe de ces œuvres seront produites par `07_outils/preparer.sh` dès réception des fichiers.

@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Qui accompagne le jeune homme sur l'île ?",
+    "options": [
+      [
+        "dog",
+        "Son chien"
+      ],
+      [
+        "pilot",
+        "Un autre pilote"
+      ],
+      [
+        "nobody",
+        "Personne"
+      ]
+    ],
+    "correct": "dog",
+    "explanation": "Le synopsis de l'auteur : « un jeune homme et son chien doivent trouver un moyen de rentrer »."
+  },
+  "community": {
+    "question": "Quel long-métrage Gints Zilbalodis a-t-il réalisé ensuite, récompensé par l'Oscar 2025 ?",
+    "options": [
+      [
+        "flow",
+        "Flow"
+      ],
+      [
+        "coco",
+        "Coco"
+      ],
+      [
+        "soul",
+        "Soul"
+      ]
+    ],
+    "correct": "flow",
+    "explanation": "Flow a remporté l'Oscar du meilleur film d'animation en 2025."
+  }
+}

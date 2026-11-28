@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "Qu'était réellement le signal régulier baptisé LGM-1 en 1967 ?",
+    "options": [
+      [
+        "pulsar",
+        "Un pulsar, une étoile à neutrons en rotation rapide"
+      ],
+      [
+        "alien",
+        "Un message extraterrestre confirmé"
+      ],
+      [
+        "satellite",
+        "Un satellite militaire"
+      ]
+    ],
+    "correct": "pulsar",
+    "explanation": "Des signaux similaires ont été détectés ailleurs dans le ciel : il s'agissait d'un phénomène naturel, les pulsars."
+  },
+  "community": {
+    "question": "D'où venaient les signaux mystérieux captés à Parkes dans les années 2010 ?",
+    "options": [
+      [
+        "microwave",
+        "D'un four à micro-ondes du personnel"
+      ],
+      [
+        "galaxy",
+        "D'une galaxie lointaine"
+      ],
+      [
+        "sun",
+        "D'une éruption solaire"
+      ]
+    ],
+    "correct": "microwave",
+    "explanation": "Ils apparaissaient en semaine aux heures de bureau : ouvrir le four avant la fin de la minuterie laissait s'échapper des micro-ondes."
+  }
+}

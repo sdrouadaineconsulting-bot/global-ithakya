@@ -1,0 +1,30 @@
+<!-- W360-GT-FILM — Priorities (Gints Zilbalodis) — diffusion par intégration Vimeo.
+     Code d'intégration fourni par l'auteur (vimeo.com/93124212), repris tel quel, + adaptateur d'événements pour ATTENZIA.
+     Aucun fichier du socle n'est modifié : ce fragment est à intégrer dans la candidate définitive. -->
+<div style="padding:41.8% 0 0 0;position:relative;"><iframe id="w360GtFilmPlayer" src="https://player.vimeo.com/video/93124212?autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Priorities"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+(function () {
+  // Adaptateur : traduit les événements du lecteur Vimeo en événements DOM 'ithakya:embed-*'.
+  // Le temps visible n'avance que pendant la lecture, onglet visible et fenêtre focalisée (doctrine ATTENZIA_METRICS_POLICY du socle).
+  var MEDIA_ID = 'W360-GT-FILM';
+  var player = new Vimeo.Player(document.getElementById('w360GtFilmPlayer'));
+  var playing = false, visibleSec = 0, lastT = null, durationSec = 565;
+  function active() { return playing && document.visibilityState === 'visible' && document.hasFocus(); }
+  function emit(type, extra) {
+    var d = { mediaId: MEDIA_ID, visibleTimeSec: Math.round(visibleSec * 1000) / 1000, durationSec: durationSec };
+    for (var k in extra) d[k] = extra[k];
+    document.dispatchEvent(new CustomEvent('ithakya:embed-' + type, { detail: d }));
+  }
+  player.getDuration().then(function (d) { durationSec = d; emit('ready', {}); });
+  player.on('play', function () { playing = true; emit('play', {}); });
+  player.on('pause', function () { playing = false; lastT = null; emit('pause', {}); });
+  player.on('timeupdate', function (e) {
+    if (active() && lastT !== null && e.seconds > lastT && e.seconds - lastT < 2) visibleSec += e.seconds - lastT;
+    lastT = e.seconds;
+    emit('progress', { playheadTimeSec: e.seconds, completionRatio: e.percent });
+  });
+  player.on('seeked', function (e) { lastT = e.seconds; });
+  player.on('ended', function () { playing = false; emit('ended', { completionRatio: 1 }); });
+})();
+</script>

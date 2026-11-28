@@ -1,0 +1,40 @@
+{
+  "quick": {
+    "question": "De quel album PROZACZOPIXAN est-il extrait ?",
+    "options": [
+      [
+        "pandemonium",
+        "PANDEMONIUM"
+      ],
+      [
+        "vlad",
+        "V"
+      ],
+      [
+        "ago",
+        "Agartha"
+      ]
+    ],
+    "correct": "pandemonium",
+    "explanation": "La description officielle présente le clip comme extrait du nouvel album PANDEMONIUM."
+  },
+  "community": {
+    "question": "Qui a réalisé le clip ?",
+    "options": [
+      [
+        "bienvu",
+        "Bien Vu Production"
+      ],
+      [
+        "echelon",
+        "Echelon Records"
+      ],
+      [
+        "virtual",
+        "Virtual House Production"
+      ]
+    ],
+    "correct": "bienvu",
+    "explanation": "Bien Vu Production signe la réalisation ; Virtual House Production est le studio ; Echelon Records produit l'intro du concert."
+  }
+}
