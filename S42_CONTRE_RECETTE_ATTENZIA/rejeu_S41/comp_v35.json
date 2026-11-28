@@ -1,0 +1,74 @@
+{
+    "regle": "ATZ-INSTANTANES-V3.5",
+    "assertions_nouvelles": 0,
+    "cas": {
+        "trois_publications": {
+            "premiere": {
+                "cellule": {
+                    "participants": 15,
+                    "long_ouverts": 5
+                },
+                "masques": 0
+            },
+            "deuxieme": {
+                "cellule": {
+                    "participants": 20,
+                    "long_ouverts": 11
+                },
+                "masques": 0
+            },
+            "troisieme": {
+                "cellule": {
+                    "participants": 26,
+                    "long_ouverts": 16
+                },
+                "masques": 0
+            }
+        },
+        "petit_complement_interne": {
+            "cellule": {
+                "participants": 20,
+                "court_termines": 15,
+                "long_ouverts": 11,
+                "long_apres_court": 10,
+                "taux_approfondissement": 0.667
+            },
+            "masques": 0
+        },
+        "historique_inverse": {
+            "cellule": {
+                "participants": 20,
+                "long_ouverts": 11
+            },
+            "masques": 0
+        },
+        "seuil_historique_superieur": {
+            "cellule": {
+                "participants": null,
+                "long_ouverts": null
+            },
+            "masques": 2
+        },
+        "valeur_masquee_non_zero": {
+            "cellule": {
+                "participants": 20,
+                "long_ouverts": null
+            },
+            "masques": 0
+        },
+        "complements_stables": {
+            "cellule": {
+                "participants": 25,
+                "long_ouverts": 15
+            },
+            "masques": 0
+        },
+        "autre_serie": {
+            "cellule": {
+                "participants": null,
+                "long_ouverts": null
+            },
+            "masques": 2
+        }
+    }
+}

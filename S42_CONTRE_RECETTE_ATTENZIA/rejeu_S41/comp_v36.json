@@ -1,0 +1,74 @@
+{
+    "regle": "ATZ-INSTANTANES-V3.6",
+    "assertions_nouvelles": 10750,
+    "cas": {
+        "trois_publications": {
+            "premiere": {
+                "cellule": {
+                    "participants": 15,
+                    "long_ouverts": 5
+                },
+                "masques": 0
+            },
+            "deuxieme": {
+                "cellule": {
+                    "participants": null,
+                    "long_ouverts": null
+                },
+                "masques": 2
+            },
+            "troisieme": {
+                "cellule": {
+                    "participants": 26,
+                    "long_ouverts": 16
+                },
+                "masques": 0
+            }
+        },
+        "petit_complement_interne": {
+            "cellule": {
+                "participants": null,
+                "court_termines": null,
+                "long_ouverts": null,
+                "long_apres_court": null,
+                "taux_approfondissement": null
+            },
+            "masques": 5
+        },
+        "historique_inverse": {
+            "cellule": {
+                "participants": null,
+                "long_ouverts": null
+            },
+            "masques": 2
+        },
+        "seuil_historique_superieur": {
+            "cellule": {
+                "participants": null,
+                "long_ouverts": null
+            },
+            "masques": 2
+        },
+        "valeur_masquee_non_zero": {
+            "cellule": {
+                "participants": 20,
+                "long_ouverts": null
+            },
+            "masques": 0
+        },
+        "complements_stables": {
+            "cellule": {
+                "participants": 25,
+                "long_ouverts": 15
+            },
+            "masques": 0
+        },
+        "autre_serie": {
+            "cellule": {
+                "participants": null,
+                "long_ouverts": null
+            },
+            "masques": 2
+        }
+    }
+}
