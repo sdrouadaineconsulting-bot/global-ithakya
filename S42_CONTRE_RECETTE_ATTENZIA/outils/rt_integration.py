@@ -14,10 +14,10 @@ sql(f"DELETE FROM itp_work_progress WHERE user_id='{cible}'; DELETE FROM itp_use
 refig_avant = figer(a, 'cumul', '2026-07-31')[0]
 sql("UPDATE itp_atz_snapshots SET created_at = created_at - 40*86400")   # SIMULATION du passage du temps (40 j) ; empreinte inchangée (payload non modifié)
 pg = a.post('attenzia_purger', {'confirmer': True}).json()
-st2, b2 = figer(a, 'cumul', '2026-07-31'); e2 = a.get('attenzia_export', id=b2['id']).text
+st2, b2 = figer(a, 'cumul', '2026-07-31'); e2 = a.get('attenzia_export', id=b2['id']).text if st2 == 201 else ''
 v = lambda e: {r[2]: r[3] for r in csv.reader(io.StringIO(e), delimiter=';') if r and r[0] == 'univers' and r[1] == 'pop'}
 OUT['RT06_purge_refigement'] = {'figement_1': st, 'refigement_avant_purge': refig_avant, 'purge': pg, 'refigement_apres_purge': st2,
-    'export_1_pop': v(e1), 'export_2_pop': v(e2), 'difference_participants': int(v(e1)['participants']) - int(v(e2)['participants']) if v(e1)['participants'] and v(e2)['participants'] else None}
+    'export_1_pop': v(e1), 'export_2_pop': v(e2), 'difference_participants': int(v(e1)['participants']) - int(v(e2)['participants']) if v(e1).get('participants') and v(e2).get('participants') else None}
 # RT-07 : utilité — masquage intersérie (cumul existant → semaine recoupée)
 reset_atz(); t = ts(2026, 30, 2)
 seed([{'steps': {'court_finished': t, 'long_started': t + 60, 'long_finished': t + 4000}} for _ in range(20)] + [{'steps': {'court_finished': t}} for _ in range(20)] + [{'steps': {'long_started': t}} for _ in range(15)], prefix='sxu')

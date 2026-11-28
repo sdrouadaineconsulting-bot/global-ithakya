@@ -1,18 +1,28 @@
 {
- "statut": "CANDIDATE_S42_CONTRE_RECETTE",
+ "statut": "NON_GELE",
  "reference_officielle": "S36",
  "base": "ITHAKYA_PREMIUM_W360_S41_ATTENZIA_V36_CANDIDATE_NON_GELEE_20261128.zip",
  "sha256_base": "01149a30e156f57fd556174ea86d461cb942e40161a87b00c4f1e0bb18be08c4",
- "candidate": "ITHAKYA_PREMIUM_W360_S42_ATTENZIA_V37_20261128.zip",
- "sha256_candidate": "4665a86dc29970a828452a3be1fb13123da26f1af4a788706901ad5f550457d4",
- "octets": 100600800,
- "modifies_ou_ajoutes": {
-  "site/api/ithakya-attenzia-instantanes.php": "51a4e6bbfe507d965e5d632dfa2847e23fe4ca1fe5abd659866a76c958664e85",
-  "source/serveur/ithakya-attenzia-instantanes.php": "51a4e6bbfe507d965e5d632dfa2847e23fe4ca1fe5abd659866a76c958664e85"
+ "references_preservees": {
+  "S40": "b22621693ed6d10126b9784da56a6604d1367734ae7b9d32f1938602501ad204",
+  "S41": "01149a30e156f57fd556174ea86d461cb942e40161a87b00c4f1e0bb18be08c4"
  },
- "ajoutes": [],
- "supprimes": [],
+ "candidate": "ITHAKYA_PREMIUM_W360_S42_ATTENZIA_V38_CANDIDATE_20261128.zip",
+ "sha256_candidate": "8b7df5c93cd07027d1fb9bab502533d3d56d38596bfdfc28f4032c8ecb9e6655",
+ "octets": 100601358,
+ "verification_CRC": "OK",
  "nombre_fichiers": 4135,
+ "modifies_ou_ajoutes_depuis_S41": {
+  "site/api/ithakya-attenzia-instantanes.php": "e0cd26db36171f9f694ce61fd82b845020bb6836ed1ef4bc8fc217ea6e08bd87",
+  "source/serveur/ithakya-attenzia-instantanes.php": "e0cd26db36171f9f694ce61fd82b845020bb6836ed1ef4bc8fc217ea6e08bd87"
+ },
+ "ajoutes_depuis_S41": [],
+ "supprimes_depuis_S41": [],
+ "modifies_depuis_S40": [
+  "site/api/ithakya-attenzia-instantanes.php",
+  "source/serveur/ithakya-attenzia-instantanes.php"
+ ],
+ "regle_attenzia": "ATZ-INSTANTANES-V3.8",
  "inventaire_final": {
   ".env.example": "ffee1ba229fb78458cd8de406752db6ba3a6f654f2ea8baf39b28a25c841f7be",
   ".gitignore": "eea51faa9bba5c7c20604f7f136109861d88ef35a8667b1892eeaee19923117c",
@@ -2736,7 +2746,7 @@
   "recette-privee/verifier_http.py": "4f4629b36502c832176dfed7e518d90a064791d8e584ac771a81c6df589a6fb6",
   "site/404.html": "f72e18ba82ae40b87aecf648c63f2a78dbdf5c44fd3d1e0ec7c8dcaa89c1fcbb",
   "site/api/ithakya-atelier.php": "31cd2d4a133fad23dce3cb7cb2c698d8a2834f01bd404ddf7f0a3a2ff5b11416",
-  "site/api/ithakya-attenzia-instantanes.php": "51a4e6bbfe507d965e5d632dfa2847e23fe4ca1fe5abd659866a76c958664e85",
+  "site/api/ithakya-attenzia-instantanes.php": "e0cd26db36171f9f694ce61fd82b845020bb6836ed1ef4bc8fc217ea6e08bd87",
   "site/api/ithakya-attenzia.php": "226cc3eeaba866b953e7571cfa81a8dbd1e4aab9e100d3d0b67b43c5595c8fce",
   "site/api/ithakya-audio.php": "f58e4a3af9d5d97dadfb12e43f46dd3ff36e7797947cd20e0e70f5bf3d802fd4",
   "site/api/ithakya-cadeaux.php": "522d91ceaa9aab28dd4b7bf93343d142834ef79bddff70f990ee44be634ad0da",
@@ -3987,7 +3997,7 @@
   "source/programmation/registre_unifie.json": "61948f046e69b17e86155956f1301aa33a1ec6f9023e928a425bb60590cb284f",
   "source/programmation/registre_unifie_surcharges.json": "5d38e6066243d762f99cbb1286430bd31193fb8d6238f9cced10cb1773604dae",
   "source/serveur/ithakya-atelier.php": "31cd2d4a133fad23dce3cb7cb2c698d8a2834f01bd404ddf7f0a3a2ff5b11416",
-  "source/serveur/ithakya-attenzia-instantanes.php": "51a4e6bbfe507d965e5d632dfa2847e23fe4ca1fe5abd659866a76c958664e85",
+  "source/serveur/ithakya-attenzia-instantanes.php": "e0cd26db36171f9f694ce61fd82b845020bb6836ed1ef4bc8fc217ea6e08bd87",
   "source/serveur/ithakya-attenzia.php": "226cc3eeaba866b953e7571cfa81a8dbd1e4aab9e100d3d0b67b43c5595c8fce",
   "source/serveur/ithakya-audio.php": "f58e4a3af9d5d97dadfb12e43f46dd3ff36e7797947cd20e0e70f5bf3d802fd4",
   "source/serveur/ithakya-cadeaux.php": "522d91ceaa9aab28dd4b7bf93343d142834ef79bddff70f990ee44be634ad0da",
@@ -4149,5 +4159,6 @@
   "tests/test_recherche_pages.cjs": "ad4d0c56087e4666bed1e987dc06b88381a1131a8087a92c3fa47607aeedba25",
   "tests/test_recherche_statique.py": "b271ab2cbca9e81e88d23822fbd10756cd4a8d22bf43dfe0146ccf256753aa99",
   "verifier_manifeste.py": "33a96a0f53f75da0d1f526f4b21f644f53cef76119fb8ed1e6ca3ce78a539237"
- }
+ },
+ "dossier_probatoire": "ITHAKYA_W360_DOSSIER_PROBATOIRE_S42_20261128.zip"
 }

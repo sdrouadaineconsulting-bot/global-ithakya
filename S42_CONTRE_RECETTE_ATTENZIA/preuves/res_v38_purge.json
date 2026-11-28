@@ -1,0 +1,59 @@
+{
+ "version": "v38",
+ "RT06": {
+  "figement_initial": 201,
+  "export_conserve_pop": {
+   "participants": "26",
+   "court_termines": "20",
+   "long_ouverts": "18",
+   "long_termines": "",
+   "long_apres_court": "12",
+   "taux_approfondissement": "0.6",
+   "taux_achevement_long": "",
+   "quiz_repondus": "",
+   "quiz_corrects": "",
+   "notes_k_donnees": "",
+   "note_k_moyenne": "",
+   "taux_quiz_correct": ""
+  },
+  "purge": {
+   "ok": true,
+   "instantanes_supprimes": 1,
+   "lignes_audit_supprimees": 0,
+   "conservation_jours": 30
+  },
+  "refigement_meme_periode": 409,
+  "refigement_erreur": "atz_deja_fige",
+  "difference_meme_periode": {}
+ },
+ "RT06b": {
+  "cumul_voisin_14j": 201,
+  "masques_incrementaux": 18,
+  "export_pop": {
+   "participants": "",
+   "court_termines": "",
+   "long_ouverts": "",
+   "long_termines": "",
+   "long_apres_court": "",
+   "taux_approfondissement": "",
+   "taux_achevement_long": "",
+   "quiz_repondus": "",
+   "quiz_corrects": "",
+   "notes_k_donnees": "",
+   "note_k_moyenne": "",
+   "taux_quiz_correct": ""
+  },
+  "differences_publiees_vs_export_conserve": {}
+ },
+ "garde_non_servie": {
+  "liste_instantanes": [
+   "2026-08-14"
+  ],
+  "lignes_garde": "1"
+ },
+ "RT15_isolation_ecriture": {
+  "http": 409,
+  "erreur": "session_changed",
+  "lignes_creees_pour_m2": "0"
+ }
+}

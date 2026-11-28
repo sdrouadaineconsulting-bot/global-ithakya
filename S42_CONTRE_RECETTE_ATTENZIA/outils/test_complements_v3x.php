@@ -26,7 +26,7 @@ $cases['valeur_masquee_non_zero']=guard(['participants'=>20,'long_ouverts'=>null
 $cases['complements_stables']=guard(['participants'=>25,'long_ouverts'=>15],[snapshot($a)]);
 $cases['autre_serie']=guard($b,[snapshot($a,5,'mois')]);
 $n=0;$ok=function(bool $v)use(&$n){if(!$v)throw new RuntimeException('Assertion complément '.($n+1));$n++;};
-if(in_array(ITP_ATZ_REGLE_INST,['ATZ-INSTANTANES-V3.6','ATZ-INSTANTANES-V3.7'],true)) {
+if(in_array(ITP_ATZ_REGLE_INST,['ATZ-INSTANTANES-V3.6','ATZ-INSTANTANES-V3.7','ATZ-INSTANTANES-V3.8'],true)) {
  $ok($first['cellule']===$a);$ok($second['cellule']===['participants'=>null,'long_ouverts'=>null]);$ok($third['cellule']===$c);
  $ok($cases['petit_complement_interne']['masques']===5);
  $ok($cases['historique_inverse']===$second);

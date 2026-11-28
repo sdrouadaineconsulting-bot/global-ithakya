@@ -393,5 +393,36 @@
    "mariadb_threads_max": 1,
    "loadavg_max": 139.88
   }
- ]
+ ],
+ "controles_finaux": {
+  "tables_check_ok": "15/15",
+  "session_admin_apres_drainage": 200,
+  "role_admin": true,
+  "oeuvres_apres_drainage": 200,
+  "comptes_charge": 200,
+  "lignes_progression_par_compte": [
+   1
+  ],
+  "notes_k_hors_bornes": 0,
+  "lignes_orphelines": 0,
+  "tables_economie": "absentes (économie fermée, mode A)"
+ },
+ "criteres_S35": {
+  "defauts_inattendus_lt_1pct": true,
+  "P95_lectures_le_500ms": false,
+  "P99_lectures_le_1500ms": null,
+  "P95_toutes_operations_ms": 678.5,
+  "P99_toutes_operations_ms": 1757.6,
+  "P95_ecritures_ms": 241.4,
+  "methode": "dénombrement sur la répartition 80 % lectures / 20 % écritures ; distributions des lectures non enregistrées séparément ; None = indéterminé"
+ },
+ "verdict_criteres": {
+  "duree_ge_1800s": true,
+  "integrite_finale": true,
+  "defauts": true,
+  "P95": false,
+  "P99": null,
+  "plateau_conforme": false,
+  "controles_finaux": "conformes"
+ }
 }

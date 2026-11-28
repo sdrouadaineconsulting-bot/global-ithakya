@@ -42,7 +42,7 @@ def reset_atz():
     q = ["SET FOREIGN_KEY_CHECKS=0"] + [f"DELETE FROM {t} WHERE user_id IN {sub}" for t in ('itp_entries', 'itp_progress', 'itp_thread_reads', 'itp_states', 'itp_recovery', 'itp_progress2', 'itp_reads', 'itp_work_progress')]
     q += ["DELETE FROM itp_reports WHERE reporter_id IN " + sub if False else "SELECT 1", "DELETE FROM itp_work_progress", "DELETE FROM itp_progress2", "DELETE FROM itp_limits", "DELETE FROM itp_users WHERE login LIKE 'sx%'", "SET FOREIGN_KEY_CHECKS=1"]
     sql(';'.join(q))
-    for t in ('itp_atz_snapshots', 'itp_atz_audit'):
+    for t in ('itp_atz_snapshots', 'itp_atz_audit', 'itp_atz_garde'):
         try: sql(f"DELETE FROM {t}")
         except subprocess.CalledProcessError: pass
     assert sql("SELECT COUNT(*) FROM itp_users WHERE login LIKE 'sx%'") == '0'

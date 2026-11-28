@@ -17,17 +17,19 @@ fin = {'tables_check_ok': f'{ok_tables}/{len(tables)}', 'session_admin_apres_dra
        'comptes_charge': comptes, 'lignes_progression_par_compte': sorted(set(par)), 'notes_k_hors_bornes': sum(1 for n in notes if n not in ('1', '2', '3', '4', '5')),
        'lignes_orphelines': orphelins, 'tables_economie': eco or 'absentes (économie fermée, mode A)'}
 # Critères S35 : < 1 % de défauts inattendus ; P95 ≤ 500 ms ; P99 ≤ 1 500 ms sur les lectures nominales.
-# Les lectures forment 4/5 des requêtes (scénario à 5 opérations dont 1 écriture). Borne par dénombrement : la part des lectures au-dessus de
-# p99(toutes) est ≤ 1 % / 0,8 = 1,25 % → P95(lectures) ≤ p99(toutes) ; la part au-dessus du maximum est nulle → P99(lectures) ≤ max(toutes).
+# Les distributions des lectures n'ont pas été enregistrées séparément. Lectures = 80 % des requêtes (4 opérations sur 5), écritures = 20 %.
+# P95 : si P95(lectures) ≤ 500, alors part(toutes > 500) ≤ 0,8·5 % + 0,2·5 % (P95 écritures = 241 ms < 500) = 5 %, d'où P95(toutes) ≤ 500.
+#       Or P95(toutes) > 500 : donc P95(lectures) > 500 — NON-CONFORMITÉ DÉMONTRÉE par dénombrement.
+# P99 : la part des écritures au-delà de 1 500 ms n'est bornée qu'à 5 % : le critère n'est ni démontré ni infirmé (indéterminé).
 lect = 0.8
-borne_p95 = c['p99_ms']; borne_p99 = c['max_ms']
-crit = {'defauts_inattendus_lt_1pct': c['taux_erreur'] < 0.01, 'P95_lectures_le_500ms': (borne_p95 <= 500) if borne_p95 is not None else None,
-        'P99_lectures_le_1500ms': (borne_p99 <= 1500) if borne_p99 is not None else None, 'borne_P95_lectures_ms': borne_p95, 'borne_P99_lectures_ms': borne_p99,
-        'methode': 'bornes par dénombrement (lectures = 80 % des requêtes) ; distributions des lectures non enregistrées séparément'}
+p95_lect_gt_500 = c['p95_ms'] > 500 and c['p95_ecriture_ms'] <= 500
+crit = {'defauts_inattendus_lt_1pct': c['taux_erreur'] < 0.01, 'P95_lectures_le_500ms': (False if p95_lect_gt_500 else None),
+        'P99_lectures_le_1500ms': (True if c['max_ms'] <= 1500 else None), 'P95_toutes_operations_ms': c['p95_ms'], 'P99_toutes_operations_ms': c['p99_ms'], 'P95_ecritures_ms': c['p95_ecriture_ms'],
+        'methode': 'dénombrement sur la répartition 80 % lectures / 20 % écritures ; distributions des lectures non enregistrées séparément ; None = indéterminé'}
 integre = ok_tables == len(tables) and sess.status_code == 200 and prog == 200 and comptes == c['utilisateurs_simultanes'] and set(par) == {1} and fin['notes_k_hors_bornes'] == 0 and orphelins == 0
 duree_ok = c['duree_s'] >= 1800
 conf = all(v is True for v in (crit['defauts_inattendus_lt_1pct'],)) and duree_ok and integre
 c['controles_finaux'] = fin; c['criteres_S35'] = crit
 c['verdict_criteres'] = {'duree_ge_1800s': duree_ok, 'integrite_finale': integre, 'defauts': crit['defauts_inattendus_lt_1pct'], 'P95': crit['P95_lectures_le_500ms'], 'P99': crit['P99_lectures_le_1500ms'],
-    'plateau_conforme': bool(conf and crit['P95_lectures_le_500ms'] and crit['P99_lectures_le_1500ms']), 'controles_finaux': 'conformes' if integre else 'NON conformes'}
+    'plateau_conforme': bool(conf and crit['P95_lectures_le_500ms'] is True and crit['P99_lectures_le_1500ms'] is True), 'controles_finaux': 'conformes' if integre else 'NON conformes'}
 json.dump(c, open(P, 'w'), ensure_ascii=False, indent=1); print(json.dumps({k: c[k] for k in ('controles_finaux', 'criteres_S35', 'verdict_criteres')}, ensure_ascii=False, indent=1))

@@ -1,0 +1,49 @@
+{
+ "banc": "Apache 2.4.58 prefork + mod_php 8.3.6 + MariaDB 10.11.14, HTTPS local, client sur la même machine (4 vCPU, 15 Go)",
+ "utilisateurs_simultanes": 200,
+ "duree_s": 100.7,
+ "requetes": 59107,
+ "debit_req_s": 587.0,
+ "p50_ms": 144.9,
+ "p95_ms": 612.5,
+ "p99_ms": 982.5,
+ "max_ms": 24739.6,
+ "p95_ecriture_ms": 228.0,
+ "erreurs": 0,
+ "taux_erreur": 0.0,
+ "codes_erreur": {},
+ "derive_p95_premiere_vs_derniere_minute_ms": [
+  null,
+  null
+ ],
+ "mem_max_mo": 3968,
+ "mariadb_threads_max": 130,
+ "apache_proc_max": 151,
+ "loadavg_max": 126.38,
+ "par_minute": [
+  {
+   "minute": 0,
+   "requetes": 39164,
+   "debit_req_s": 652.7,
+   "p50_ms": 144.5,
+   "p95_ms": 609.8,
+   "p99_ms": 840.7,
+   "erreurs": 0,
+   "mem_max_mo": 3962,
+   "mariadb_threads_max": 130,
+   "loadavg_max": 102.67
+  },
+  {
+   "minute": 1,
+   "requetes": 19943,
+   "debit_req_s": 332.4,
+   "p50_ms": 145.6,
+   "p95_ms": 618.6,
+   "p99_ms": 2575.7,
+   "erreurs": 0,
+   "mem_max_mo": 3968,
+   "mariadb_threads_max": 123,
+   "loadavg_max": 126.38
+  }
+ ]
+}

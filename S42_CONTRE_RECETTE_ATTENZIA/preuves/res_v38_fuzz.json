@@ -1,0 +1,12 @@
+{
+ "version": "v38",
+ "k": 5,
+ "graine": 4242,
+ "cellules": 715,
+ "cellules_avec_fuite": 0,
+ "fuites": 0,
+ "homogeneites": 1,
+ "valeurs_publiees": 1029,
+ "instantanes": 55,
+ "exemples": []
+}

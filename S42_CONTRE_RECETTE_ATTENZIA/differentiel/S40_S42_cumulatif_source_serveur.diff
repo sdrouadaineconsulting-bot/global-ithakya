@@ -1,15 +1,21 @@
 --- a/source/serveur/ithakya-attenzia-instantanes.php
 +++ b/source/serveur/ithakya-attenzia-instantanes.php
-@@ -10,7 +10,7 @@
+@@ -10,11 +10,13 @@
   * Principes : (1) seuls des instantanés IMMUABLES sont consultables (période alignée sur le calendrier, une seule fois) ; (2) k-anonymat + suppression complémentaire ;
   * (3) aucune lecture « vivante » filtrable ; (4) protection des écarts entre instantanés recoupés ; (5) une seule granularité
   * de période par fenêtre de temps ; (6) journal d'audit, limites de consultation et d'export, conservation paramétrable. Les limites sont décrites dans le cockpit. */
 -const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.5';
-+const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.7';
++const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.8';
  const ITP_ATZ_INDICATEURS = ['participants', 'court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'];
  function itpAtzTables(PDO $db): void {
      $fin = driver($db) === 'mysql' ? ' ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin' : '';
-@@ -140,6 +140,10 @@
+     $db->exec('CREATE TABLE IF NOT EXISTS itp_atz_snapshots (id VARCHAR(32) PRIMARY KEY, serie VARCHAR(8) NOT NULL, cle VARCHAR(10) NOT NULL, debut BIGINT NOT NULL, fin BIGINT NOT NULL, regle VARCHAR(40) NOT NULL, k INTEGER NOT NULL, created_at BIGINT NOT NULL, created_by VARCHAR(32) NOT NULL, checksum VARCHAR(64) NOT NULL, payload TEXT NOT NULL, UNIQUE (serie, cle))' . $fin);
++    /* V3.8 : trace de garde des instantanés purgés (jamais servie ni exportée) ; le garde, l'espacement et l'unicité continuent de la voir. */
++    $db->exec('CREATE TABLE IF NOT EXISTS itp_atz_garde (id VARCHAR(32) PRIMARY KEY, serie VARCHAR(8) NOT NULL, cle VARCHAR(10) NOT NULL, debut BIGINT NOT NULL, fin BIGINT NOT NULL, k INTEGER NOT NULL, checksum VARCHAR(64) NOT NULL, payload TEXT NOT NULL, purged_at BIGINT NOT NULL)' . $fin);
+     $db->exec('CREATE TABLE IF NOT EXISTS itp_atz_audit (id VARCHAR(32) PRIMARY KEY, at BIGINT NOT NULL, user_id VARCHAR(32) NOT NULL, action VARCHAR(24) NOT NULL, params VARCHAR(200) NOT NULL, code INTEGER NOT NULL)' . $fin);
+ }
+ /* Période alignée : semaine ISO (AAAA-Snn), mois (AAAA-MM) ou arrêté cumulé (AAAA-MM-JJ, inclus). Retourne [début, fin[ en secondes UTC ou null. */
+@@ -140,6 +142,10 @@
                     'note_k_moyenne' => (count($notes) >= $k && min($notes) !== max($notes)) ? round(array_sum($notes) / count($notes), 2) : null,
                     'taux_quiz_correct' => $taux($n('quiz_corrects'), $n('quiz_repondus')), 'idees_choisies' => array_map(fn(int $n): ?int => $sous($n, $repondants), $choix)];
          }
@@ -20,7 +26,7 @@
          return $r;
      };
      $sortie = [];
-@@ -155,9 +159,40 @@
+@@ -155,9 +161,40 @@
  /* Le masque est calculé avant écriture, sur les valeurs originales, contre tout
   * historique retenu recoupant la période. Un ratio ou une distribution ne doit
   * pas servir de substitut à un effectif masqué. */
@@ -61,7 +67,7 @@
      foreach ($historique as $ancien) {
          if (!hash_equals($ancien['checksum'], hash('sha256', $ancien['payload']))) {
              fail(500, 'atz_integrite', 'L’historique des instantanés doit être vérifié avant toute nouvelle publication.');
-@@ -168,6 +203,10 @@
+@@ -168,6 +205,10 @@
              foreach ($donnees[$dimension] ?? [] as $cle => $valeurs) {
                  if (isset($cellules[$dimension][$cle])) continue;
                  $precedent = $snapshot['donnees'][$dimension][$cle] ?? [];
@@ -72,3 +78,46 @@
                  foreach ($valeurs as $indicateur => $valeur) {
                      $autre = $precedent[$indicateur] ?? null;
                      if ($valeur === null || $autre === null) continue;
+@@ -227,12 +268,13 @@
+     [$debut, $fin] = $p; $now = time();
+     if ($fin > $now) fail(409, 'atz_periode_ouverte', 'Seule une période terminée peut être figée.');
+     if (dbQuery($db, 'SELECT COUNT(*) FROM itp_atz_snapshots WHERE serie = ? AND cle = ?', [$serie, $cle])->fetchColumn() > 0) fail(409, 'atz_deja_fige', 'Cet instantané existe déjà : il est immuable.');
++    if (dbQuery($db, 'SELECT COUNT(*) FROM itp_atz_garde WHERE serie = ? AND cle = ?', [$serie, $cle])->fetchColumn() > 0) fail(409, 'atz_deja_fige', 'Cette période a déjà été publiée puis purgée : elle ne peut pas être figée à nouveau.');
+     if ($serie !== 'cumul') {   /* une seule granularité par fenêtre : pas de recoupement semaine/mois (aucune soustraction possible entre séries) */
+         $autre = $serie === 'semaine' ? 'mois' : 'semaine';
+-        if (dbQuery($db, 'SELECT COUNT(*) FROM itp_atz_snapshots WHERE serie = ? AND debut < ? AND fin > ?', [$autre, $fin, $debut])->fetchColumn() > 0) fail(409, 'atz_recoupement', 'Une période de granularité différente recoupe cette fenêtre.');
++        if (dbQuery($db, 'SELECT (SELECT COUNT(*) FROM itp_atz_snapshots WHERE serie = ? AND debut < ? AND fin > ?) + (SELECT COUNT(*) FROM itp_atz_garde WHERE serie = ? AND debut < ? AND fin > ?)', [$autre, $fin, $debut, $autre, $fin, $debut])->fetchColumn() > 0) fail(409, 'atz_recoupement', 'Une période de granularité différente recoupe cette fenêtre.');
+     } else {
+         $esp = is_int($config['atz_espacement_jours'] ?? null) ? max(1, $config['atz_espacement_jours']) : 7;
+-        $proche = dbQuery($db, 'SELECT COUNT(*) FROM itp_atz_snapshots WHERE serie = ? AND ABS(fin - ?) < ?', ['cumul', $fin, $esp * 86400])->fetchColumn();
++        $proche = dbQuery($db, 'SELECT (SELECT COUNT(*) FROM itp_atz_snapshots WHERE serie = ? AND ABS(fin - ?) < ?) + (SELECT COUNT(*) FROM itp_atz_garde WHERE serie = ? AND ABS(fin - ?) < ?)', ['cumul', $fin, $esp * 86400, 'cumul', $fin, $esp * 86400])->fetchColumn();
+         if ($proche > 0) fail(409, 'atz_espacement', 'Deux instantanés cumulés doivent être espacés d’au moins ' . $esp . ' jours.');
+     }
+     $k = itpAttenziaK($config); $calc = itpAtzCalculer($db, $config, $debut, $fin, $serie === 'cumul');
+@@ -241,13 +283,13 @@
+      * Même principe que « une seule granularité de période par fenêtre ». Les autres niveaux, dont le parcours global, sont masqués. Banc : inchangé. */
+     if (($GLOBALS['itp_atz_mode'] ?? 'banc') === 'exploitation') {
+         $garde = (string)($config['attenzia_exploitation']['dimension'] ?? 'univers');
+-        $autre = dbQuery($db, "SELECT COUNT(*) FROM itp_atz_snapshots WHERE payload LIKE ? AND payload NOT LIKE ?", ['%"type":"exploitation_privee"%', '%"niveau_publie":"' . $garde . '"%'])->fetchColumn();
++        $autre = dbQuery($db, "SELECT (SELECT COUNT(*) FROM itp_atz_snapshots WHERE payload LIKE ? AND payload NOT LIKE ?) + (SELECT COUNT(*) FROM itp_atz_garde WHERE payload LIKE ? AND payload NOT LIKE ?)", ['%"type":"exploitation_privee"%', '%"niveau_publie":"' . $garde . '"%', '%"type":"exploitation_privee"%', '%"niveau_publie":"' . $garde . '"%'])->fetchColumn();
+         if ($autre > 0) fail(409, 'atz_niveau_change', 'Le niveau de ventilation ne peut pas changer en cours d’exploitation (recoupement entre niveaux).');
+         foreach (['univers', 'oeuvres', 'territoires', 'parcours'] as $dim) if ($dim !== $garde) foreach ($calc[$dim] ?? [] as $c => $vals)
+             $calc[$dim][$c] = array_map(fn($v) => is_array($v) ? array_map(fn($x) => null, $v) : null, $vals);
+         $GLOBALS['itp_atz_dimension'] = $garde;
+     }
+-    $historique = dbQuery($db, 'SELECT serie, payload, checksum, k FROM itp_atz_snapshots WHERE debut < ? AND fin > ?', [$fin, $debut]);
++    $historique = dbQuery($db, 'SELECT serie, payload, checksum, k FROM itp_atz_snapshots WHERE debut < ? AND fin > ? UNION ALL SELECT serie, payload, checksum, k FROM itp_atz_garde WHERE debut < ? AND fin > ?', [$fin, $debut, $fin, $debut]);
+     $masquesInc = itpAtzMasquerRecoupements($calc, $historique, $serie, $k);
+     $payload = ['schema' => 'ITHAKYA-ATTENZIA-INSTANTANE-1', 'regle' => ITP_ATZ_REGLE_INST, 'serie' => $serie, 'cle' => $cle, 'debut' => $debut, 'fin' => $fin, 'k' => $k, 'masques_incrementaux' => $masquesInc, 'donnees' => $calc,
+         'provenance' => (($GLOBALS['itp_atz_mode'] ?? 'banc') === 'exploitation' ? ['type' => 'exploitation_privee', 'niveau_publie' => $GLOBALS['itp_atz_dimension'] ?? 'univers'] : ['type' => 'banc_synthetique_local']) + ['comptes' => 'rôle membre uniquement', 'collecte_nouvelle' => false],   /* C3 : provenance fidèle au régime */
+@@ -337,7 +379,10 @@
+     if ($action === 'attenzia_purger') {   /* conservation paramétrable (atz_conservation_jours, ≥ 30, défaut 400) ; l'audit de la purge est conservé */
+         fields($input, ['confirmer']); if (($input['confirmer'] ?? null) !== true) fail(422, 'atz_confirmation', 'Confirmation explicite requise.');
+         $jours = is_int($config['atz_conservation_jours'] ?? null) ? max(30, $config['atz_conservation_jours']) : 400; $seuil = time() - $jours * 86400;
++        $db->beginTransaction();   /* V3.8 : la purge retire l'instantané de la consultation et de l'export, mais conserve sa trace de garde (R-ATZ-01). */
++        dbQuery($db, 'INSERT INTO itp_atz_garde (id, serie, cle, debut, fin, k, checksum, payload, purged_at) SELECT id, serie, cle, debut, fin, k, checksum, payload, ? FROM itp_atz_snapshots WHERE created_at < ?', [time(), $seuil]);
+         $n1 = dbQuery($db, 'DELETE FROM itp_atz_snapshots WHERE created_at < ?', [$seuil])->rowCount(); $n2 = dbQuery($db, 'DELETE FROM itp_atz_audit WHERE at < ?', [$seuil])->rowCount();
++        $db->commit();
+         $GLOBALS['itp_atz_extra'] = ['supprimes' => $n1, 'audit' => $n2, 'jours' => $jours];
+         output(['ok' => true, 'instantanes_supprimes' => $n1, 'lignes_audit_supprimees' => $n2, 'conservation_jours' => $jours]);
+     }

@@ -1,0 +1,28 @@
+{
+ "fenetre_s": 85.0,
+ "requetes_serveur": 50912,
+ "serveur_lectures_ms": {
+  "n": 40653,
+  "p50": 150.1,
+  "p95": 602.6,
+  "p99": 736.3,
+  "max": 1698.028
+ },
+ "serveur_ecritures_ms": {
+  "n": 10257,
+  "p95": 205.1,
+  "p99": 280.8
+ },
+ "client_toutes_ms": {
+  "p50_ms": 144.9,
+  "p95_ms": 612.5,
+  "p99_ms": 982.5,
+  "max_ms": 24739.6,
+  "erreurs": 0,
+  "debit_req_s": 587.0
+ },
+ "apache_proc_max": 151,
+ "mariadb_threads_max": 130,
+ "loadavg_max": 126.38,
+ "note": "%D = durée de traitement mesurée par Apache, hors attente dans la file d acceptation TCP et hors ordonnancement du client Python (même machine)"
+}

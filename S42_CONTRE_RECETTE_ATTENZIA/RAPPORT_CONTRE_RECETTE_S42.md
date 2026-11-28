@@ -1,5 +1,5 @@
 # ITHAKYA Premium W360 — S42 — Rapport de contre-recette indépendante ATTENZIA
-28 novembre 2026 — Référence d'entrée : S41 (candidate non gelée) — Sortie : S42 (ATTENZIA V3.7)
+28 novembre 2026 — Référence d'entrée : S41 (candidate non gelée) — Sortie : S42 (ATTENZIA V3.8 = V3.7 + R-ATZ-01)
 
 Conventions : **[PREUVE]** = résultat exécuté et reproductible (fichier cité). **[INDICE]** = constat d'analyse non démontré par exécution. **[NON VÉRIFIABLE]** = pièce absente.
 
@@ -19,7 +19,7 @@ Limite : le manifeste et l'archive proviennent de la même source. La concordanc
 
 - Le correctif `attenzia_v3_6.patch` (dossier probatoire S41) s'applique en sens inverse sans conflit sur le module V3.6. V3.5 reconstituée : SHA-256 `d63d5f1e58df5abaeb21978a71482104593109d70978513f81f925b4b11a9b65`. [PREUVE]
 - `source/serveur/…instantanes.php` et `site/api/…instantanes.php` sont identiques (V3.6 `33313dc9…6499`). Le générateur (`source/outils/generer.py`, l. 974-975) copie `source/serveur/*.php` vers `site/api/` sans transformation, et les 14 fichiers serveur ainsi que le cockpit sont identiques à leur source. [PREUVE]
-- **[NON VÉRIFIABLE]** L'archive S40 (`b22621693ed6…d204`) n'a pas été transmise. Les affirmations « S41 = S40 sauf 2 chemins » et « V3.5 reconstituée = V3.5 de S40 » ne peuvent être confrontées à S40 par une source indépendante.
+- **[PREUVE, complément S40]** L'inventaire intégral S40 fourni ensuite (`ITHAKYA_W360_MANIFESTE_INTEGRAL_S40_20261128.json`) ne diffère de S41 que par les deux chemins du module ; il attribue à V3.5 l'empreinte `d63d5f1e…9b65`, identique à la reconstitution. L'archive S40 elle-même n'a pas été transmise (empreinte déclarée `b2262169…d204`).
 
 ## 3. Contre-expertise du correctif V3.6
 
@@ -51,7 +51,9 @@ Banc : Apache 2.4.58 (prefork, HTTPS 127.0.0.1:8443), mod_php 8.3.6, MariaDB 10.
 | RT-14 | Attaquant automatisé, 55 instantanés aléatoires (graine 4242), 715 cellules | **84 cellules en fuite (99 fuites)** | **0** |
 | RT-04 | Complément nul `long_ouverts − long_apres_court` = 0 (homogénéité) | publié | publié (inchangé, voir réserve R-ATZ-03) |
 | RT-05 | Parcours (banc) : `long_lances − long_termines` = 1 | publié | publié (banc seulement ; masqué en exploitation, RT-13) |
-| RT-06 | Export conservé → purge → refigement de la même période après suppression d'un compte | Δ participants = **1** | Δ = **1** (inchangé, voir R-ATZ-01) |
+| RT-06 | Export conservé → purge → refigement de la même période après suppression d'un compte | Δ participants = **1** | V3.7 : Δ = **1** ; **V3.8 : 409** (période déjà publiée) |
+| RT-06b | Idem, puis cumul voisin (+14 j) | — | V3.7 : Δ = **1** publié ; **V3.8 : cellule masquée** (18 masques), trace de garde non listée |
+| RT-15 | Écriture de progression avec l'`owner_id` d'un autre compte | — | 409, aucune ligne créée (V3.7, V3.8) |
 | RT-07 | Utilité : semaine recoupée par un cumul existant | 25 → **0** valeur publiée | identique |
 | RT-08 | Concurrence : même instantané × 10 ; deux cumuls trop proches en parallèle ; 5 semaines en parallèle ; 5 exports simultanés | 1 × 201 + 9 × 409 ; 201 + 409 ; 5 × 201 ; exports identiques | identique |
 | RT-09 | Rôles : membre et anonyme sur les 6 actions ; filtre libre ; cockpit | 403 partout ; 422 ; cockpit 404/404/200 (membre, anonyme, administrateur) | identique |
@@ -71,6 +73,9 @@ Preuves : `preuves/res_v36_*.json`, `preuves/res_v37_*.json` ; outils : `outils/
 Écarté après essai : inclure le complément nul dans le garde (homogénéité). Cette option masque des cellules entières dans un cas d'usage normal (tous les Longs ouverts après le Court), ce qui relève d'un arbitrage entre confidentialité et utilité. Elle est consignée en réserve R-ATZ-03.
 
 SHA-256 V3.7 : `51a4e6bbfe507d965e5d632dfa2847e23fe4ca1fe5abd659866a76c958664e85`.
+
+### 3.4 bis Correctif R-ATZ-01 (V3.8), après l'arbitrage final du propriétaire
+`S42_attenzia_v3_8.diff` (16 lignes) : nouvelle table `itp_atz_garde`. La purge y recopie les instantanés supprimés, en transaction, avant de les retirer de la consultation et de l'export. Le garde de recoupement, l'unicité de période, l'espacement des cumuls, le contrôle intersérie et le contrôle de niveau en exploitation lisent aussi cette trace. Aucune route ne la sert. **Comportement de purge modifié : à valider par le propriétaire.** SHA-256 V3.8 : `e0cd26db36171f9f694ce61fd82b845020bb6836ed1ef4bc8fc217ea6e08bd87`. Régression : 267/267 et 10 750/10 750 ; suites HTTP identiques à V3.7 hors identifiant de règle et RT-06 ; attaquant automatisé identique (`res_v38_*.json`).
 
 ### 3.5 Utilité statistique
 
@@ -101,7 +106,7 @@ Cockpit : contrôle par lecture du code (`assets/ithakya-atz-cockpit.js`). Les v
 
 ## 6. Résistance en charge
 
-Voir `preuves/res_v37_charge_200_1800s.json` et la section correspondante du PV. Le banc local, client compris, tourne sur une seule machine de 4 vCPU. Ses mesures ne sont pas transposables à l'hébergement OVH.
+`preuves/res_v37_charge_200_1800s.json` (plateau de 1 817,7 s, 200 comptes, 0 erreur, P95 678,5 ms, P99 1 757,6 ms, contrôles finaux conformes), `preuves/diag_latences_serveur_client.json` et `preuves/diag_par_action.json` (diagnostic serveur de 90 s : `session` et `profile` concentrent le dépassement du P95). Le critère S35 P95 ≤ 500 ms n'est pas atteint. Analyse et limites du banc : PV, § Condition n° 2. Mesures non transposables à OVH.
 
 ## 7. Limites de la contre-recette
 

@@ -1,0 +1,105 @@
+{
+ "RT06_purge_refigement": {
+  "figement_1": 201,
+  "refigement_avant_purge": 409,
+  "purge": {
+   "ok": true,
+   "instantanes_supprimes": 1,
+   "lignes_audit_supprimees": 0,
+   "conservation_jours": 30
+  },
+  "refigement_apres_purge": 409,
+  "export_1_pop": {
+   "participants": "20",
+   "court_termines": "",
+   "long_ouverts": "12",
+   "long_termines": "",
+   "long_apres_court": "12",
+   "taux_approfondissement": "",
+   "taux_achevement_long": "",
+   "quiz_repondus": "",
+   "quiz_corrects": "",
+   "notes_k_donnees": "",
+   "note_k_moyenne": "",
+   "taux_quiz_correct": ""
+  },
+  "export_2_pop": {},
+  "difference_participants": null
+ },
+ "RT07_utilite_interserie": {
+  "semaine_seule_valeurs_publiees": 25,
+  "semaine_apres_cumul_valeurs_publiees": 0,
+  "masques_incrementaux": 25
+ },
+ "RT08_concurrence": {
+  "meme_instantane_x10_codes": [
+   201,
+   409,
+   409,
+   409,
+   409,
+   409,
+   409,
+   409,
+   409,
+   409
+  ],
+  "lignes_S25": 1,
+  "cumuls_proches_paralleles_codes": [
+   201,
+   409
+  ],
+  "cumuls_en_base": 1,
+  "semaines_distinctes_paralleles_codes": [
+   201,
+   201,
+   201,
+   201,
+   201
+  ],
+  "exports_paralleles_codes": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "exports_identiques": true,
+  "verrous_residuels": "n/a"
+ },
+ "RT09_roles_banc": {
+  "membre": {
+   "attenzia_instantanes": 403,
+   "attenzia_instantane": 403,
+   "attenzia_export": 403,
+   "attenzia_journal": 403,
+   "attenzia_instantane_creer": 403,
+   "attenzia_purger": 403
+  },
+  "anonyme": {
+   "attenzia_instantanes": 403,
+   "attenzia_instantane": 403,
+   "attenzia_export": 403,
+   "attenzia_journal": 403,
+   "attenzia_instantane_creer": 403,
+   "attenzia_purger": 403
+  },
+  "admin_filtre_libre": 422,
+  "cockpit_membre": 404,
+  "cockpit_anonyme": 404,
+  "cockpit_admin": 200
+ },
+ "RT10_integrite": {
+  "lecture_alteree": 500,
+  "export_altere": 500,
+  "nouvelle_publication_recoupee": 500
+ },
+ "RT12_coherence_export": {
+  "http": 200,
+  "type": "text/csv; charset=utf-8",
+  "lignes_csv": 102,
+  "valeurs_json_scalaires": 102,
+  "ecarts": [],
+  "n_ecarts": 0
+ }
+}

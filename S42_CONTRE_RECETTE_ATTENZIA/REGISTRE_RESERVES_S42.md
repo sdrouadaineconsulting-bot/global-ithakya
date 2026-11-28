@@ -1,6 +1,6 @@
 # Registre des réserves — S42 (28/11/2026)
 
-Base documentaire disponible : `QUALIFICATION_W360_ASSAINISSEMENT_20261126/REGISTRE_REPRISE.md` (état au 27/11, contenu dans S41), rapport S41, présente contre-recette. Les registres S36 à S40 n'ont pas été transmis.
+Base documentaire : registre S40 de Work (transmis ensuite), réconcilié dans `reconciliation/REGISTRE_RESERVES_S42.csv`, qui fait foi ; registre du 27/11 contenu dans S41 ; présente contre-recette. La section B ci-dessous (état au 27/11) est remplacée par le registre S40 : R01 à R11 levées, R12 à R15 externes ou documentaires et sans effet sur la décision.
 
 Catégories : **TB** = réserve technologique bloquante · **IP** = insuffisance probatoire · **LE** = limitation externe · **NB** = réserve non bloquante pour le gel.
 
@@ -9,7 +9,8 @@ Catégories : **TB** = réserve technologique bloquante · **IP** = insuffisance
 | Id | Réserve | Catégorie | État S42 | Preuve | Levée |
 |---|---|---|---|---|---|
 | A-01 | Taux publiés alors qu'un terme est masqué → restitution d'un effectif masqué et d'un complément < k (V3.6 et antérieures, régime d'exploitation compris) | TB | **Corrigée (V3.7) et requalifiée** : 0 fuite sur RT-01/02/03/13/14 | res_v36_*, res_v37_* | — |
-| R-ATZ-01 | Purge puis refigement d'une même période (ou d'un cumul proche) : le garde ne voit plus l'historique purgé ; un export conservé permet une différence de 1 (démontré : RT-06) | TB pour l'**activation sur données réelles** ; NB pour le gel du code (ATTENZIA désactivé par défaut) | Ouverte, non corrigée : la correction dépend de la politique de conservation | res_v37_integration.json (RT06) | Décision du propriétaire sur la conservation, puis correctif (par ex. trace des périodes purgées) |
+| R-ATZ-01 | Purge puis refigement d'une même période ou d'un cumul voisin : le garde ne voit plus l'historique purgé ; un export conservé permet une différence de 1 (RT-06, RT-06b) | TB | **Corrigée (V3.8) et requalifiée** : refigement 409, cumul voisin masqué. La purge conserve désormais une trace de garde non servie | res_v37_purge.json, res_v38_purge.json | Validation du comportement de purge par le propriétaire |
+| S42-CHARGE | Plateau 200 × 1 800 s : P95 des lectures > 500 ms (critère S35) ; `session` et `profile` sont environ 3 fois plus coûteuses à vide | **TB (empêche le gel)** | Ouverte ; hors périmètre S42, proposition séparée | res_v37_charge_200_1800s.json, diag_*.json | Réduire le P95 ou faire réviser le critère, puis rejouer le plateau |
 | R-ATZ-02 | Parcours : aucune suppression complémentaire (complément 1 publié) | NB : banc synthétique seulement ; masqué en exploitation (RT-13 : 0 valeur hors niveau) | Ouverte | RT05, RT13 | — |
 | R-ATZ-03 | Complément dérivé nul publié (homogénéité ; ex. tous les Longs ouverts après le Court) ; la suppression primaire, elle, masque le complément nul | NB : arbitrage entre confidentialité et utilité | Ouverte, correctif écarté (masquage de cellules entières dans un usage normal) | RT04 | Décision du propriétaire |
 | R-ATZ-04 | Compositions multivariées, croisements entre cellules, données auxiliaires, signaux du masque : absence de fuite non démontrable | IP (structurelle) | Ouverte | § 3.6 du rapport | Pas de levée possible par essais ; seule une méthode formelle le permettrait |
@@ -33,7 +34,7 @@ Catégories : **TB** = réserve technologique bloquante · **IP** = insuffisance
 
 | Id | Pièce | Effet |
 |---|---|---|
-| P-01 | Archive S40 | Différentiel S40 → S41 non vérifiable de façon indépendante |
-| P-02 | Matrice des 128 articles | Réconciliation impossible |
-| P-03 | Registres et rapports S36 à S40 (dont le rapport Work S40) | État des réserves T-01 à T-04 inconnu |
-| P-04 | Résultats historiques de charge sur « S40 » (`charge.json`) | Non joints à S41 ; seul le registre du 27/11 les mentionne (paliers 20/50/100/200, 20 s chacun, 0 erreur) |
+| P-01 | Archive S40 | Inventaire S40 transmis et comparé ; archive non transmise (empreinte déclarée seulement) |
+| P-02 | Matrice des 128 articles | **Transmise et réconciliée** |
+| P-03 | Registres et rapports S36 à S40 | Registre et PV S40 transmis ; S36 à S39 connus par leurs colonnes dans la matrice et le registre S40 |
+| P-04 | Protocole de charge S35/S40 | Transmis ; non rejouable ici (environnement d'exécution et mire MP4 non fournis) ; critères appliqués |
