@@ -106,4 +106,4 @@ Priorities : remplacer le conteneur `<video>` par le fragment `03_integration/W3
 
 - Dépôt `global-ithakya`, branche de travail de cette session, dossier `w360/` : ce contrat, les deux paquets sans vidéo (éditorial et masters), les outils.
 - Vidéo ORPM : Google Drive de l'utilisateur (fichier `1CJ4UXh8CSWY6Lk8LFwhjgWA5sMnsODpk`), vérifiable par son SHA-256.
-- Points ouverts : 5 vidéos YouTube à fournir ; cinq personnages de La Grande Traversée non définis ; hébergement à choisir.
+- Points ouverts : 5 vidéos YouTube à fournir ; hébergement à choisir. Les cinq personnages de La Grande Traversée relèvent de la candidate qui finalise la plateforme.

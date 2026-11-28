@@ -23,7 +23,13 @@
       "resolution_source": "3840x1620",
       "langue_originale": "en",
       "dialogue": "Annonces P.A. en anglais (20 répliques) ; pas de dialogue entre personnages",
-      "sous_titres_source": [{"langue": "en", "type": "auto-généré par Vimeo (ai_generated)", "repris": "04_sous_titres/W360-ST-COURT.en.auto.vtt"}],
+      "sous_titres_source": [
+        {
+          "langue": "en",
+          "type": "auto-généré par Vimeo (ai_generated)",
+          "repris": "04_sous_titres/W360-ST-COURT.en.auto.vtt"
+        }
+      ],
       "mecanisme_telechargement": "Téléchargement activé par le propriétaire (privacy.download = true)",
       "statut_master": "manquant",
       "cause_manquant": "Hôtes vimeo.com et player.vimeo.com refusés par la politique réseau de l'environnement d'exécution (HTTP 403 au proxy) ; le téléchargement officiel Vimeo peut en outre exiger une session connectée (non vérifié).",
@@ -35,11 +41,58 @@
         "Les images de synthèse sont réalisées avec Cinema 4D et Octane Render, combinées à des prises de vues réelles."
       ],
       "quiz": {
-        "quick": {"question": "Comment l'Esperanta produit-il sa gravité artificielle ?", "options": [["rotation", "Par sa rotation sur lui-même, une révolution par minute"], ["engine", "Par la poussée continue de ses moteurs"], ["magnet", "Par des aimants placés sous le pont"]], "correct": "rotation", "explanation": "La rotation crée une force centrifuge : sur un rayon de 450 m, une révolution par minute donne environ 0,5 g le long du pont principal."},
-        "community": {"question": "Pourquoi les annonces conseillent-elles d'éviter de courir ou de sauter sur le pont ?", "options": [["coriolis", "À cause des effets de Coriolis liés à la rotation"], ["noise", "Pour limiter le bruit à bord"], ["fragile", "Parce que le sol est fragile"]], "correct": "coriolis", "explanation": "Dans un habitat en rotation, tout mouvement rapide subit les effets de Coriolis, plus marqués aux niveaux supérieurs du pont."}
+        "quick": {
+          "question": "Comment l'Esperanta produit-il sa gravité artificielle ?",
+          "options": [
+            [
+              "rotation",
+              "Par sa rotation sur lui-même, une révolution par minute"
+            ],
+            [
+              "engine",
+              "Par la poussée continue de ses moteurs"
+            ],
+            [
+              "magnet",
+              "Par des aimants placés sous le pont"
+            ]
+          ],
+          "correct": "rotation",
+          "explanation": "La rotation crée une force centrifuge : sur un rayon de 450 m, une révolution par minute donne environ 0,5 g le long du pont principal."
+        },
+        "community": {
+          "question": "Pourquoi les annonces conseillent-elles d'éviter de courir ou de sauter sur le pont ?",
+          "options": [
+            [
+              "coriolis",
+              "À cause des effets de Coriolis liés à la rotation"
+            ],
+            [
+              "noise",
+              "Pour limiter le bruit à bord"
+            ],
+            [
+              "fragile",
+              "Parce que le sol est fragile"
+            ]
+          ],
+          "correct": "coriolis",
+          "explanation": "Dans un habitat en rotation, tout mouvement rapide subit les effets de Coriolis, plus marqués aux niveaux supérieurs du pont."
+        }
       },
-      "passerelle": {"vers": "W360-ST-LONG", "texte": "Le Court installe un humain seul face à l'immensité du Système solaire. Le Long pose la question suivante : y a-t-il quelqu'un d'autre à l'écoute ?"},
-      "mots_cles": ["gravité artificielle", "station spatiale", "1 RPM", "Coriolis", "Système solaire", "animation 3D", "science-fiction"]
+      "passerelle": {
+        "vers": "W360-ST-LONG",
+        "texte": "Le Court installe un humain seul face à l'immensité du Système solaire. Le Long pose la question suivante : y a-t-il quelqu'un d'autre à l'écoute ?"
+      },
+      "mots_cles": [
+        "gravité artificielle",
+        "station spatiale",
+        "1 RPM",
+        "Coriolis",
+        "Système solaire",
+        "animation 3D",
+        "science-fiction"
+      ]
     },
     {
       "id": "W360-ST-LONG",
@@ -48,7 +101,10 @@
       "titre_exact": "D’étranges signaux radios en provenance de l’espace",
       "titre_programme": "D’étranges signaux radios en provenance de l’espace",
       "createur": "Balade Mentale",
-      "credits": ["Chaîne Balade Mentale (aucun crédit nominatif dans la description)", "Partenaire de la vidéo : Saily (séquence sponsorisée 01:47–03:10)"],
+      "credits": [
+        "Chaîne Balade Mentale (aucun crédit nominatif dans la description)",
+        "Partenaire de la vidéo : Saily (séquence sponsorisée 01:47–03:10)"
+      ],
       "url_source": "https://www.youtube.com/watch?v=rznAp00VGSg",
       "plateforme": "YouTube",
       "date_publication": "2025-06-22",
@@ -57,8 +113,71 @@
       "resolution_source": "non communiquée par la source",
       "langue_originale": "fr",
       "dialogue": "Narration continue en français",
-      "sous_titres_source": [{"langue": "fr", "type": "auto-généré par YouTube (asr)", "repris": "non repris : transcription automatique non relue (ex. « CTI » pour SETI, « Brex Wolison » pour Breakthrough Listen)"}],
-      "chapitres_source": [["00:00", "En quête d’extraterrestre"], ["01:47", "Merci Saily"], ["03:10", "La découverte des pulsars"], ["05:13", "De mystérieux phénomènes inexpliqués"], ["07:00", "Les sursauts radios rapides"], ["07:50", "La résolution de l’énigme"], ["09:15", "Le signal WOW"], ["11:41", "Les mathématiques comme langage commun ?"], ["12:10", "Et si on écoutait à côté ?"], ["13:35", "Le projet Breakthrough Listen, de nouvelles oreilles"], ["15:56", "Les découvertes"], ["16:31", "Comment expliquer le Grand Silence ?"], ["18:32", "Interpréter une hypothétique réception"], ["19:58", "Le choix du silence"]],
+      "sous_titres_source": [
+        {
+          "langue": "fr",
+          "type": "auto-généré par YouTube (asr)",
+          "repris": "non repris : transcription automatique non relue (ex. « CTI » pour SETI, « Brex Wolison » pour Breakthrough Listen)"
+        }
+      ],
+      "chapitres_source": [
+        [
+          "00:00",
+          "En quête d’extraterrestre"
+        ],
+        [
+          "01:47",
+          "Merci Saily"
+        ],
+        [
+          "03:10",
+          "La découverte des pulsars"
+        ],
+        [
+          "05:13",
+          "De mystérieux phénomènes inexpliqués"
+        ],
+        [
+          "07:00",
+          "Les sursauts radios rapides"
+        ],
+        [
+          "07:50",
+          "La résolution de l’énigme"
+        ],
+        [
+          "09:15",
+          "Le signal WOW"
+        ],
+        [
+          "11:41",
+          "Les mathématiques comme langage commun ?"
+        ],
+        [
+          "12:10",
+          "Et si on écoutait à côté ?"
+        ],
+        [
+          "13:35",
+          "Le projet Breakthrough Listen, de nouvelles oreilles"
+        ],
+        [
+          "15:56",
+          "Les découvertes"
+        ],
+        [
+          "16:31",
+          "Comment expliquer le Grand Silence ?"
+        ],
+        [
+          "18:32",
+          "Interpréter une hypothétique réception"
+        ],
+        [
+          "19:58",
+          "Le choix du silence"
+        ]
+      ],
       "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
       "statut_master": "manquant",
       "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit.",
@@ -71,11 +190,59 @@
         "Le 01:47–03:10 est une séquence sponsorisée (Saily), à signaler ou à chapitrer dans le lecteur."
       ],
       "quiz": {
-        "quick": {"question": "Qu'était réellement le signal régulier baptisé LGM-1 en 1967 ?", "options": [["pulsar", "Un pulsar, une étoile à neutrons en rotation rapide"], ["alien", "Un message extraterrestre confirmé"], ["satellite", "Un satellite militaire"]], "correct": "pulsar", "explanation": "Des signaux similaires ont été détectés ailleurs dans le ciel : il s'agissait d'un phénomène naturel, les pulsars."},
-        "community": {"question": "D'où venaient les signaux mystérieux captés à Parkes dans les années 2010 ?", "options": [["microwave", "D'un four à micro-ondes du personnel"], ["galaxy", "D'une galaxie lointaine"], ["sun", "D'une éruption solaire"]], "correct": "microwave", "explanation": "Ils apparaissaient en semaine aux heures de bureau : ouvrir le four avant la fin de la minuterie laissait s'échapper des micro-ondes."}
+        "quick": {
+          "question": "Qu'était réellement le signal régulier baptisé LGM-1 en 1967 ?",
+          "options": [
+            [
+              "pulsar",
+              "Un pulsar, une étoile à neutrons en rotation rapide"
+            ],
+            [
+              "alien",
+              "Un message extraterrestre confirmé"
+            ],
+            [
+              "satellite",
+              "Un satellite militaire"
+            ]
+          ],
+          "correct": "pulsar",
+          "explanation": "Des signaux similaires ont été détectés ailleurs dans le ciel : il s'agissait d'un phénomène naturel, les pulsars."
+        },
+        "community": {
+          "question": "D'où venaient les signaux mystérieux captés à Parkes dans les années 2010 ?",
+          "options": [
+            [
+              "microwave",
+              "D'un four à micro-ondes du personnel"
+            ],
+            [
+              "galaxy",
+              "D'une galaxie lointaine"
+            ],
+            [
+              "sun",
+              "D'une éruption solaire"
+            ]
+          ],
+          "correct": "microwave",
+          "explanation": "Ils apparaissaient en semaine aux heures de bureau : ouvrir le four avant la fin de la minuterie laissait s'échapper des micro-ondes."
+        }
       },
-      "passerelle": {"depuis": "W360-ST-COURT", "texte": "Après le voyage solitaire de l'Esperanta, le Long tend l'oreille vers le cosmos : soixante ans d'écoute, des fausses pistes, et un silence qui interroge."},
-      "mots_cles": ["SETI", "radioastronomie", "pulsars", "signal Wow", "sursauts radio rapides", "Breakthrough Listen", "paradoxe de Fermi", "vulgarisation"]
+      "passerelle": {
+        "depuis": "W360-ST-COURT",
+        "texte": "Après le voyage solitaire de l'Esperanta, le Long tend l'oreille vers le cosmos : soixante ans d'écoute, des fausses pistes, et un silence qui interroge."
+      },
+      "mots_cles": [
+        "SETI",
+        "radioastronomie",
+        "pulsars",
+        "signal Wow",
+        "sursauts radio rapides",
+        "Breakthrough Listen",
+        "paradoxe de Fermi",
+        "vulgarisation"
+      ]
     },
     {
       "id": "W360-SA-COURT",
@@ -107,9 +274,21 @@
       "langue_originale": "fr",
       "dialogue": "Voix off française courte (11 répliques), voix intérieure",
       "sous_titres_source": [
-        {"langue": "fr", "type": "manuel (auteur)", "repris": "04_sous_titres/W360-SA-COURT.fr.vtt"},
-        {"langue": "en-US", "type": "manuel (auteur)", "repris": "04_sous_titres/W360-SA-COURT.en-US.vtt"},
-        {"langue": "en", "type": "auto-généré (asr)", "repris": "non repris : doublon de la piste manuelle en-US"}
+        {
+          "langue": "fr",
+          "type": "manuel (auteur)",
+          "repris": "04_sous_titres/W360-SA-COURT.fr.vtt"
+        },
+        {
+          "langue": "en-US",
+          "type": "manuel (auteur)",
+          "repris": "04_sous_titres/W360-SA-COURT.en-US.vtt"
+        },
+        {
+          "langue": "en",
+          "type": "auto-généré (asr)",
+          "repris": "non repris : doublon de la piste manuelle en-US"
+        }
       ],
       "versions_linguistiques_signalees": "Les crédits mentionnent des voix off anglaise, allemande, italienne et espagnole ; seule la version en ligne à l'URL source est identifiée. Les autres versions sont à demander à l'auteur.",
       "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
@@ -122,11 +301,57 @@
         "La voix off est celle du réalisateur en français ; des voix off en quatre autres langues sont créditées."
       ],
       "quiz": {
-        "quick": {"question": "Quel événement de son enfance le réalisateur relie-t-il à son besoin de voler ?", "options": [["father", "La perte de son père dans un accident d'hélicoptère"], ["race", "Une victoire en compétition"], ["move", "Un déménagement à la montagne"]], "correct": "father", "explanation": "À dix ans, il a perdu son père ; il dit avoir aujourd'hui vécu plus longtemps que lui, et cette voix l'a poussé à voler."},
-        "community": {"question": "Que demande la voix intérieure au spectateur ?", "options": [["tomorrow", "Ce qu'elle lui dirait si sa vie s'arrêtait demain"], ["speed", "À quelle vitesse il peut voler"], ["gear", "Quel équipement choisir"]], "correct": "tomorrow", "explanation": "Le film retourne la question au spectateur : « Et si ta vie devait s'arrêter demain ? »"}
+        "quick": {
+          "question": "Quel événement de son enfance le réalisateur relie-t-il à son besoin de voler ?",
+          "options": [
+            [
+              "father",
+              "La perte de son père dans un accident d'hélicoptère"
+            ],
+            [
+              "race",
+              "Une victoire en compétition"
+            ],
+            [
+              "move",
+              "Un déménagement à la montagne"
+            ]
+          ],
+          "correct": "father",
+          "explanation": "À dix ans, il a perdu son père ; il dit avoir aujourd'hui vécu plus longtemps que lui, et cette voix l'a poussé à voler."
+        },
+        "community": {
+          "question": "Que demande la voix intérieure au spectateur ?",
+          "options": [
+            [
+              "tomorrow",
+              "Ce qu'elle lui dirait si sa vie s'arrêtait demain"
+            ],
+            [
+              "speed",
+              "À quelle vitesse il peut voler"
+            ],
+            [
+              "gear",
+              "Quel équipement choisir"
+            ]
+          ],
+          "correct": "tomorrow",
+          "explanation": "Le film retourne la question au spectateur : « Et si ta vie devait s'arrêter demain ? »"
+        }
       },
-      "passerelle": {"vers": "W360-SA-LONG", "texte": "Le Court dit pourquoi il vole. Le Long montre comment : six minutes de vols acrobatiques sur quatre continents."},
-      "mots_cles": ["parapente", "vol libre", "Briançon", "Serre-Ponçon", "récit personnel", "voix intérieure"]
+      "passerelle": {
+        "vers": "W360-SA-LONG",
+        "texte": "Le Court dit pourquoi il vole. Le Long montre comment : six minutes de vols acrobatiques sur quatre continents."
+      },
+      "mots_cles": [
+        "parapente",
+        "vol libre",
+        "Briançon",
+        "Serre-Ponçon",
+        "récit personnel",
+        "voix intérieure"
+      ]
     },
     {
       "id": "W360-SA-LONG",
@@ -165,11 +390,58 @@
         "Musique sous licence à vérifier pour toute diffusion : « My Silver Lining » (First Aid Kit)."
       ],
       "quiz": {
-        "quick": {"question": "Dans quel archipel une partie de Weightless a-t-elle été tournée ?", "options": [["azores", "Les Açores"], ["canary", "Les Canaries"], ["hawaii", "Hawaï"]], "correct": "azores", "explanation": "Les crédits citent São Miguel et Corvo, aux Açores (Portugal)."},
-        "community": {"question": "Que signifie un vol « synchro » en parapente ?", "options": [["sync", "Plusieurs pilotes réalisent les mêmes figures ensemble"], ["solo", "Un pilote vole seul sans instruments"], ["tow", "Le parapente est tracté par un bateau"]], "correct": "sync", "explanation": "Le crédit « Synchro pilot » de Guillaume Galvani désigne un vol coordonné à deux voiles."}
+        "quick": {
+          "question": "Dans quel archipel une partie de Weightless a-t-elle été tournée ?",
+          "options": [
+            [
+              "azores",
+              "Les Açores"
+            ],
+            [
+              "canary",
+              "Les Canaries"
+            ],
+            [
+              "hawaii",
+              "Hawaï"
+            ]
+          ],
+          "correct": "azores",
+          "explanation": "Les crédits citent São Miguel et Corvo, aux Açores (Portugal)."
+        },
+        "community": {
+          "question": "Que signifie un vol « synchro » en parapente ?",
+          "options": [
+            [
+              "sync",
+              "Plusieurs pilotes réalisent les mêmes figures ensemble"
+            ],
+            [
+              "solo",
+              "Un pilote vole seul sans instruments"
+            ],
+            [
+              "tow",
+              "Le parapente est tracté par un bateau"
+            ]
+          ],
+          "correct": "sync",
+          "explanation": "Le crédit « Synchro pilot » de Guillaume Galvani désigne un vol coordonné à deux voiles."
+        }
       },
-      "passerelle": {"depuis": "W360-SA-COURT", "texte": "Après la confession de Why I Fly, Weightless laisse parler le vol seul, sans un mot."},
-      "mots_cles": ["parapente acrobatique", "vol synchro", "Açores", "Briançon", "Brésil", "Afrique du Sud", "First Aid Kit"]
+      "passerelle": {
+        "depuis": "W360-SA-COURT",
+        "texte": "Après la confession de Why I Fly, Weightless laisse parler le vol seul, sans un mot."
+      },
+      "mots_cles": [
+        "parapente acrobatique",
+        "vol synchro",
+        "Açores",
+        "Briançon",
+        "Brésil",
+        "Afrique du Sud",
+        "First Aid Kit"
+      ]
     },
     {
       "id": "W360-PC-COURT",
@@ -204,11 +476,57 @@
         "Le contenu et les paroles du clip n'ont pas été analysés : la fiche s'en tient aux crédits publiés."
       ],
       "quiz": {
-        "quick": {"question": "De quel album PROZACZOPIXAN est-il extrait ?", "options": [["pandemonium", "PANDEMONIUM"], ["vlad", "V"], ["ago", "Agartha"]], "correct": "pandemonium", "explanation": "La description officielle présente le clip comme extrait du nouvel album PANDEMONIUM."},
-        "community": {"question": "Qui a réalisé le clip ?", "options": [["bienvu", "Bien Vu Production"], ["echelon", "Echelon Records"], ["virtual", "Virtual House Production"]], "correct": "bienvu", "explanation": "Bien Vu Production signe la réalisation ; Virtual House Production est le studio ; Echelon Records produit l'intro du concert."}
+        "quick": {
+          "question": "De quel album PROZACZOPIXAN est-il extrait ?",
+          "options": [
+            [
+              "pandemonium",
+              "PANDEMONIUM"
+            ],
+            [
+              "vlad",
+              "V"
+            ],
+            [
+              "ago",
+              "Agartha"
+            ]
+          ],
+          "correct": "pandemonium",
+          "explanation": "La description officielle présente le clip comme extrait du nouvel album PANDEMONIUM."
+        },
+        "community": {
+          "question": "Qui a réalisé le clip ?",
+          "options": [
+            [
+              "bienvu",
+              "Bien Vu Production"
+            ],
+            [
+              "echelon",
+              "Echelon Records"
+            ],
+            [
+              "virtual",
+              "Virtual House Production"
+            ]
+          ],
+          "correct": "bienvu",
+          "explanation": "Bien Vu Production signe la réalisation ; Virtual House Production est le studio ; Echelon Records produit l'intro du concert."
+        }
       },
-      "passerelle": {"vers": "W360-PC-LONG", "texte": "Du clip à la scène : la même équipe de réalisation met en images l'entrée de Vald à Paris La Défense Arena."},
-      "mots_cles": ["Vald", "rap français", "PANDEMONIUM", "clip", "Bien Vu Production", "Vladimir Cauchemar"]
+      "passerelle": {
+        "vers": "W360-PC-LONG",
+        "texte": "Du clip à la scène : la même équipe de réalisation met en images l'entrée de Vald à Paris La Défense Arena."
+      },
+      "mots_cles": [
+        "Vald",
+        "rap français",
+        "PANDEMONIUM",
+        "clip",
+        "Bien Vu Production",
+        "Vladimir Cauchemar"
+      ]
     },
     {
       "id": "W360-PC-LONG",
@@ -230,7 +548,13 @@
       "resolution_source": "non communiquée par la source",
       "langue_originale": "fr",
       "dialogue": "Dialogues et narration en français, musique",
-      "sous_titres_source": [{"langue": "fr", "type": "auto-généré par YouTube (asr)", "repris": "non repris : transcription automatique non relue"}],
+      "sous_titres_source": [
+        {
+          "langue": "fr",
+          "type": "auto-généré par YouTube (asr)",
+          "repris": "non repris : transcription automatique non relue"
+        }
+      ],
       "mecanisme_telechargement": "Aucun mécanisme public de téléchargement de fichier proposé par YouTube",
       "statut_master": "manquant",
       "cause_manquant": "Aucun mécanisme de téléchargement proposé par la source ; youtube.com refusé par la politique réseau. Fichier à fournir par l'ayant droit (label).",
@@ -241,11 +565,58 @@
         "Durée : 8 min 49 s selon la source, conforme à l'annonce de la commande."
       ],
       "quiz": {
-        "quick": {"question": "Quel lieu Vald et SuikonBlaz AD cherchent-ils à rejoindre ?", "options": [["ladefense", "Paris La Défense Arena"], ["olympia", "L'Olympia"], ["bercy", "L'Accor Arena"]], "correct": "ladefense", "explanation": "La description présente l'intro comme leur trajet pour rejoindre le stade de Paris La Défense Arena."},
-        "community": {"question": "Quel label produit cette introduction de concert ?", "options": [["echelon", "Echelon Records"], ["bienvu", "BienVu productions"], ["virtual", "Virtual House Production"]], "correct": "echelon", "explanation": "La description la présente comme « une superproduction Echelon Records mise en image par BienVu productions »."}
+        "quick": {
+          "question": "Quel lieu Vald et SuikonBlaz AD cherchent-ils à rejoindre ?",
+          "options": [
+            [
+              "ladefense",
+              "Paris La Défense Arena"
+            ],
+            [
+              "olympia",
+              "L'Olympia"
+            ],
+            [
+              "bercy",
+              "L'Accor Arena"
+            ]
+          ],
+          "correct": "ladefense",
+          "explanation": "La description présente l'intro comme leur trajet pour rejoindre le stade de Paris La Défense Arena."
+        },
+        "community": {
+          "question": "Quel label produit cette introduction de concert ?",
+          "options": [
+            [
+              "echelon",
+              "Echelon Records"
+            ],
+            [
+              "bienvu",
+              "BienVu productions"
+            ],
+            [
+              "virtual",
+              "Virtual House Production"
+            ]
+          ],
+          "correct": "echelon",
+          "explanation": "La description la présente comme « une superproduction Echelon Records mise en image par BienVu productions »."
+        }
       },
-      "passerelle": {"depuis": "W360-PC-COURT", "texte": "Après le clip, l'univers PANDEMONIUM passe à l'échelle d'une arène : neuf minutes de fiction avant le concert."},
-      "mots_cles": ["Vald", "SuikonBlaz AD", "Pandemonium", "Paris La Défense Arena", "concert", "Echelon Records", "BienVu productions"]
+      "passerelle": {
+        "depuis": "W360-PC-COURT",
+        "texte": "Après le clip, l'univers PANDEMONIUM passe à l'échelle d'une arène : neuf minutes de fiction avant le concert."
+      },
+      "mots_cles": [
+        "Vald",
+        "SuikonBlaz AD",
+        "Pandemonium",
+        "Paris La Défense Arena",
+        "concert",
+        "Echelon Records",
+        "BienVu productions"
+      ]
     },
     {
       "id": "W360-GT-FILM",
@@ -278,23 +649,99 @@
         "Tags de l'auteur : île, radeau, phare, grotte, brouillard, labrador, hydravion, plans-séquences caméra à l'épaule."
       ],
       "quiz": {
-        "quick": {"question": "Qui accompagne le jeune homme sur l'île ?", "options": [["dog", "Son chien"], ["pilot", "Un autre pilote"], ["nobody", "Personne"]], "correct": "dog", "explanation": "Le synopsis de l'auteur : « un jeune homme et son chien doivent trouver un moyen de rentrer »."},
-        "community": {"question": "Quel long-métrage Gints Zilbalodis a-t-il réalisé ensuite, récompensé par l'Oscar 2025 ?", "options": [["flow", "Flow"], ["coco", "Coco"], ["soul", "Soul"]], "correct": "flow", "explanation": "Flow a remporté l'Oscar du meilleur film d'animation en 2025."}
+        "quick": {
+          "question": "Qui accompagne le jeune homme sur l'île ?",
+          "options": [
+            [
+              "dog",
+              "Son chien"
+            ],
+            [
+              "pilot",
+              "Un autre pilote"
+            ],
+            [
+              "nobody",
+              "Personne"
+            ]
+          ],
+          "correct": "dog",
+          "explanation": "Le synopsis de l'auteur : « un jeune homme et son chien doivent trouver un moyen de rentrer »."
+        },
+        "community": {
+          "question": "Quel long-métrage Gints Zilbalodis a-t-il réalisé ensuite, récompensé par l'Oscar 2025 ?",
+          "options": [
+            [
+              "flow",
+              "Flow"
+            ],
+            [
+              "coco",
+              "Coco"
+            ],
+            [
+              "soul",
+              "Soul"
+            ]
+          ],
+          "correct": "flow",
+          "explanation": "Flow a remporté l'Oscar du meilleur film d'animation en 2025."
+        }
       },
       "grande_traversee": {
         "fonctionnement": "transversal et autonome, à conserver",
-        "cinq_personnages": "NON FOURNIS : ni la commande ni le socle (index.html et les 9 démos) ne définissent les cinq personnages de La Grande Traversée. Champs laissés vides, aucune invention.",
-        "personnages": []
+        "cinq_personnages": "Relève de la candidate qui finalise la plateforme (décision utilisateur du 2026-11-28) : hors du périmètre de ce paquet."
       },
-      "passerelle": {"texte": "Film intégral autonome : pas de couple Court → Long."},
-      "mots_cles": ["animation", "Lettonie", "île déserte", "survie", "chien", "Gints Zilbalodis", "Flow"]
+      "passerelle": {
+        "texte": "Film intégral autonome : pas de couple Court → Long."
+      },
+      "mots_cles": [
+        "animation",
+        "Lettonie",
+        "île déserte",
+        "survie",
+        "chien",
+        "Gints Zilbalodis",
+        "Flow"
+      ]
     }
   ],
   "createurs": {
-    "Erik Wernquist": {"profil": "Artiste numérique et animateur suédois. Il a réalisé Wanderers (2014), court-métrage de science-fiction narré par Carl Sagan à partir de Pale Blue Dot. One Revolution per Minute (2023) poursuit son travail sur l'exploration spatiale.", "sources": ["https://en.wikipedia.org/wiki/Wanderers_(2014_film)", "https://vimeo.com/869858712"]},
-    "Balade Mentale": {"profil": "Chaîne YouTube française de vulgarisation scientifique. Son auteur, Théo Drieu, a signé avec le dessinateur Hoobooh la bande dessinée « Le grand silence – Mais où sont les extraterrestres ? » (Robert Laffont, mars 2025), sur le sujet du Long.", "sources": ["https://www.babelio.com/auteur/-Balade-Mentale/773462", "https://www.lelitteraire.com/balade-mentale-hoobooh-le-grand-silence-mais-ou-sont-les-extraterrestres/"], "incertitude": "Identité de l'auteur de la chaîne établie par les notices de librairie, non par la chaîne elle-même."},
-    "Jean-Baptiste Chandelier": {"profil": "Pilote de parapente acrobatique et vidéaste originaire de Briançon, également concepteur de parapentes (marque Plume citée dans la description de Weightless).", "sources": ["https://provence-alpes-cotedazur.com/alpes/que-faire/activites-sportives/interview-parapente-jean-baptiste-chandelier/", "https://www.jeanbaptistechandelier.com/about-me/"]},
-    "Vald": {"profil": "Rappeur français. Les deux œuvres retenues appartiennent à l'ère PANDEMONIUM (album et concert à Paris La Défense Arena), produites avec Echelon Records et mises en images par Bien Vu Production.", "sources": ["https://www.youtube.com/watch?v=qjzD3LkrDSQ", "https://www.youtube.com/watch?v=am3TxSNeVYI"]},
-    "Gints Zilbalodis": {"profil": "Réalisateur letton d'animation. Après plusieurs courts-métrages (Aqua, Priorities, Followers, Inaudible), il réalise Flow, Oscar 2025 du meilleur film d'animation, une première pour la Lettonie.", "sources": ["https://vimeo.com/93124212", "https://www.wcnc.com/article/entertainment/events/oscars/flow-wins-oscar-for-animated-feature/507-2ccf0ceb-5c9a-4d4f-9a92-2e8f7ac420bf"]}
+    "Erik Wernquist": {
+      "profil": "Artiste numérique et animateur suédois. Il a réalisé Wanderers (2014), court-métrage de science-fiction narré par Carl Sagan à partir de Pale Blue Dot. One Revolution per Minute (2023) poursuit son travail sur l'exploration spatiale.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wanderers_(2014_film)",
+        "https://vimeo.com/869858712"
+      ]
+    },
+    "Balade Mentale": {
+      "profil": "Chaîne YouTube française de vulgarisation scientifique. Son auteur, Théo Drieu, a signé avec le dessinateur Hoobooh la bande dessinée « Le grand silence – Mais où sont les extraterrestres ? » (Robert Laffont, mars 2025), sur le sujet du Long.",
+      "sources": [
+        "https://www.babelio.com/auteur/-Balade-Mentale/773462",
+        "https://www.lelitteraire.com/balade-mentale-hoobooh-le-grand-silence-mais-ou-sont-les-extraterrestres/"
+      ],
+      "incertitude": "Identité de l'auteur de la chaîne établie par les notices de librairie, non par la chaîne elle-même."
+    },
+    "Jean-Baptiste Chandelier": {
+      "profil": "Pilote de parapente acrobatique et vidéaste originaire de Briançon, également concepteur de parapentes (marque Plume citée dans la description de Weightless).",
+      "sources": [
+        "https://provence-alpes-cotedazur.com/alpes/que-faire/activites-sportives/interview-parapente-jean-baptiste-chandelier/",
+        "https://www.jeanbaptistechandelier.com/about-me/"
+      ]
+    },
+    "Vald": {
+      "profil": "Rappeur français. Les deux œuvres retenues appartiennent à l'ère PANDEMONIUM (album et concert à Paris La Défense Arena), produites avec Echelon Records et mises en images par Bien Vu Production.",
+      "sources": [
+        "https://www.youtube.com/watch?v=qjzD3LkrDSQ",
+        "https://www.youtube.com/watch?v=am3TxSNeVYI"
+      ]
+    },
+    "Gints Zilbalodis": {
+      "profil": "Réalisateur letton d'animation. Après plusieurs courts-métrages (Aqua, Priorities, Followers, Inaudible), il réalise Flow, Oscar 2025 du meilleur film d'animation, une première pour la Lettonie.",
+      "sources": [
+        "https://vimeo.com/93124212",
+        "https://www.wcnc.com/article/entertainment/events/oscars/flow-wins-oscar-for-animated-feature/507-2ccf0ceb-5c9a-4d4f-9a92-2e8f7ac420bf"
+      ]
+    }
   }
 }

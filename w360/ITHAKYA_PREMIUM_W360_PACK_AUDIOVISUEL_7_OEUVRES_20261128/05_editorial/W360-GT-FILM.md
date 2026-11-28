@@ -57,4 +57,4 @@ Sous-titres publiés par la source : aucun
 
 Fonctionnement : transversal et autonome, à conserver.
 
-Cinq personnages : NON FOURNIS : ni la commande ni le socle (index.html et les 9 démos) ne définissent les cinq personnages de La Grande Traversée. Champs laissés vides, aucune invention.
+Cinq personnages : Relève de la candidate qui finalise la plateforme (décision utilisateur du 2026-11-28) : hors du périmètre de ce paquet.

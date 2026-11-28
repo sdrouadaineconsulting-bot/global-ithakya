@@ -25,7 +25,7 @@ Statut : **0 master sur 7 récupéré**. Préparation éditoriale complète ; pr
 ## Points ouverts
 
 1. Masters à fournir (7). One Revolution per Minute : téléchargement activé par le propriétaire sur Vimeo, mais vimeo.com est refusé par la politique réseau de l'environnement d'exécution.
-2. La Grande Traversée : les cinq personnages ne figurent ni dans la commande ni dans le socle ; champs laissés vides.
+2. La Grande Traversée : les cinq personnages relèvent de la candidate qui finalise la plateforme (hors périmètre du paquet).
 3. Pistes FR auto-générées (Balade Mentale, Intro Pandemonium) disponibles à la source, non reprises : transcription non relue.
 4. Why I Fly : voix off EN, DE, IT, ES créditées ; seule la version FR en ligne est identifiée.
 5. Weightless : musique « My Silver Lining » (First Aid Kit) créditée.
