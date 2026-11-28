@@ -37,9 +37,15 @@ def member(login):
     if r.status_code not in (200, 201): c.login(login)
     c.get('session'); return c
 def reset_atz():
-    for q in ("DELETE FROM itp_atz_snapshots", "DELETE FROM itp_atz_audit", "DELETE FROM itp_work_progress", "DELETE FROM itp_progress2", "DELETE FROM itp_limits", "DELETE FROM itp_users WHERE login LIKE 'sx%'"):
-        try: sql(q)
+    """Nettoyage du banc : instantanés, journal, limites, progression et TOUS les comptes de recette (préfixe sx) avec leurs lignes dépendantes."""
+    sub = "(SELECT id FROM itp_users WHERE login LIKE 'sx%')"
+    q = ["SET FOREIGN_KEY_CHECKS=0"] + [f"DELETE FROM {t} WHERE user_id IN {sub}" for t in ('itp_entries', 'itp_progress', 'itp_thread_reads', 'itp_states', 'itp_recovery', 'itp_progress2', 'itp_reads', 'itp_work_progress')]
+    q += ["DELETE FROM itp_reports WHERE reporter_id IN " + sub if False else "SELECT 1", "DELETE FROM itp_work_progress", "DELETE FROM itp_progress2", "DELETE FROM itp_limits", "DELETE FROM itp_users WHERE login LIKE 'sx%'", "SET FOREIGN_KEY_CHECKS=1"]
+    sql(';'.join(q))
+    for t in ('itp_atz_snapshots', 'itp_atz_audit'):
+        try: sql(f"DELETE FROM {t}")
         except subprocess.CalledProcessError: pass
+    assert sql("SELECT COUNT(*) FROM itp_users WHERE login LIKE 'sx%'") == '0'
 def ts(y, w, d=1, h=12): return int(datetime.datetime.fromisocalendar(y, w, d).replace(hour=h, tzinfo=datetime.timezone.utc).timestamp())
 def seed(rows, prefix='sx'):
     """rows: liste de dict {steps:{...}, ctx, work, quiz, note_k, idea, t_maj, created}"""

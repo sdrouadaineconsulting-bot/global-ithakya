@@ -1,0 +1,22 @@
+--- a/source/serveur/ithakya-attenzia-instantanes.php
++++ b/source/serveur/ithakya-attenzia-instantanes.php
+@@ -10,7 +10,7 @@
+  * Principes : (1) seuls des instantanés IMMUABLES sont consultables (période alignée sur le calendrier, une seule fois) ; (2) k-anonymat + suppression complémentaire ;
+  * (3) aucune lecture « vivante » filtrable ; (4) protection des écarts entre instantanés recoupés ; (5) une seule granularité
+  * de période par fenêtre de temps ; (6) journal d'audit, limites de consultation et d'export, conservation paramétrable. Les limites sont décrites dans le cockpit. */
+-const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.6';
++const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.7';
+ const ITP_ATZ_INDICATEURS = ['participants', 'court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'];
+ function itpAtzTables(PDO $db): void {
+     $fin = driver($db) === 'mysql' ? ' ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin' : '';
+@@ -140,6 +140,10 @@
+                    'note_k_moyenne' => (count($notes) >= $k && min($notes) !== max($notes)) ? round(array_sum($notes) / count($notes), 2) : null,
+                    'taux_quiz_correct' => $taux($n('quiz_corrects'), $n('quiz_repondus')), 'idees_choisies' => array_map(fn(int $n): ?int => $sous($n, $repondants), $choix)];
+         }
++        /* V3.7 : un taux n'est publié que si ses deux termes sont publiés ; sinon il restitue un effectif masqué (taux × terme publié). */
++        foreach (['taux_approfondissement' => ['long_apres_court', 'court_termines'], 'taux_achevement_long' => ['long_termines', 'long_ouverts'], 'taux_quiz_correct' => ['quiz_corrects', 'quiz_repondus']] as $t => [$num, $den]) {
++            if (array_key_exists($t, $r) && ($r[$num] === null || $r[$den] === null)) $r[$t] = null;
++        }
+         return $r;
+     };
+     $sortie = [];

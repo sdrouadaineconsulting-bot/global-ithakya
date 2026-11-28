@@ -1,0 +1,126 @@
+--- a/source/serveur/ithakya-attenzia-instantanes.php
++++ b/source/serveur/ithakya-attenzia-instantanes.php
+@@ -10,7 +10,7 @@
+  * Principes : (1) seuls des instantanés IMMUABLES sont consultables (période alignée sur le calendrier, une seule fois) ; (2) k-anonymat + suppression complémentaire ;
+  * (3) aucune lecture « vivante » filtrable ; (4) protection des écarts entre instantanés recoupés ; (5) une seule granularité
+  * de période par fenêtre de temps ; (6) journal d'audit, limites de consultation et d'export, conservation paramétrable. Les limites sont décrites dans le cockpit. */
+-const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.5';
++const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.6';
+ const ITP_ATZ_INDICATEURS = ['participants', 'court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'];
+ function itpAtzTables(PDO $db): void {
+     $fin = driver($db) === 'mysql' ? ' ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin' : '';
+@@ -155,9 +155,40 @@
+ /* Le masque est calculé avant écriture, sur les valeurs originales, contre tout
+  * historique retenu recoupant la période. Un ratio ou une distribution ne doit
+  * pas servir de substitut à un effectif masqué. */
++/* V3.6 : compléments déductibles des compteurs publiés. Uniquement les
++ * relations d'inclusion garanties par itpAtzCalculer, pas des corrélations.
++ * Ne jamais traiter une valeur masquée comme zéro. */
++function itpAtzComplementsPublies(array $cell): array {
++    $relations = [
++        'participants' => ['court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'],
++        'court_termines' => ['long_apres_court'],
++        'long_ouverts' => ['long_termines', 'long_apres_court'],
++        'quiz_repondus' => ['quiz_corrects'],
++    ];
++    $resultat = [];
++    foreach ($relations as $total => $sousEnsembles) foreach ($sousEnsembles as $sousEnsemble) {
++        $a = $cell[$total] ?? null; $b = $cell[$sousEnsemble] ?? null;
++        if (is_int($a) && is_int($b) && $a >= $b && $b >= 0) $resultat[$total . '/' . $sousEnsemble] = $a - $b;
++    }
++    return $resultat;
++}
++function itpAtzComplementFragile(array $valeurs, array $precedent, int $seuil): bool {
++    $avant = itpAtzComplementsPublies($precedent);
++    foreach (itpAtzComplementsPublies($valeurs) as $nom => $v) {
++        if ($v > 0 && $v < $seuil) return true;
++        $p = $avant[$nom] ?? null;
++        if ($p !== null && $v !== $p && abs($v - $p) < $seuil) return true;
++    }
++    return false;
++}
+ function itpAtzMasquerRecoupements(array &$donnees, iterable $historique, string $serie, int $k): int {
+     $cellules = [];
+     $indicateurs = [];
++    foreach (['univers', 'oeuvres', 'territoires', 'parcours'] as $dimension) {
++        foreach ($donnees[$dimension] ?? [] as $cle => $valeurs) {
++            if (itpAtzComplementFragile($valeurs, [], $k)) $cellules[$dimension][$cle] = true;
++        }
++    }
+     foreach ($historique as $ancien) {
+         if (!hash_equals($ancien['checksum'], hash('sha256', $ancien['payload']))) {
+             fail(500, 'atz_integrite', 'L’historique des instantanés doit être vérifié avant toute nouvelle publication.');
+@@ -168,6 +199,10 @@
+             foreach ($donnees[$dimension] ?? [] as $cle => $valeurs) {
+                 if (isset($cellules[$dimension][$cle])) continue;
+                 $precedent = $snapshot['donnees'][$dimension][$cle] ?? [];
++                if (itpAtzComplementFragile($valeurs, $precedent, $seuil)) {
++                    $cellules[$dimension][$cle] = true;
++                    continue;
++                }
+                 foreach ($valeurs as $indicateur => $valeur) {
+                     $autre = $precedent[$indicateur] ?? null;
+                     if ($valeur === null || $autre === null) continue;
+--- a/site/api/ithakya-attenzia-instantanes.php
++++ b/site/api/ithakya-attenzia-instantanes.php
+@@ -10,7 +10,7 @@
+  * Principes : (1) seuls des instantanés IMMUABLES sont consultables (période alignée sur le calendrier, une seule fois) ; (2) k-anonymat + suppression complémentaire ;
+  * (3) aucune lecture « vivante » filtrable ; (4) protection des écarts entre instantanés recoupés ; (5) une seule granularité
+  * de période par fenêtre de temps ; (6) journal d'audit, limites de consultation et d'export, conservation paramétrable. Les limites sont décrites dans le cockpit. */
+-const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.5';
++const ITP_ATZ_REGLE_INST = 'ATZ-INSTANTANES-V3.6';
+ const ITP_ATZ_INDICATEURS = ['participants', 'court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'];
+ function itpAtzTables(PDO $db): void {
+     $fin = driver($db) === 'mysql' ? ' ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin' : '';
+@@ -155,9 +155,40 @@
+ /* Le masque est calculé avant écriture, sur les valeurs originales, contre tout
+  * historique retenu recoupant la période. Un ratio ou une distribution ne doit
+  * pas servir de substitut à un effectif masqué. */
++/* V3.6 : compléments déductibles des compteurs publiés. Uniquement les
++ * relations d'inclusion garanties par itpAtzCalculer, pas des corrélations.
++ * Ne jamais traiter une valeur masquée comme zéro. */
++function itpAtzComplementsPublies(array $cell): array {
++    $relations = [
++        'participants' => ['court_termines', 'long_ouverts', 'long_termines', 'long_apres_court', 'quiz_repondus', 'quiz_corrects', 'notes_k_donnees'],
++        'court_termines' => ['long_apres_court'],
++        'long_ouverts' => ['long_termines', 'long_apres_court'],
++        'quiz_repondus' => ['quiz_corrects'],
++    ];
++    $resultat = [];
++    foreach ($relations as $total => $sousEnsembles) foreach ($sousEnsembles as $sousEnsemble) {
++        $a = $cell[$total] ?? null; $b = $cell[$sousEnsemble] ?? null;
++        if (is_int($a) && is_int($b) && $a >= $b && $b >= 0) $resultat[$total . '/' . $sousEnsemble] = $a - $b;
++    }
++    return $resultat;
++}
++function itpAtzComplementFragile(array $valeurs, array $precedent, int $seuil): bool {
++    $avant = itpAtzComplementsPublies($precedent);
++    foreach (itpAtzComplementsPublies($valeurs) as $nom => $v) {
++        if ($v > 0 && $v < $seuil) return true;
++        $p = $avant[$nom] ?? null;
++        if ($p !== null && $v !== $p && abs($v - $p) < $seuil) return true;
++    }
++    return false;
++}
+ function itpAtzMasquerRecoupements(array &$donnees, iterable $historique, string $serie, int $k): int {
+     $cellules = [];
+     $indicateurs = [];
++    foreach (['univers', 'oeuvres', 'territoires', 'parcours'] as $dimension) {
++        foreach ($donnees[$dimension] ?? [] as $cle => $valeurs) {
++            if (itpAtzComplementFragile($valeurs, [], $k)) $cellules[$dimension][$cle] = true;
++        }
++    }
+     foreach ($historique as $ancien) {
+         if (!hash_equals($ancien['checksum'], hash('sha256', $ancien['payload']))) {
+             fail(500, 'atz_integrite', 'L’historique des instantanés doit être vérifié avant toute nouvelle publication.');
+@@ -168,6 +199,10 @@
+             foreach ($donnees[$dimension] ?? [] as $cle => $valeurs) {
+                 if (isset($cellules[$dimension][$cle])) continue;
+                 $precedent = $snapshot['donnees'][$dimension][$cle] ?? [];
++                if (itpAtzComplementFragile($valeurs, $precedent, $seuil)) {
++                    $cellules[$dimension][$cle] = true;
++                    continue;
++                }
+                 foreach ($valeurs as $indicateur => $valeur) {
+                     $autre = $precedent[$indicateur] ?? null;
+                     if ($valeur === null || $autre === null) continue;

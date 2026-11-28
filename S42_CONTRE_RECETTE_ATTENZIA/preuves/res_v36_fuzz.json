@@ -1,0 +1,138 @@
+{
+ "version": "v36",
+ "k": 5,
+ "graine": 4242,
+ "cellules": 715,
+ "cellules_avec_fuite": 84,
+ "fuites": 99,
+ "homogeneites": 5,
+ "valeurs_publiees": 1132,
+ "instantanes": 55,
+ "exemples": [
+  {
+   "instantane": "semaine:2026-S02",
+   "cellule": "univers/pop",
+   "publie": {
+    "participants": 16,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": 7,
+    "long_apres_court": null,
+    "taux_approfondissement": null,
+    "taux_achevement_long": 0.583
+   },
+   "fuites": [
+    [
+     "participants",
+     "long_ouverts",
+     4
+    ]
+   ]
+  },
+  {
+   "instantane": "semaine:2026-S02",
+   "cellule": "oeuvres/ith-pop-moment",
+   "publie": {
+    "participants": 16,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": 7,
+    "long_apres_court": null,
+    "taux_approfondissement": null,
+    "taux_achevement_long": 0.583
+   },
+   "fuites": [
+    [
+     "participants",
+     "long_ouverts",
+     4
+    ]
+   ]
+  },
+  {
+   "instantane": "semaine:2026-S02",
+   "cellule": "territoires/pop-culture",
+   "publie": {
+    "participants": 16,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": 7,
+    "long_apres_court": null,
+    "taux_approfondissement": null,
+    "taux_achevement_long": 0.583
+   },
+   "fuites": [
+    [
+     "participants",
+     "long_ouverts",
+     4
+    ]
+   ]
+  },
+  {
+   "instantane": "semaine:2026-S05",
+   "cellule": "univers/soleil",
+   "publie": {
+    "participants": 13,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": null,
+    "long_apres_court": 7,
+    "taux_approfondissement": 0.583,
+    "taux_achevement_long": null
+   },
+   "fuites": [
+    [
+     "participants",
+     "court_termines",
+     1
+    ]
+   ]
+  },
+  {
+   "instantane": "semaine:2026-S05",
+   "cellule": "oeuvres/ith-soleil-courant",
+   "publie": {
+    "participants": 13,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": null,
+    "long_apres_court": 7,
+    "taux_approfondissement": 0.583,
+    "taux_achevement_long": null
+   },
+   "fuites": [
+    [
+     "participants",
+     "court_termines",
+     1
+    ]
+   ]
+  },
+  {
+   "instantane": "semaine:2026-S06",
+   "cellule": "univers/pop",
+   "publie": {
+    "participants": 14,
+    "court_termines": null,
+    "long_ouverts": null,
+    "long_termines": 5,
+    "long_apres_court": 5,
+    "taux_approfondissement": 0.455,
+    "taux_achevement_long": 0.5
+   },
+   "fuites": [
+    [
+     "participants",
+     "court_termines",
+     3
+    ],
+    [
+     "participants",
+     "long_ouverts",
+     4
+    ]
+   ]
+  }
+ ]
+}
